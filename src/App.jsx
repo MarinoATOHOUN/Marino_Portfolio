@@ -49,7 +49,7 @@ function App() {
       title: 'TrafficInsight AI',
       description: 'Projet novateur visant à prédire la densité du trafic dans des environnements urbains futuristes. Utilisation de techniques avancées d\'intelligence artificielle (IA) pour comprendre et anticiper les conditions de circulation.',
       skills: ['Intelligence Artificielle', 'Analyse prédictive'],
-      period: 'Mai 2024 - Aujourd\'hui'
+      period: 'Mai 2024'
     },
     {
       title: 'DiabeteX Predictor',
@@ -80,6 +80,71 @@ function App() {
     {
       title: 'Se préparer au métier d\'analyste de données par Microsoft et LinkedIn',
       issuer: 'LinkedIn',
+      date: 'Mai 2024'
+    },
+    {
+      title: 'Python Intermediate',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'SQL Intermediate',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Tech for Everyone',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Introduction to JavaScript',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Introduction to HTML',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Data Programming',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Python Developer',
+      issuer: 'Sololearn',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Scientific Computing with Python',
+      issuer: 'FreeCodeCamp',
+      date: 'February 2024'
+    },
+    {
+      title: 'Data Analysis With Python',
+      issuer: 'FreeCodeCamp',
+      date: 'February 2024'
+    },
+    {
+      title: 'Initiez-vous à Linux',
+      issuer: 'OpenClassrooms',
+      date: 'Mai 2023'
+    },
+    {
+      title: 'Initiez vous à l\'Intelligence Artificielle',
+      issuer: 'OpenClassrooms',
+      date: 'Mai 2023'
+    },
+    {
+      title: 'Introduction to R',
+      issuer: 'DataCamp',
+      date: 'Novembre 2023'
+    },
+    {
+      title: 'Se préparer au métier d’analyste de données par Microsoft et LinkedIn',
+      issuer: 'Microsoft et LinkedIn',
       date: 'Mai 2024'
     }
   ]
@@ -370,7 +435,7 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-blue-400" />
-              <span>marino.atohoun@example.com</span>
+              <span>mahouliatohoun502@gmail.com</span>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-blue-400" />
