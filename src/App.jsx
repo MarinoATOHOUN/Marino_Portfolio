@@ -372,13 +372,15 @@ function App() {
             {certifications.map((cert, index) => (
               <Card key={index}>
                 <CardHeader>
-                  <div className="flex items-start gap-3">
-                    <Award className="w-6 h-6 text-blue-600 mt-1" />
-                    <div>
-                      <CardTitle className="text-lg">{cert.title}</CardTitle>
-                      <CardDescription>{cert.issuer} • {cert.date}</CardDescription>
+                  <a href="/">
+                    <div className="flex items-start gap-3">
+                      <Award className="w-6 h-6 text-blue-600 mt-1" />
+                      <div>
+                        <CardTitle className="text-lg">{cert.title}</CardTitle>
+                        <CardDescription>{cert.issuer} • {cert.date}</CardDescription>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </CardHeader>
               </Card>
             ))}
