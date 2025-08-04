@@ -49,25 +49,29 @@ function App() {
       title: 'TrafficInsight AI',
       description: 'Projet novateur visant à prédire la densité du trafic dans des environnements urbains futuristes. Utilisation de techniques avancées d\'intelligence artificielle (IA) pour comprendre et anticiper les conditions de circulation.',
       skills: ['Intelligence Artificielle', 'Analyse prédictive'],
-      period: 'Mai 2024'
+      period: 'Mai 2024',
+      link: 'https://github.com/MarinoATOHOUN/TrafficInsight-AI',
     },
     {
       title: 'DiabeteX Predictor',
       description: 'Union de la science des données et de la santé. Utilisation du dataset Kaggle \'Diabetes\' pour développer un modèle d\'IA anticipant le diabète. Vise à améliorer les diagnostics préventifs et à favoriser une meilleure gestion de la santé.',
       skills: ['Big data', 'Analyse des données', 'Visualisation de données'],
-      period: 'Mars 2024'
+      period: 'Mars 2024',
+      link: 'https://github.com/MarinoATOHOUN/DiabeteX-Predictor',
     },
     {
       title: 'Explore the universe',
       description: 'Gestion d\'informations sur les galaxies, étoiles, planètes, lunes et soleils. Projet de base de données avec données fictives.',
       skills: ['PostgreSQL', 'SQL', 'Administration de bases de données'],
-      period: '2024'
+      period: '2024',
+      link: 'https://github.com/MarinoATOHOUN/Universe-database',
     },
     {
       title: 'Programme Python de gestion de contacts',
       description: 'Gère une liste de contacts stockée dans un fichier CSV. Permet d\'ajouter, mettre à jour, supprimer, rechercher ou afficher des contacts. Adaptable pour d\'autres types de données.',
       skills: ['Python', 'Collecte de données', 'Conception d\'algorithmes'],
-      period: '2024'
+      period: '2024',
+      link: 'https://github.com/MarinoATOHOUN/contact_saver',
     }
   ]
 
@@ -75,77 +79,98 @@ function App() {
     {
       title: 'Scikit-learn pour le machine learning',
       issuer: 'LinkedIn',
-      date: 'Juin 2024'
+      date: 'Juin 2024',
+      link: 'https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D'
     },
     {
       title: 'Se préparer au métier d\'analyste de données par Microsoft et LinkedIn',
       issuer: 'LinkedIn',
-      date: 'Mai 2024'
+      date: 'Mai 2024',
+      link: 'https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D'
     },
     {
       title: 'Python Intermediate',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png'
     },
     {
       title: 'SQL Intermediate',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png'
     },
     {
       title: 'Tech for Everyone',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png'
     },
     {
       title: 'Introduction to JavaScript',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png'
     },
     {
       title: 'Introduction to HTML',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png'
     },
     {
       title: 'Data Programming',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png'
     },
     {
       title: 'Python Developer',
       issuer: 'Sololearn',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: 'https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png'
     },
     {
       title: 'Scientific Computing with Python',
       issuer: 'FreeCodeCamp',
-      date: 'February 2024'
+      date: 'February 2024',
+      link: 'https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7'
     },
     {
       title: 'Data Analysis With Python',
       issuer: 'FreeCodeCamp',
-      date: 'February 2024'
+      date: 'February 2024',
+      link: 'https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7'
     },
     {
       title: 'Initiez-vous à Linux',
       issuer: 'OpenClassrooms',
-      date: 'Mai 2023'
+      date: 'Mai 2023',
+      link: 'https://openclassrooms.com/fr/course-certificates/1746307242'
     },
     {
       title: 'Initiez vous à l\'Intelligence Artificielle',
       issuer: 'OpenClassrooms',
-      date: 'Mai 2023'
+      date: 'Mai 2023',
+      link: 'https://openclassrooms.com/fr/course-certificates/2015564943'
     },
     {
       title: 'Introduction to R',
       issuer: 'DataCamp',
-      date: 'Novembre 2023'
+      date: 'Novembre 2023',
+      link: ''
     },
     {
       title: 'Se préparer au métier d’analyste de données par Microsoft et LinkedIn',
       issuer: 'Microsoft et LinkedIn',
-      date: 'Mai 2024'
+      date: 'Mai 2024',
+      link: 'https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7'
+    },
+    {
+      title: 'College Algebra with Python',
+      issuer: 'FreeCodeCamp',
+      date: 'Mars 2024',
+      link: 'https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8'
     }
   ]
 
@@ -321,20 +346,22 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <CardTitle className="text-xl">{project.title}</CardTitle>
-                    <Badge variant="secondary">{project.period}</Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-700 mb-4">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.skills.map((skill, skillIndex) => (
-                      <Badge key={skillIndex} variant="outline">{skill}</Badge>
-                    ))}
-                  </div>
-                </CardContent>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <CardHeader>
+                    <div className="flex justify-between items-start">
+                      <CardTitle className="text-xl">{project.title}</CardTitle>
+                      <Badge variant="secondary">{project.period}</Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-700 mb-4">{project.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.skills.map((skill, skillIndex) => (
+                        <Badge key={skillIndex} variant="outline">{skill}</Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+                </a>
               </Card>
             ))}
           </div>
@@ -371,8 +398,8 @@ function App() {
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {certifications.map((cert, index) => (
               <Card key={index}>
-                <CardHeader>
-                  <a href="/">
+                <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                  <CardHeader>
                     <div className="flex items-start gap-3">
                       <Award className="w-6 h-6 text-blue-600 mt-1" />
                       <div>
@@ -380,8 +407,8 @@ function App() {
                         <CardDescription>{cert.issuer} • {cert.date}</CardDescription>
                       </div>
                     </div>
-                  </a>
-                </CardHeader>
+                  </CardHeader>
+                </a>
               </Card>
             ))}
           </div>
