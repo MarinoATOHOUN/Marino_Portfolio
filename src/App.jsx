@@ -72,6 +72,53 @@ function App() {
       skills: ['Python', 'Collecte de données', 'Conception d\'algorithmes'],
       period: '2024',
       link: 'https://github.com/MarinoATOHOUN/contact_saver',
+    },
+    { 
+      "title": "AkomptaAI", 
+      "description": "Application d'intelligence artificielle pour la comptabilité et la gestion financière. Utilise des technologies modernes pour automatiser les processus comptables avec une interface web moderne.", 
+      "skills": ["Python", "Intelligence Artificielle", "Django", "React", "Développement Full-Stack", "JavaScript", "HTML", "CSS"], 
+      "period": "2025", 
+      "link": "https://github.com/MarinoATOHOUN/AkomptaAI" 
+    }, 
+    { 
+      "title": "Marino_Portfolio", 
+      "description": "Portfolio personnel présentant les projets et compétences en développement web. Interface moderne et responsive pour mettre en valeur les réalisations professionnelles.", 
+      "skills": ["JavaScript", "Développement Frontend", "Portfolio Web", "UI/UX", "Design Web"], 
+      "period": "2025", 
+      "link": "https://github.com/MarinoATOHOUN/Marino_Portfolio" 
+    }, 
+    { "title": "Interface_Chat_IA", 
+      "description": "Interface de chat utilisant l'intelligence artificielle pour des conversations interactives. Application web moderne avec intégration d'API IA pour des échanges naturels.", 
+      "skills": ["JavaScript", "Intelligence Artificielle", "API Integration", "Interface Utilisateur", "Chat Bot"], 
+      "period": "2025", 
+      "link": "https://github.com/MarinoATOHOUN/Interface_Chat_IA" 
+    }, 
+    { "title": "EduShare", 
+      "description": "Plateforme de partage éducatif permettant aux utilisateurs de partager et d'accéder à des ressources pédagogiques. Facilite la collaboration entre étudiants et enseignants.", 
+      "skills": ["JavaScript", "Développement Web", "Plateforme Éducative", "Partage de Ressources", "Collaboration"], 
+      "period": "2025", 
+      "link": "https://github.com/MarinoATOHOUN/EduShare" 
+    },
+    { 
+      "title": "SatCapAPI", 
+      "description": "API pour la capture et le traitement de données satellitaires. Fournit des services de traitement d'images satellites et d'analyse géospatiale.", 
+      "skills": ["API Development", "Traitement d'Images", "Données Satellitaires", "Géospatial"], 
+      "period": "2025", 
+      "link": "https://github.com/MarinoATOHOUN/SatCapAPI" 
+    }, 
+    { 
+      "title": "WebSiteTaslyTogo", 
+      "description": "Site web pour Tasly Togo, présentant les services et produits de l'entreprise avec une interface moderne et professionnelle.", 
+      "skills": ["Python", "Développement Web", "Site Vitrine", "Flask", "Design Web"], 
+      "period": "2024", 
+      "link": "https://github.com/MarinoATOHOUN/WebSiteTaslyTogo" 
+    },
+    { 
+      "title": "SQL_-project-", 
+      "description": "Projet de base de données SQL démontrant les compétences en gestion et requêtes de bases de données relationnelles. Inclut des exemples de requêtes complexes.", 
+      "skills": ["SQL", "Base de Données", "Requêtes", "Gestion de Données", "Modélisation"], 
+      "period": "2023", 
+      "link": "https://github.com/MarinoATOHOUN/SQL_-project-" 
     }
   ]
 
@@ -472,14 +519,12 @@ function App() {
             </div>
           </div>
           <div className="flex gap-4 justify-center">
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
-              <Linkedin className="w-4 h-4 mr-2" />
-              LinkedIn
-            </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
-              <Github className="w-4 h-4 mr-2" />
-              GitHub
-            </Button>
+            <a href='https://www.linkedin.com/in/marino-atohoun' variant="outline" className="border-white text-white">
+              <Linkedin className="w-8 h-8 mr-2" />
+            </a>
+            <a href='https://github.com/MarinoATOHOUN' variant="outline" className="border-white text-white">
+              <Github className="w-8 h-8 mr-2" />
+            </a>
           </div>
         </div>
       </section>

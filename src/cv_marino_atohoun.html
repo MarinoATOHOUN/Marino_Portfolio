@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marino ATOHOUN - Data Scientist & Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #4A90E2; /* Bleu */
+            --color-secondary: #FF69B4; /* Rose */
+            --color-text-dark: #2C3E50;
+            --color-text-light: #ECF0F1;
+            --color-background-light: #F8F9FA;
+            --color-background-dark: #34495E;
+            --color-accent-light: #A2D9CE;
+            --color-accent-dark: #8E44AD;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--color-text-dark);
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            color: var(--color-text-light);
+            padding: 50px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.15) 0%, transparent 40%),
+                        radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.15) 0%, transparent 40%);
+            transform: rotate(20deg);
+        }
+
+        .profile-section {
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-image {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.5);
+            margin: 0 auto 25px;
+            background: var(--color-accent-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--color-primary);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            opacity: 0.9;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            font-weight: 400;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-item:hover {
+            background: rgba(255, 255, 255, 0.35);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-item a {
+            color: var(--color-text-light);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 0;
+        }
+
+        .sidebar {
+            background: var(--color-background-light);
+            padding: 30px;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        .content {
+            padding: 30px;
+            background: white;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--color-primary);
+            position: relative;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            border-radius: 2px;
+        }
+
+        .experience-item, .project-item {
+            background: var(--color-background-light);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid var(--color-primary);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .experience-item:hover, .project-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-left-color: var(--color-secondary);
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--color-text-dark);
+            margin-bottom: 5px;
+        }
+
+        .company {
+            font-size: 1rem;
+            color: var(--color-primary);
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #7F8C8D;
+            font-size: 0.85rem;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: var(--color-text-dark);
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e0e0e0;
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .skill-item {
+            background: var(--color-primary);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            margin: 3px 3px 3px 0;
+            font-size: 0.8rem;
+            display: inline-block;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .skill-item:hover {
+            background: var(--color-secondary);
+        }
+
+        .achievements {
+            list-style: none;
+        }
+
+        .achievements li {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            border-left: 4px solid var(--color-accent-light);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.95rem;
+        }
+
+        .achievements li::before {
+            content: '✨';
+            font-size: 1.1rem;
+            margin-top: 2px;
+        }
+
+        .reference-section {
+            background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            color: var(--color-text-light);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .reference-section h3 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .reference-placeholder {
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px dashed rgba(255, 255, 255, 0.4);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9rem;
+        }
+
+        .certifications {
+            list-style: none;
+        }
+
+        .certifications li {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-left: 4px solid var(--color-accent-dark);
+            font-size: 0.95rem;
+        }
+
+        .certifications li::before {
+            content: '🎓';
+            font-size: 1.1rem;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .project-link {
+            background: var(--color-primary);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 600;
+        }
+
+        .project-link:hover {
+            background: var(--color-secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .evaluation-badge {
+            background: linear-gradient(45deg, #28a745 0%, #218838 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .evaluation-badge h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .evaluation-badge p {
+            opacity: 0.9;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                border-right: none;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+            .name {
+                font-size: 2.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .header {
+                padding: 40px 20px;
+            }
+
+            .sidebar, .content {
+                padding: 20px;
+            }
+        }
+
+        .download-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            color: white;
+            padding: 12px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+                    MA
+                </div>
+                <h1 class="name">MARINO ATOHOUN</h1>
+                <p class="title">Data Scientist & Backend Developer</p>
+                <p class="subtitle">Spécialiste STEAMI | Python | AI Solutions</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Cotonou, Bénin</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mahouliatohoun502@gmail.com">mahouliatohoun502@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+229 0159037170</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <a href="http://marino-portfolio.mv.canva.site" target="_blank">Portfolio</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/MarinoATOHOUN" target="_blank">GitHub</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="http://linkedin.com/in/marino-atohoun" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-code"></i>
+                        Compétences
+                    </h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Data Science</h3>
+                            <div class="skill-item">Pandas</div>
+                            <div class="skill-item">NumPy</div>
+                            <div class="skill-item">Scikit-learn</div>
+                            <div class="skill-item">TensorFlow</div>
+                            <div class="skill-item">Matplotlib</div>
+                            <div class="skill-item">Seaborn</div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">Django</div>
+                            <div class="skill-item">Flask</div>
+                            <div class="skill-item">WebSockets</div>
+                            <div class="skill-item">API REST</div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Bases de données</h3>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">PostgreSQL</div>
+                            <div class="skill-item">MongoDB</div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Outils</h3>
+                            <div class="skill-item">Git</div>
+                            <div class="skill-item">Docker</div>
+                            <div class="skill-item">AWS</div>
+                            <div class="skill-item">Tableau</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-award"></i>
+                        Certifications
+                    </h2>
+                    <ul class="certifications">
+                        <li>Scientific Computing with Python - freeCodeCamp (2023)</li>
+                        <li>Data Analysis with Python - freeCodeCamp (2023)</li>
+                        <li>SQL Intermediate - Sololearn (2022)</li>
+                        <li>Python Developer - Sololearn (2022)</li>
+                        <li>Certificat Analyste de Données - Google (en cours)</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-star"></i>
+                        Engagements
+                    </h2>
+                    <ul class="achievements">
+                        <li>Projets Tech for Good (impact environnemental et santé)</li>
+                        <li>Mentor bénévole pour jeunes développeurs</li>
+                        <li>Formation de 100+ jeunes aux fondamentaux Python</li>
+                    </ul>
+                </div>
+
+                <div class="reference-section">
+                    <h3><i class="fas fa-user"></i> Référence</h3>
+                    <div class="reference-placeholder">
+                        <p><strong>Nom :</strong> [Nom du patron]</p>
+                        <p><strong>Prénom :</strong> [Prénom du patron]</p>
+                        <p><strong>Poste :</strong> [Poste du patron]</p>
+                        <p><strong>Contact :</strong> [Contact du patron]</p>
+                        <p><strong>Entreprise :</strong> CosmoLAB Hub</p>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="content">
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-user"></i>
+                        Profil
+                    </h2>
+                    <p class="description">
+                        <span class="highlight">Data Scientist</span> et <span class="highlight">Développeur Backend</span> avec 2+ ans d'expérience dans la création d'outils d'analyse de données et de systèmes temps réel. Expertise en <span class="highlight">Python</span>, modélisation IA et visualisation de données. Passionné par l'innovation <span class="highlight">STEAMI</span> et la formation des jeunes talents. Recherche à contribuer à des projets technologiques à fort impact social, notamment dans les domaines du développement backend, de l'ingénierie Python et de la science des données.
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-briefcase"></i>
+                        Expérience Professionnelle
+                    </h2>
+                    
+                    <div class="experience-item">
+                        <h3 class="job-title">Data Scientist</h3>
+                        <p class="company">CosmoLAB Hub</p>
+                        <p class="date">Bénin/Figirossè | 2022 - Présent</p>
+                        <p class="description">
+                            Organisation éducative et spatiale pionnière où j'ai démontré ma capacité à transformer des données complexes en insights actionnables :
+                        </p>
+                        <ul style="margin-top: 15px; color: var(--color-text-dark); list-style: disc; padding-left: 20px;">
+                            <li><strong>🔍 Visualisation CO2 :</strong> Modélisation des émissions mondiales via l'API Copernicus (Python, Pandas, Matplotlib) → +15% de précision</li>
+                            <li><strong>💰 Outil financier personnel :</strong> Développement full-stack d'application de suivi budgétaire (Django, PostgreSQL) → adopté par 500+ utilisateurs</li>
+                            <li><strong>💬 Système de messagerie temps réel :</strong> Architecture websocket (Django Channels, Redis) réduisant la latence de 70%</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <h3 class="job-title">Formateur Python</h3>
+                        <p class="company">Bénévolat</p>
+                        <p class="date">En ligne | 2021 - 2022</p>
+                        <p class="description">
+                            Engagement dans la promotion de l'éducation technologique avec des résultats mesurables :
+                        </p>
+                        <ul style="margin-top: 15px; color: var(--color-text-dark); list-style: disc; padding-left: 20px;">
+                            <li><strong>🎓</strong> Formation de 100+ jeunes aux fondamentaux Python et analyse de données</li>
+                            <li><strong>👨‍🏫</strong> Création de curriculum pédagogique adapté aux débutants</li>
+                            <li><strong>⭐</strong> Taux de satisfaction : 92% (enquêtes post-formation)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">
+                        <i class="fas fa-rocket"></i>
+                        Projets Techniques
+                    </h2>
+                    
+                    <div class="project-item">
+                        <h3 class="job-title">TrafficInsight AI</h3>
+                        <p class="company">Analyse prédictive de densité routière</p>
+                        <p class="description">
+                            Projet d'analyse prédictive utilisant des modèles d'apprentissage profond (LSTM/CNN avec TensorFlow et OpenCV). Intégration de données multi-sources (capteurs IoT, images satellite) avec une réduction de 25% du temps de trajet moyen dans les simulations.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/MarinoATOHOUN/TrafficInsight" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <h3 class="job-title">DiabetesX Predictor</h3>
+                        <p class="company">Détection précoce du diabète par IA</p>
+                        <p class="description">
+                            Système de détection précoce basé sur l'IA avec classificateur Random Forest (scikit-learn) atteignant un AUC de 0.89. Gestion de données sensibles en conformité HIPAA et intégration dans 3 cliniques tests au Bénin.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/MarinoATOHOUN/DiabetesX" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <h3 class="job-title">Universe Database</h3>
+                        <p class="company">Base de données astronomique interactive</p>
+                        <p class="description">
+                            Base de données astronomique avec système de requêtage SQL/NoSQL (MongoDB, PostgreSQL) et visualisation 3D des corps célestes (Three.js). Plus de 10 000 entrées scientifiques certifiées.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/MarinoATOHOUN/UniverseDB" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evaluation-badge">
+                    <h3><i class="fas fa-star"></i> Évaluation CosmoLAB Hub: 93/100 - Excellent</h3>
+                    <p>Dernière mise à jour: Juin 2024</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <a href="#" class="download-btn" onclick="window.print(); return false;">
+        <i class="fas fa-download"></i>
+        Télécharger PDF
+    </a>
+</body>
+</html>
+
