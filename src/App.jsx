@@ -94,14 +94,14 @@ function App() {
       "link": "https://github.com/MarinoATOHOUN/Interface_Chat_IA" 
     }, 
     { "title": "EduShare", 
-      "description": "Plateforme de partage éducatif permettant aux utilisateurs de partager et d'accéder à des ressources pédagogiques. Facilite la collaboration entre étudiants et enseignants.", 
+      "description": "Plateforme participative open-source permettant le partage gratuit de documents PDF (cours, révisions, publications).", 
       "skills": ["JavaScript", "Développement Web", "Plateforme Éducative", "Partage de Ressources", "Collaboration"], 
       "period": "2025", 
       "link": "https://github.com/MarinoATOHOUN/EduShare" 
     },
     { 
-      "title": "SatCapAPI", 
-      "description": "API pour la capture et le traitement de données satellitaires. Fournit des services de traitement d'images satellites et d'analyse géospatiale.", 
+      "title": "SATCAP CO2", 
+      "description": "Système de capture et traitement de données satellitaires pour l’étude des gaz à effet de serre.", 
       "skills": ["API Development", "Traitement d'Images", "Données Satellitaires", "Géospatial"], 
       "period": "2025", 
       "link": "https://github.com/MarinoATOHOUN/SatCapAPI" 
@@ -112,13 +112,6 @@ function App() {
       "skills": ["Python", "Développement Web", "Site Vitrine", "Flask", "Design Web"], 
       "period": "2024", 
       "link": "https://github.com/MarinoATOHOUN/WebSiteTaslyTogo" 
-    },
-    { 
-      "title": "SQL_-project-", 
-      "description": "Projet de base de données SQL démontrant les compétences en gestion et requêtes de bases de données relationnelles. Inclut des exemples de requêtes complexes.", 
-      "skills": ["SQL", "Base de Données", "Requêtes", "Gestion de Données", "Modélisation"], 
-      "period": "2023", 
-      "link": "https://github.com/MarinoATOHOUN/SQL_-project-" 
     }
   ]
 
@@ -228,9 +221,9 @@ function App() {
       period: 'Nov. 2022 - Juil. 2023'
     },
     {
-      degree: 'Baccalauréat en Informatique',
-      institution: 'Université d\'Abomey-Calavi',
-      period: 'Nov. 2022 - Juil. 2023'
+      degree: 'Baccalauréat Scientifique (Série D)',
+      institution: 'College d\'enseignement Général de Davie',
+      period: '2022'
     }
   ]
 
@@ -295,6 +288,11 @@ function App() {
                 <Button variant="outline" onClick={() => scrollToSection('contact')}>
                   Me contacter
                 </Button>
+                <a href="https://drive.google.com/file/d/1apvBhgkMifCwyhVd8wtxfIKQdBTh9tWO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="bg-blue-600 hover:bg-blue-700 text-white hover:text-white">
+                    Mon CV
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="flex-shrink-0">
@@ -375,6 +373,61 @@ function App() {
               </div>
               <p className="text-gray-700 mb-4">
                 Conception d'algorithmes et administration de bases de données dans un environnement innovant axé sur la science des données.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Conception d'algorithmes</Badge>
+                <Badge variant="outline">Administration de bases de données</Badge>
+                <Badge variant="outline">Science des données</Badge>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="max-w-4xl mx-auto my-8">
+            <CardHeader>
+              <div className="flex justify-between items-start">
+                <div>
+                  <CardTitle className="text-xl">Développeur Web</CardTitle>
+                  <CardDescription className="text-lg font-medium text-blue-600">Freelance / Indépendant</CardDescription>
+                </div>
+                <Badge>2023 - 2024</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center gap-2 mb-4">
+                <MapPin size={16} className="text-gray-500" />
+                <span className="text-gray-600">Togo (Sur site)</span>
+              </div>
+              <p className="text-gray-700 mb-4">
+                <b> Tasly Togo (Médecine) – Lomé, Togo :</b> Conception et développement du site web de l’entreprise. <br />
+                <b> Julie Soap (Fabrication de savon) – Lomé, Togo :</b> Conception et développement du site web de l’entreprise.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Conception d'algorithmes</Badge>
+                <Badge variant="outline">Administration de bases de données</Badge>
+                <Badge variant="outline">Science des données</Badge>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="max-w-4xl mx-auto my-8">
+            <CardHeader>
+              <div className="flex justify-between items-start">
+                <div>
+                  <CardTitle className="text-xl">Formateur Python</CardTitle>
+                  <CardDescription className="text-lg font-medium text-blue-600">Bénévolat</CardDescription>
+                </div>
+                <Badge>2022 - 2023</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center gap-2 mb-4">
+                <MapPin size={16} className="text-gray-500" />
+                <span className="text-gray-600">Bénin (En ligne)</span>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Dans le cadre d'une initiation à la programmation offerte gratuitement aux
+                jeunes, j'ai été formateur en python où j'ai initié une centaine de jeunes
+                programmeurs au langage de programmation python.
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="outline">Conception d'algorithmes</Badge>
