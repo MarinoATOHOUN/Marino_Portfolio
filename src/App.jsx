@@ -402,9 +402,9 @@ function App() {
                 <b> Julie Soap (Fabrication de savon) – Lomé, Togo :</b> Conception et développement du site web de l’entreprise.
               </p>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">Conception d'algorithmes</Badge>
-                <Badge variant="outline">Administration de bases de données</Badge>
-                <Badge variant="outline">Science des données</Badge>
+                <Badge variant="outline">Développement Web</Badge>
+                <Badge variant="outline">Intégration API</Badge>
+                <Badge variant="outline">Développement Frontend</Badge>
               </div>
             </CardContent>
           </Card>
@@ -430,9 +430,11 @@ function App() {
                 programmeurs au langage de programmation python.
               </p>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">Conception d'algorithmes</Badge>
-                <Badge variant="outline">Administration de bases de données</Badge>
-                <Badge variant="outline">Science des données</Badge>
+                <Badge variant="outline">Initiation à la programmation</Badge>
+                <Badge variant="outline">Maitrise Python</Badge>
+                <Badge variant="outline">Pédagogie</Badge>
+                <Badge variant="outline">Communication</Badge>
+                <Badge variant="outline">Suivi des apprenants</Badge>
               </div>
             </CardContent>
           </Card>
