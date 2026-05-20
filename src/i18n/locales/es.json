@@ -1,0 +1,703 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "expertise": "Especialidades",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "certifications": "Certificaciones",
+    "vision": "Visión",
+    "contact": "Contacto",
+    "menuAriaLabel": "Menu",
+    "logo": "MA.",
+    "switchLanguage": "Cambiar idioma"
+  },
+  "hero": {
+    "status": "Abierto a colaboraciones y oportunidades",
+    "typedStrings": [
+      "Data Scientist",
+      "AI Engineer",
+      "Fullstack Developer",
+      "Product Builder",
+      "Tech Entrepreneur",
+      "Founder @ BlackBenAI"
+    ],
+    "name": "Marino",
+    "lastName": "ATOHOUN",
+    "tagline": "Construyendo Infraestructura Africana de IA y Productos Digitales Inteligentes",
+    "subtitle": "Científico de Datos · Ingeniero de IA · Desarrollador Fullstack · Fundador @ BlackBenAI",
+    "exploreWork": "Explorar mi Trabajo",
+    "collaborate": "Let's Collaborate",
+    "resume": "CV / Resume",
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years Building"
+      },
+      {
+        "value": "15+",
+        "label": "Projects Shipped"
+      },
+      {
+        "value": "4",
+        "label": "Products Founded"
+      }
+    ],
+    "location": "Cotonú, Benín",
+    "terminalTitle": "system.sh",
+    "terminalWhoami": "whoami",
+    "terminalUsername": "marino_atohoun",
+    "terminalStatus": "status",
+    "terminalResponse": "building_african_ai",
+    "socialLinks": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "about": {
+    "sectionLabel": "About",
+    "title": "La Historia Detrás de",
+    "subtitle": "From a small room in Benin to building African AI infrastructure — this is the journey of someone who refused to wait for the future.",
+    "paragraphs": [
+      "Mi viaje no comenzó en una incubadora de Silicon Valley. Comenzó en una pequeña habitación con una conexión a internet y una curiosidad imparable.",
+      "En <strong>IFRI</strong> en Benín, rápidamente me di cuenta de que la educación formal por sí sola no me permitiría construir el futuro que imaginaba. Así que fui más allá — aprendiendo Python por mi cuenta, sumergiéndome en la ciencia de datos, y lanzando aplicaciones en producción antes de que la mayoría de mis compañeros escribieran su primer bucle.",
+      "Construí Hypee como el ecosistema digital de África, contribuí a CosmoLAB Hub, y creé BlackBenAI porque África debe ser dueña de su infraestructura de IA.",
+      "Hoy soy Ingeniero de IA en <strong>Djeemm</strong>, fundador de BlackBenAI, y constructor de múltiples productos incluyendo Donumi, Storya y Évivi. Entre todo esto, soy un desarrollador fullstack que entrega.",
+      "No solo escribo código. Construyo productos, creo sistemas y visualizo futuros."
+    ],
+    "imageAlt": "Mahouli Marino ATOHOUN",
+    "highlights": [
+      {
+        "label": "Constructor Autodidacta",
+        "description": "Built production AI systems through relentless learning, starting from scratch."
+      },
+      {
+        "label": "Ingeniero de IA",
+        "description": "NLP, computer vision, LLM systems deployed for real-world applications."
+      },
+      {
+        "label": "Creador de Productos",
+        "description": "Founded BlackBenAI, conceptualized Hypee, Donumi, Storya, Évivi."
+      },
+      {
+        "label": "Constructor de Comunidad",
+        "description": "Inicié a más de 100 jóvenes africanos en la programación. Contribuí en CosmoLAB Hub."
+      }
+    ],
+    "journeyTitle": "Trayectoria",
+    "journey": [
+      {
+        "year": "2022",
+        "event": "Comencé en IFRI — descubrí la programación y la ciencia de datos."
+      },
+      {
+        "year": "2023",
+        "event": "Autodidacta en Python, creé las primeras apps, empecé a enseñar a más de 100 estudiantes."
+      },
+      {
+        "year": "2024",
+        "event": "CosmoLAB Hub. Científico de Datos. Primeros productos de IA. Proyectos freelance."
+      },
+      {
+        "year": "2025",
+        "event": "Fundé BlackBenAI. Conceptualicé Hypee, Donumi, Storya, Évivi."
+      },
+      {
+        "year": "2026",
+        "event": "Ingeniero de IA @ Djeemm. Construyendo a escala. Visión completa en movimiento."
+      }
+    ]
+  },
+  "expertise": {
+    "sectionLabel": "Expertise",
+    "title": "Lo que",
+    "subtitle": "A hybrid skill set spanning AI, engineering, and product — built through real projects.",
+    "skillCategories": [
+      {
+        "title": "AI & Data",
+        "skills": [
+          "Machine Learning",
+          "Deep Learning",
+          "NLP & LLMs",
+          "RAG Systems",
+          "Fine-Tuning",
+          "Computer Vision",
+          "MLOps",
+          "Data Engineering",
+          "Predictive Analytics"
+        ]
+      },
+      {
+        "title": "Software Engineering",
+        "skills": [
+          "React / Next.js",
+          "Python (Django, FastAPI)",
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "REST API Design",
+          "Docker",
+          "Cloud (AWS/GCP)",
+          "CI/CD"
+        ]
+      },
+      {
+        "title": "Product & Infrastructure",
+        "skills": [
+          "System Architecture",
+          "Product Strategy",
+          "Startup Building",
+          "AI Product Design",
+          "Tech Leadership",
+          "Agile / Scrum",
+          "DevOps",
+          "Scalable Systems",
+          "Tech Strategy"
+        ]
+      }
+    ],
+    "areasTitle": "Areas of Depth",
+    "areasSubtitle": "Beyond individual skills — where my expertise lives.",
+    "areas": [
+      {
+        "area": "Inteligencia Artificial",
+        "description": "Production AI systems — NLP, computer vision, LLMs, RAG. Built for African contexts."
+      },
+      {
+        "area": "Desarrollo Fullstack",
+        "description": "End-to-end products from DB design to modern interfaces. Scalable, maintainable systems."
+      },
+      {
+        "area": "Creación de Productos",
+        "description": "Concept to launch. Combining technical depth with product strategy."
+      },
+      {
+        "area": "Liderazgo Técnico",
+        "description": "Architecting systems, defining roadmaps, driving execution. Leading technical vision."
+      }
+    ]
+  },
+  "projects": {
+    "sectionLabel": "Projects",
+    "title": "Lo que He",
+    "subtitle": "Products, systems, experiments — each one a problem I chose to solve.",
+    "filters": {
+      "all": "Todos",
+      "flagship": "Insignia",
+      "product": "Producto",
+      "tech": "Técnico"
+    },
+    "featuredBadge": "Featured",
+    "expandedLabels": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "impact": "Impact",
+      "myRole": "My Role",
+      "vision": "Vision",
+      "source": "Source"
+    },
+    "moreTitle": "Más",
+    "moreSubtitle": "Experimental and open-source work.",
+    "list": [
+      {
+        "id": "blackbenai",
+        "title": "BlackBenAI",
+        "tagline": "African AI Sovereignty",
+        "description": "Building Africa's next-generation AI infrastructure. BlackBenAI is a vision to create sovereign AI capabilities for Africa — from LLMs trained on African languages to intelligent systems solving local challenges.",
+        "fullDescription": "BlackBenAI is my most ambitious venture. It represents the vision of an Africa that doesn't just consume AI but builds it. The mission spans multiple fronts: developing LLMs fluent in African languages, creating AI products for African markets, and establishing the infrastructure for continental AI sovereignty.",
+        "problem": "Africa relies almost entirely on foreign AI infrastructure. This creates dependency, cultural misalignment, and missed economic opportunities.",
+        "solution": "Build vertically integrated AI capabilities — from data collection and model training to product deployment — designed specifically for African contexts and languages.",
+        "impact": "Democratizing AI access across Africa, preserving linguistic diversity, and creating a self-sustaining AI ecosystem.",
+        "role": "Founder & AI Engineer",
+        "vision": "An Africa that builds its own AI future.",
+        "metrics": [
+          {
+            "label": "Vision",
+            "value": "Continental AI"
+          },
+          {
+            "label": "Focus",
+            "value": "African Languages"
+          },
+          {
+            "label": "Stage",
+            "value": "Building"
+          }
+        ]
+      },
+      {
+        "id": "hypee",
+        "title": "Hypee",
+        "tagline": "The All-in-One African Ecosystem",
+        "description": "A comprehensive digital ecosystem designed for African users. Hypee integrates social, commerce, services, and AI into a unified platform experience.",
+        "fullDescription": "Hypee is conceived as the digital super-app for Africa. It combines social networking, e-commerce, service marketplace, and AI-powered assistance into one seamless experience. The platform is built from the ground up with African users in mind — addressing local payment, logistics, and communication patterns.",
+        "problem": "African users navigate fragmented digital experiences across multiple apps not designed for their context.",
+        "solution": "A unified ecosystem that handles social interaction, commerce, services, and AI assistance — all optimized for African users.",
+        "impact": "Reducing digital friction, enabling local commerce, and creating a trusted digital home for African users.",
+        "role": "Founder & Product Builder",
+        "vision": "The digital home for Africa.",
+        "metrics": [
+          {
+            "label": "Scope",
+            "value": "Full Ecosystem"
+          },
+          {
+            "label": "Platform",
+            "value": "Mobile + Web"
+          },
+          {
+            "label": "Stage",
+            "value": "Development"
+          }
+        ]
+      },
+      {
+        "id": "donumi",
+        "title": "Donumi",
+        "tagline": "Digital Identity & Trust for Africa",
+        "description": "A digital identity and trust protocol designed for the African context. Donumi enables verified digital identities, reputation systems, and trustless transactions.",
+        "fullDescription": "Donumi addresses the fundamental challenge of digital trust in Africa. By creating a decentralized identity layer, it enables individuals and businesses to establish verifiable digital reputations, conduct trustless transactions, and access services that require identity verification — all while maintaining privacy and control.",
+        "problem": "Lack of trusted digital identity infrastructure limits access to finance, services, and opportunities for millions of Africans.",
+        "solution": "A self-sovereign identity protocol with reputation scoring, verifiable credentials, and privacy-preserving verification.",
+        "impact": "Enabling financial inclusion, reducing fraud, and creating trust infrastructure for the digital African economy.",
+        "role": "Product Lead & Engineer",
+        "vision": "Every African with a digital identity they own.",
+        "metrics": [
+          {
+            "label": "Focus",
+            "value": "Digital Trust"
+          },
+          {
+            "label": "Technology",
+            "value": "Web3 + AI"
+          },
+          {
+            "label": "Stage",
+            "value": "Concept"
+          }
+        ]
+      },
+      {
+        "id": "storya",
+        "title": "Storya",
+        "tagline": "AI-Powered Storytelling",
+        "description": "An AI-powered platform that transforms African stories into interactive, multimedia narratives. Preserving and reimagining African storytelling traditions through technology.",
+        "fullDescription": "Storya is where technology meets Africa's rich oral traditions. The platform uses AI to help users create, share, and experience stories in immersive formats — from text and audio to interactive visual narratives. It's designed to preserve African folklore, document contemporary stories, and create new forms of digital expression.",
+        "problem": "African stories are at risk of being lost in the digital age. Traditional storytelling lacks modern tools for preservation and distribution.",
+        "solution": "An AI-powered storytelling platform that makes it easy to create, preserve, and share African narratives in engaging digital formats.",
+        "impact": "Preserving African cultural heritage, enabling new forms of creative expression, and connecting storytellers with global audiences.",
+        "role": "Creator & Developer",
+        "vision": "Every African story told and preserved forever.",
+        "metrics": [
+          {
+            "label": "Medium",
+            "value": "Multimedia"
+          },
+          {
+            "label": "Mission",
+            "value": "Cultural Preservation"
+          },
+          {
+            "label": "Stage",
+            "value": "Concept"
+          }
+        ]
+      },
+      {
+        "id": "evivi",
+        "title": "Évivi",
+        "tagline": "Life Intelligence Platform",
+        "description": "An AI life assistant platform that helps Africans navigate daily challenges — from health and education to finance and career — through intelligent, personalized guidance.",
+        "fullDescription": "Évivi (meaning \"life\" in local language) is an AI-powered life intelligence platform. It provides personalized guidance across health, education, finance, and career domains. By understanding the unique context of African users, Évivi delivers actionable insights and recommendations that improve quality of life.",
+        "problem": "Access to personalized guidance and intelligence in critical life domains is limited for most Africans.",
+        "solution": "An AI assistant that understands African contexts and provides personalized guidance across health, education, finance, and career.",
+        "impact": "Improving decision-making and quality of life through accessible, AI-powered personal intelligence.",
+        "role": "Product Visionary & Builder",
+        "vision": "Intelligent life guidance for every African.",
+        "metrics": [
+          {
+            "label": "Domains",
+            "value": "Health, Edu, Finance"
+          },
+          {
+            "label": "AI Type",
+            "value": "Personal Assistant"
+          },
+          {
+            "label": "Stage",
+            "value": "Concept"
+          }
+        ]
+      },
+      {
+        "id": "satcap",
+        "title": "SATCAP",
+        "tagline": "Satellite-Powered Environmental Intelligence",
+        "description": "A suite of AI systems for satellite data processing — detecting CO2 emissions, classifying ocean waste, and providing environmental intelligence.",
+        "fullDescription": "SATCAP is an environmental intelligence platform that processes satellite imagery using AI. It includes modules for CO2 emission tracking (SATCAP CO2), ocean waste detection (SATCAP Ocean), and environmental monitoring. The platform provides real-time insights for climate action and environmental protection.",
+        "problem": "Environmental monitoring requires expensive infrastructure and manual analysis, limiting its accessibility.",
+        "solution": "AI-powered satellite image analysis that automates environmental monitoring at scale, making it accessible and affordable.",
+        "impact": "Enabling data-driven climate action, reducing environmental monitoring costs, and supporting ocean cleanup initiatives.",
+        "role": "AI Engineer & Developer",
+        "vision": "Environmental intelligence for everyone.",
+        "metrics": [
+          {
+            "label": "Modules",
+            "value": "CO2 + Ocean"
+          },
+          {
+            "label": "AI Type",
+            "value": "Computer Vision"
+          },
+          {
+            "label": "Stage",
+            "value": "Completed"
+          }
+        ]
+      },
+      {
+        "id": "akomptaai",
+        "title": "AkomptaAI",
+        "tagline": "AI-Powered Accounting SaaS",
+        "description": "A SaaS platform that brings AI to accounting and financial management. Automates financial processes through ML and voice recognition.",
+        "fullDescription": "AkomptaAI is a comprehensive accounting SaaS that leverages AI to automate financial management. Features include intelligent transaction categorization, voice-enabled data entry, automated report generation, and predictive financial analytics.",
+        "problem": "Small and medium businesses struggle with complex accounting processes and lack affordable AI-powered tools.",
+        "solution": "An AI-powered accounting platform that automates financial management, making it accessible and efficient for businesses of all sizes.",
+        "impact": "Democratizing access to AI-powered financial management tools for African businesses.",
+        "role": "Fullstack Developer & AI Engineer",
+        "vision": "Smart financial management for every business.",
+        "metrics": [
+          {
+            "label": "Type",
+            "value": "SaaS"
+          },
+          {
+            "label": "AI",
+            "value": "ML + Speech"
+          },
+          {
+            "label": "Stage",
+            "value": "Completed"
+          }
+        ]
+      },
+      {
+        "id": "edushare",
+        "title": "EduShare",
+        "tagline": "Open-Source Education Platform",
+        "description": "An open-source platform for sharing educational PDFs, with a public API for researchers and developers.",
+        "fullDescription": "EduShare is a participatory platform that enables free sharing of educational documents — courses, revisions, publications. It includes a public API for researchers and developers, making educational resources accessible to everyone.",
+        "problem": "Access to quality educational resources remains limited, especially in developing regions.",
+        "solution": "An open platform where users share educational content freely, with API access for integration with other tools.",
+        "impact": "Democratizing access to educational resources across Africa and beyond.",
+        "role": "Creator & Developer",
+        "vision": "Free education for all.",
+        "metrics": [
+          {
+            "label": "Type",
+            "value": "Open Source"
+          },
+          {
+            "label": "API",
+            "value": "Public REST"
+          },
+          {
+            "label": "Stage",
+            "value": "Completed"
+          }
+        ]
+      }
+    ],
+    "techProjects": [
+      {
+        "title": "Fire Detection AI",
+        "description": "Detección de incendios en tiempo real a partir de imágenes y video usando YOLO. Un sistema de seguridad de IA para protección de infraestructura."
+      },
+      {
+        "title": "Sign Language Recognition",
+        "description": "Traducción de lenguaje de señas en tiempo real mediante cámara usando deep learning. Solución de accesibilidad para personas sordas y con dificultades auditivas."
+      },
+      {
+        "title": "Intrusion Detection System",
+        "description": "Sistema de videovigilancia impulsado por IA que detecta intrusiones en tiempo real."
+      },
+      {
+        "title": "GuardClause",
+        "description": "Sistema de PLN que analiza automáticamente términos y condiciones, identificando cláusulas críticas para los usuarios."
+      },
+      {
+        "title": "TrafficInsight AI",
+        "description": "Análisis predictivo de densidad de tráfico en entornos urbanos utilizando técnicas avanzadas de ML."
+      },
+      {
+        "title": "DiabeteX Predictor",
+        "description": "Modelo de IA para predicción temprana de diabetes usando datos de salud, orientado a mejorar la diagnóstica preventiva."
+      }
+    ]
+  },
+  "experience": {
+    "sectionLabel": "Experience",
+    "title": "Donde He",
+    "subtitle": "Every role has been a mission. Here's the impact I've made.",
+    "impactLabel": "Impact: ",
+    "entries": [
+      {
+        "company": "Djeemm",
+        "role": "IA Engineer & AI Product Lead",
+        "period": "2026 — Present",
+        "location": "Remote",
+        "items": [
+          "Built the AI engine for talent scoring and matching — core platform intelligence.",
+          "Led AI product strategy: ML roadmap, technical decisions aligned with business goals.",
+          "Developed NLP models for intelligent candidate-job matching and skill extraction.",
+          "Architected real-time data infrastructure powering AI recommendations."
+        ],
+        "tags": [
+          "AI Product Leadership",
+          "NLP",
+          "ML Architecture",
+          "System Design"
+        ],
+        "impact": "Built the AI brain of an international recruitment platform."
+      },
+      {
+        "company": "CosmoLAB Hub",
+        "role": "Data Scientist & Fullstack Developer",
+        "period": "Apr 2024 — 2026",
+        "location": "Benin",
+        "items": [
+          "Developed AI algorithms and data pipelines for multi-domain innovation projects.",
+          "Built full-stack applications integrating data science with modern web interfaces.",
+          "Optimized database systems for large-scale data processing and analytics."
+        ],
+        "tags": [
+          "Data Science",
+          "Fullstack",
+          "AI",
+          "Database Architecture"
+        ],
+        "impact": "Drove data-driven innovation across product lines."
+      },
+      {
+        "company": "Freelance",
+        "role": "Fullstack Developer",
+        "period": "2023 — 2024",
+        "location": "Togo",
+        "items": [
+          "Delivered production websites for Tasly Togo (healthcare) and Julie Soap (manufacturing).",
+          "End-to-end delivery: client consultation, architecture, development, deployment.",
+          "Managed client relationships, requirements, and timelines independently."
+        ],
+        "tags": [
+          "Web Development",
+          "Client Delivery",
+          "Fullstack"
+        ],
+        "impact": "Shipped production systems for real businesses."
+      },
+      {
+        "company": "Volunteer Teaching",
+        "role": "Python Instructor",
+        "period": "2022 — 2023",
+        "location": "Benin",
+        "items": [
+          "Initiated 100+ young learners into programming through a free community program.",
+          "Developed curriculum and learning materials for Python fundamentals.",
+          "Provided personalized mentorship to aspiring developers."
+        ],
+        "tags": [
+          "Teaching",
+          "Python",
+          "Community",
+          "Mentorship"
+        ],
+        "impact": "Introduced 100+ young Africans to programming."
+      }
+    ]
+  },
+  "certifications": {
+    "sectionLabel": "Certificaciones",
+    "title": "Certificaciones",
+    "subtitle": "Certificaciones obtenidas de plataformas reconocidas.",
+    "list": [
+      {
+        "title": "Scikit-learn pour le machine learning",
+        "issuer": "LinkedIn",
+        "date": "Junio 2024",
+        "link": "https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+      },
+      {
+        "title": "Se préparer au métier d'analyste de données par Microsoft et LinkedIn",
+        "issuer": "LinkedIn",
+        "date": "Mayo 2024",
+        "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+      },
+      {
+        "title": "Se préparer au métier d’analyste de données par Microsoft et LinkedIn",
+        "issuer": "Microsoft et LinkedIn",
+        "date": "Mayo 2024",
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+      },
+      {
+        "title": "Python Developer",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png"
+      },
+      {
+        "title": "Python Intermediate",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png"
+      },
+      {
+        "title": "SQL Intermediate",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png"
+      },
+      {
+        "title": "Tech for Everyone",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png"
+      },
+      {
+        "title": "Introduction to JavaScript",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png"
+      },
+      {
+        "title": "Introduction to HTML",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png"
+      },
+      {
+        "title": "Data Programming",
+        "issuer": "Sololearn",
+        "date": "Noviembre 2023",
+        "link": "https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png"
+      },
+      {
+        "title": "Introduction to R",
+        "issuer": "DataCamp",
+        "date": "Noviembre 2023",
+        "link": ""
+      },
+      {
+        "title": "Initiez-vous à Linux",
+        "issuer": "OpenClassrooms",
+        "date": "Mayo 2023",
+        "link": "https://openclassrooms.com/fr/course-certificates/1746307242"
+      },
+      {
+        "title": "Initiez vous à l'Intelligence Artificielle",
+        "issuer": "OpenClassrooms",
+        "date": "Mayo 2023",
+        "link": "https://openclassrooms.com/fr/course-certificates/2015564943"
+      },
+      {
+        "title": "Scientific Computing with Python",
+        "issuer": "FreeCodeCamp",
+        "date": "Febrero 2024",
+        "link": "https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7"
+      },
+      {
+        "title": "Data Analysis With Python",
+        "issuer": "FreeCodeCamp",
+        "date": "Febrero 2024",
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+      },
+      {
+        "title": "College Algebra with Python",
+        "issuer": "FreeCodeCamp",
+        "date": "Marzo 2024",
+        "link": "https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8"
+      }
+    ]
+  },
+  "vision": {
+    "sectionLabel": "Manifesto",
+    "title": "El Futuro que Estoy",
+    "subtitle": "More than a career. A mission to shape Africa's technological destiny.",
+    "quote": "\"África no necesita alcanzar el futuro.\n<span>África necesita construirlo.</span>\"",
+    "pillars": [
+      {
+        "title": "Soberanía Africana de IA",
+        "description": "Africa must build its own AI — LLMs in our languages, systems in our context. Not just consuming foreign models trained on foreign data."
+      },
+      {
+        "title": "Independencia Digital",
+        "description": "21st century freedom means digital sovereignty. African nations must own their data, infrastructure, and technological destiny."
+      },
+      {
+        "title": "Innovación desde África",
+        "description": "The next wave of global innovation will come from solving African challenges. Our constraints become our competitive advantage."
+      },
+      {
+        "title": "Tecnología con Impacto",
+        "description": "Every product is measured by its real impact — on education, health, economic opportunity, and human potential. Not just revenue."
+      }
+    ],
+    "ctaText": "I'm looking for partners, investors, and builders who share this vision. If you're shaping Africa's tech future, let's connect.",
+    "ctaButton": "Únete a la Misión"
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Construyamos",
+    "subtitle": "Have a project, idea, or shared vision? I'd love to hear from you.",
+    "heading": "Get in Touch",
+    "description": "¿Tienes un proyecto, idea o visión compartida? Me encantaría saber de ti.",
+    "info": [
+      {
+        "label": "Email",
+        "value": "marinoatohoun@gmail.com"
+      },
+      {
+        "label": "Location",
+        "value": "Cotonou, Benin"
+      }
+    ],
+    "socialHeading": "Social / Professional",
+    "socialLinks": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "nameLabel": "Tu Nombre",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Tu Email",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "messageLabel": "Tu Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto o idea...",
+      "submitButton": "Send Message",
+      "directEmail": "Or email directly:"
+    }
+  },
+  "footer": {
+    "logo": "MA.",
+    "tagline": "Construyendo Infraestructura Africana de IA y Productos Digitales Inteligentes.",
+    "socialLinks": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© {year} Mahouli Marino ATOHOUN. Todos los derechos reservados."
+  },
+  "chat": {
+    "initialMessage": "¡Hola! Soy el asistente de IA de Marino. ¡Pregúntame cualquier cosa sobre su trabajo, proyectos, habilidades o experiencia!",
+    "headerTitle": "IA de Marino",
+    "headerSubtitle": "Pregúntame sobre él",
+    "inputPlaceholder": "Pregunta sobre Marino...",
+    "buttonAriaLabel": "Chatea con la IA de Marino",
+    "errorMessage": "⚠️ {{error}}. Asegúrate de que el servidor esté funcionando (npm run dev:server)."
+  },
+  "languages": {
+    "en": "Inglés",
+    "fr": "Francés",
+    "es": "Español"
+  }
+}
