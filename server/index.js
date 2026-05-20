@@ -4,7 +4,6 @@ import cors from 'cors'
 import OpenAI from 'openai'
 
 const app = express()
-const PORT = process.env.PORT || 3001
 
 app.use(cors())
 app.use(express.json())
@@ -122,6 +121,12 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error' })
 })
 
-app.listen(PORT, () => {
-  console.log(`Chat server running on http://localhost:${PORT}`)
-})
+const PORT = process.env.PORT || 3001
+
+if (process.env.VERCEL !== '1') {
+  app.listen(PORT, () => {
+    console.log(`Chat server running on http://localhost:${PORT}`)
+  })
+}
+
+export default app
