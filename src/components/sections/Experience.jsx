@@ -65,6 +65,7 @@ export default function Experience() {
                             <img
                               src={exp.logo}
                               alt={exp.company}
+                              loading="lazy"
                               className="w-7 h-7 rounded-lg object-contain bg-white/[0.04] p-0.5 ring-1 ring-white/[0.06]"
                             />
                           )}

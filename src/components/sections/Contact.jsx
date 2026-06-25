@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useScrollAnimation } from '@/hooks/useScrollAnimation'
-import { Mail, Github, Linkedin, MapPin, Send, ArrowUpRight } from 'lucide-react'
+import { Mail, Github, Linkedin, MapPin, Send, ArrowUpRight, MessageCircle, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
@@ -94,6 +94,8 @@ export default function Contact() {
                 {[
                   { icon: Github, href: 'https://github.com/MarinoATOHOUN', key: 'github' },
                   { icon: Linkedin, href: 'https://www.linkedin.com/in/marino-atohoun', key: 'linkedin' },
+                  { icon: MessageCircle, href: 'https://wa.me/22959037170', key: 'whatsapp' },
+                  { icon: Phone, href: 'tel:+2290159037170', key: 'phone' },
                 ].map(({ icon: Icon, href, key }) => (
                   <a
                     key={key}

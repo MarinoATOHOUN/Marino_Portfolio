@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail, MessageCircle, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
@@ -23,6 +23,8 @@ export default function Footer() {
               { icon: Mail, href: 'mailto:marinoatohoun@gmail.com', key: 'email' },
               { icon: Github, href: 'https://github.com/MarinoATOHOUN', key: 'github' },
               { icon: Linkedin, href: 'https://www.linkedin.com/in/marino-atohoun', key: 'linkedin' },
+              { icon: MessageCircle, href: 'https://wa.me/22959037170', key: 'whatsapp' },
+              { icon: Phone, href: 'tel:+2290159037170', key: 'phone' },
             ].map(({ icon: Icon, href, key }) => (
               <a
                 key={key}

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail, MapPin, ExternalLink, Terminal, Cpu, Database, Layers, Zap, BrainCircuit } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, MapPin, ExternalLink, Terminal, Cpu, Database, Layers, Zap, BrainCircuit, MessageCircle, Phone } from 'lucide-react'
 import NeuralNetwork from '@/components/canvas/NeuralNetwork'
 import TypeWriter from '@/components/effects/TypeWriter'
 import { DataFlow } from '@/components/effects/DataFlow'
@@ -486,6 +486,8 @@ export default function Hero({ onNavClick }) {
               { icon: Mail, href: 'mailto:marinoatohoun@gmail.com', key: 'email' },
               { icon: Github, href: 'https://github.com/MarinoATOHOUN', key: 'github' },
               { icon: Linkedin, href: 'https://www.linkedin.com/in/marino-atohoun', key: 'linkedin' },
+              { icon: MessageCircle, href: 'https://wa.me/22959037170', key: 'whatsapp' },
+              { icon: Phone, href: 'tel:+2290159037170', key: 'phone' },
             ].map(({ icon: Icon, href, key }) => (
               <a
                 key={key}

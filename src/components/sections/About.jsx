@@ -109,6 +109,8 @@ export default function About() {
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={profilePicture}
+                    loading="lazy"
+                    decoding="async"
                     alt={t('about.imageAlt')}
                     className="w-full h-full object-cover object-center"
                   />

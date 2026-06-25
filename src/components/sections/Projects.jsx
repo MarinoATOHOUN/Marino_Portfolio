@@ -104,6 +104,8 @@ export default function Projects() {
                             <img
                               src={heroImage}
                               alt={project.title}
+                              loading="lazy"
+                              decoding="async"
                               className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                             />
                           </div>
@@ -176,6 +178,8 @@ export default function Projects() {
                                       <img
                                         src={img}
                                         alt={`${project.title} screenshot ${idx + 2}`}
+                                        loading="lazy"
+                                        decoding="async"
                                         className="w-full aspect-[16/10] object-cover object-top"
                                       />
                                     </div>

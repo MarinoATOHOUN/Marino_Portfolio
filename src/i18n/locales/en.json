@@ -52,7 +52,9 @@
     "socialLinks": {
       "email": "Email",
       "github": "GitHub",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone"
     }
   },
   "about": {
@@ -654,7 +656,9 @@
     "socialHeading": "Social / Professional",
     "socialLinks": {
       "github": "GitHub",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone"
     },
     "form": {
       "nameLabel": "Your Name",
@@ -673,7 +677,9 @@
     "socialLinks": {
       "email": "Email",
       "github": "GitHub",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone"
     },
     "copyright": "Mahouli Marino ATOHOUN. All rights reserved."
   },
