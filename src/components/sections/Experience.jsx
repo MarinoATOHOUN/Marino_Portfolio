@@ -60,19 +60,28 @@ export default function Experience() {
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
                       <div>
                         <h3 className="text-lg sm:text-xl font-semibold text-foreground">{exp.role}</h3>
-                        {exp.companyUrl ? (
-                          <a
-                            href={exp.companyUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 text-sm text-blue-400/80 hover:text-blue-400 transition-colors mt-0.5"
-                          >
-                            {exp.company}
-                            <ExternalLink size={11} />
-                          </a>
-                        ) : (
-                          <p className="text-sm text-blue-400/70 mt-0.5">{exp.company}</p>
-                        )}
+                        <div className="flex items-center gap-2 mt-1.5">
+                          {exp.logo && (
+                            <img
+                              src={exp.logo}
+                              alt={exp.company}
+                              className="w-7 h-7 rounded-lg object-contain bg-white/[0.04] p-0.5 ring-1 ring-white/[0.06]"
+                            />
+                          )}
+                          {exp.companyUrl ? (
+                            <a
+                              href={exp.companyUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-sm text-blue-400/80 hover:text-blue-400 transition-colors"
+                            >
+                              {exp.company}
+                              <ExternalLink size={11} />
+                            </a>
+                          ) : (
+                            <p className="text-sm text-blue-400/70">{exp.company}</p>
+                          )}
+                        </div>
                       </div>
                       <span className="inline-flex items-center gap-1.5 self-start px-3 py-1 text-xs font-medium text-blue-400/70 bg-blue-500/5 rounded-lg border border-blue-500/10 shrink-0">
                         <Calendar size={11} />

@@ -3,6 +3,7 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation'
 import { Cpu, Code, Rocket, Users } from 'lucide-react'
 import { ScanOverlay } from '@/components/effects/ScanLines'
 import DataCurve from '@/components/effects/DataCurve'
+import ProcessDiagram from '@/components/ui/ProcessDiagram'
 import profilePicture from '@/assets/profile_picture.jpg'
 import { useTranslation } from 'react-i18next'
 
@@ -143,28 +144,15 @@ export default function About() {
               </div>
             </ScanOverlay>
 
-            {/* Journey timeline */}
-            <div className="rounded-xl card-elevated p-5 sm:p-6">
-              <h3 className="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-4">
-                {t('about.journeyTitle')}
-              </h3>
-              <div className="space-y-3">
-                {journey.map((step) => (
-                  <div key={step.year} className="flex items-start gap-3">
-                    <motion.span
-                      className="text-xs font-semibold text-blue-400 w-10 shrink-0 pt-0.5"
-                      whileHover={{ scale: 1.05 }}
-                    >
-                      {step.year}
-                    </motion.span>
-                    <span className="w-px h-full min-h-[1.5rem] bg-white/5" />
-                    <span className="text-xs sm:text-sm text-gray-400">{step.event}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
+
+        {/* Full-width Process Diagram */}
+        <ProcessDiagram
+          items={journey}
+          title={t('about.journeyTitle')}
+          detailLabel={t('about.detailLabel')}
+        />
       </div>
     </section>
   )

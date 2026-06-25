@@ -1,9 +1,14 @@
+import djeemmLogo from '@/assets/logodjeemm.png'
+import blackbenaiLogo from '@/assets/blackbenailogo.png'
+import cosmolabLogo from '@/assets/CosmoLABHubLogo.png'
+
 export const experiences = [
   {
     id: 'djeemm',
     role: 'IA Engineer & AI Product Lead',
     company: 'Djeemm',
     companyUrl: 'https://djeemm.com/',
+    logo: djeemmLogo,
     period: '2026 — Present',
     location: 'Remote',
     description: [
@@ -16,10 +21,36 @@ export const experiences = [
     impact: 'Built the AI brain of an international recruitment platform.',
   },
   {
+    id: 'blackbenai',
+    role: 'Founder & CEO',
+    company: 'BlackBenAI',
+    companyUrl: 'https://blackbenai.com',
+    logo: blackbenaiLogo,
+    period: '2025 — Present',
+    location: 'Cotonou, Benin',
+    description: [
+      'Founded and built BlackBenAI, a Beninese AI startup developing sovereign AI solutions for Africa.',
+      'Led the development of 6+ production SaaS platforms including LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder, and AfriDataHub.',
+      'Architected and deployed the full infrastructure stack (Docker, Nginx, PostgreSQL, Redis) across multiple VPS servers managing 50+ containers.',
+      'Built production AI systems including LLM fine-tuning (LoRA/QLoRA), RAG (BM25), computer vision (YOLO), and AI chatbot solutions.',
+      'Managed technical roadmap, product strategy, and company growth from concept to 12+ deployed projects.',
+    ],
+    tags: [
+      'Founder',
+      'AI Product Strategy',
+      'Full-Stack Architecture',
+      'DevOps & Infrastructure',
+      'Team Leadership',
+    ],
+    impact:
+      "Building Africa's sovereign AI infrastructure with 12+ production projects.",
+  },
+  {
     id: 'cosmolab',
     role: 'Data Scientist & Fullstack Developer',
     company: 'CosmoLAB Hub',
     companyUrl: 'https://cosmolabhub.space/',
+    logo: cosmolabLogo,
     period: 'Apr 2024 — 2026',
     location: 'Benin (On-site)',
     description: [

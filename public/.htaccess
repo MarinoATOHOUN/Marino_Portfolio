@@ -1,0 +1,39 @@
+# Apache Configuration for Vite SPA — SEO & Performance
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# SPA fallback — serve index.html for all non-file routes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Brotli compression
+AddType application/json .json
+AddType application/javascript .js
+AddType text/css .css
+AddType image/webp .webp
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Cache — aggressive for static assets
+<FilesMatch "\.(js|css|png|jpg|webp|svg|woff2)$">
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+<FilesMatch "\.(html|json)$">
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>
+
+# Security headers
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"

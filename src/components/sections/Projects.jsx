@@ -78,11 +78,12 @@ export default function Projects() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -15 }}
             transition={{ duration: 0.3 }}
-            className="space-y-4"
+            className="space-y-6"
           >
             <ScanOverlay active={isVisible}>
               {filtered.map((project, i) => {
                 const isOpen = expandedId === project.id
+                const heroImage = project.images?.[0]
                 return (
                   <CardHoverGlow key={project.id}>
                     <motion.div
@@ -96,6 +97,20 @@ export default function Projects() {
                       }`}
                       onClick={() => setExpandedId(isOpen ? null : project.id)}
                     >
+                      {/* Hero image */}
+                      {heroImage && (
+                        <div className="relative overflow-hidden">
+                          <div className="aspect-[16/9] sm:aspect-[21/9] w-full">
+                            <img
+                              src={heroImage}
+                              alt={project.title}
+                              className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                            />
+                          </div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+                        </div>
+                      )}
+
                       <div className="p-5 sm:p-7">
                         <div className="flex items-start justify-between gap-4">
                           <div className="min-w-0 flex-1">
@@ -153,6 +168,21 @@ export default function Projects() {
                             className="overflow-hidden"
                           >
                             <div className="px-5 sm:px-7 pb-6 sm:pb-7 border-t" style={{ borderColor: 'var(--theme-border-005)' }}>
+                              {/* Image gallery */}
+                              {project.images && project.images.length > 1 && (
+                                <div className="flex gap-3 overflow-x-auto pb-1 pt-5 -mx-1 px-1 snap-x">
+                                  {project.images.slice(1).map((img, idx) => (
+                                    <div key={idx} className="shrink-0 w-[200px] sm:w-[260px] rounded-lg overflow-hidden border border-white/[0.06] snap-start">
+                                      <img
+                                        src={img}
+                                        alt={`${project.title} screenshot ${idx + 2}`}
+                                        className="w-full aspect-[16/10] object-cover object-top"
+                                      />
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+
                               <div className="grid sm:grid-cols-2 gap-6 pt-5">
                                 <div className="space-y-4">
                                   <div>
@@ -178,6 +208,18 @@ export default function Projects() {
                                     <p className="text-sm text-gray-500 italic">"{project.vision}"</p>
                                   </div>
                                   <div className="flex items-center gap-3 pt-1">
+                                    {project.links.site && (
+                                      <a
+                                        href={project.links.site}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        onClick={(e) => e.stopPropagation()}
+                                        className="flex items-center gap-1.5 text-xs text-green-400 hover:text-green-300 transition-colors"
+                                      >
+                                        <ExternalLink size={13} />
+                                        {labels.visit}
+                                      </a>
+                                    )}
                                     {project.links.github && (
                                       <a
                                         href={project.links.github}

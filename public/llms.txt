@@ -1,0 +1,23 @@
+# Mahouli Marino ATOHOUN — Portfolio
+> AI Engineer & Product Builder. Building Africa's sovereign AI infrastructure.
+
+## About
+- **Role**: Founder & CEO @ BlackBenAI / AI Engineer & AI Product Lead @ Djeemm
+- **Location**: Cotonou, Benin
+- **Expertise**: AI Product Strategy, NLP, ML Architecture, Full-Stack Architecture, DevOps
+
+## Key Projects
+- [AfriDataHub](https://afridatahub.blackbenai.com) — Open Data Intelligence for 54 African countries
+- [GreenMetrics](https://greenmetrics.blackbenai.com) — AI-Powered Precision Agriculture SaaS
+- [EduLab Africa](https://edulab.blackbenai.com) — Interactive AI-Powered Learning Platform
+- [EduShare](https://edushare.blackbenai.com) — Open-Source Education Platform with RAG AI
+- [LegalEase AI](https://legaleaseai.blackbenai.com) — AI Legal Document Analyzer
+- [FineTune Platform](https://finetuner.blackbenai.com) — Enterprise LLM Fine-Tuning SaaS
+- [SaaS Builder (Djangent)](https://saasbuilder.blackbenai.com) — Agentic Software Engineering OS
+- [Virtual Labo Chimique](https://labovirtuel.blackbenai.com) — 3D Chemistry Virtual Laboratory
+- [BlackBenOS](https://github.com/BlackBenAI) — Enterprise ERP & Internal Management
+- [BlackBenAI](https://blackbenai.com) — African AI Corporate Site
+
+## Links
+- GitHub: https://github.com/MarinoATOHOUN
+- LinkedIn: https://www.linkedin.com/in/mahouli-marino-atohoun-7706a8263

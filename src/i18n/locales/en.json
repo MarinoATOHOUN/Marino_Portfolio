@@ -86,26 +86,32 @@
       }
     ],
     "journeyTitle": "Journey",
+    "detailLabel": "Details",
     "journey": [
       {
         "year": "2022",
-        "event": "Started at IFRI — discovered programming and data science."
+        "event": "Started at IFRI — discovered programming and data science.",
+        "detail": "Enrolled at IFRI (Institut de Formation et de Recherche en Informatique) where I was first introduced to algorithms, data structures, and the foundations of data science. This year marked the beginning of my journey into technology, sparked by an unstoppable curiosity."
       },
       {
         "year": "2023",
-        "event": "Self-taught Python, built first apps, started teaching 100+ students."
+        "event": "Self-taught Python, built first apps, started teaching 100+ students.",
+        "detail": "Dived deep into Python through self-study, building my first real applications. At the same time, I launched a free community teaching program, introducing over 100 young learners to programming — discovering that teaching others was the fastest way to master a subject."
       },
       {
         "year": "2024",
-        "event": "CosmoLAB Hub. Data Scientist. First AI products. Freelance projects."
+        "event": "CosmoLAB Hub. Data Scientist. First AI products. Freelance projects.",
+        "detail": "Joined CosmoLAB Hub as a Data Scientist, developing AI algorithms and full-stack applications. Worked on innovative projects including Akompta, SatcapC02, SatcapOceans, and SatcapHealth — building data pipelines, AI models, and production-ready systems across climate, health, and fintech domains."
       },
       {
         "year": "2025",
-        "event": "Founded BlackBenAI. Conceptualized Hypee, Donumi, Storya, Évivi."
+        "event": "Founded BlackBenAI. Conceptualized Hypee, Donumi, Storya, Évivi.",
+        "detail": "Founded BlackBenAI, a Beninese AI startup building sovereign AI infrastructure for Africa. Conceptualized a suite of products: Hypee (Africa's digital ecosystem), Donumi, Storya, and Évivi — each targeting specific gaps in the African tech landscape with AI at their core."
       },
       {
         "year": "2026",
-        "event": "AI Engineer @ Djeemm. Building at scale. Full vision in motion."
+        "event": "AI Engineer @ Djeemm. Building at scale. Full vision in motion.",
+        "detail": "Joined Djeemm as AI Engineer & AI Product Lead, building the AI engine for an international recruitment platform — NLP models, real-time recommendations, and ML infrastructure. Meanwhile, BlackBenAI has grown to 6+ production SaaS platforms serving across multiple domains."
       }
     ]
   },
@@ -195,217 +201,180 @@
       "impact": "Impact",
       "myRole": "My Role",
       "vision": "Vision",
-      "source": "Source"
+      "source": "Source",
+      "visit": "Visit"
     },
     "moreTitle": "More Projects",
     "moreSubtitle": "Experimental and open-source work.",
     "list": [
       {
-        "id": "blackbenai",
-        "title": "BlackBenAI",
-        "tagline": "African AI Sovereignty",
-        "description": "Building Africa's next-generation AI infrastructure. BlackBenAI is a vision to create sovereign AI capabilities for Africa — from LLMs trained on African languages to intelligent systems solving local challenges.",
-        "fullDescription": "BlackBenAI is my most ambitious venture. It represents the vision of an Africa that doesn't just consume AI but builds it. The mission spans multiple fronts: developing LLMs fluent in African languages, creating AI products for African markets, and establishing the infrastructure for continental AI sovereignty.",
-        "problem": "Africa relies almost entirely on foreign AI infrastructure. This creates dependency, cultural misalignment, and missed economic opportunities.",
-        "solution": "Build vertically integrated AI capabilities — from data collection and model training to product deployment — designed specifically for African contexts and languages.",
-        "impact": "Democratizing AI access across Africa, preserving linguistic diversity, and creating a self-sustaining AI ecosystem.",
-        "role": "Founder & AI Engineer",
-        "vision": "An Africa that builds its own AI future.",
-        "metrics": [
-          {
-            "label": "Vision",
-            "value": "Continental AI"
-          },
-          {
-            "label": "Focus",
-            "value": "African Languages"
-          },
-          {
-            "label": "Stage",
-            "value": "Building"
-          }
-        ]
-      },
-      {
-        "id": "hypee",
-        "title": "Hypee",
-        "tagline": "The All-in-One African Ecosystem",
-        "description": "A comprehensive digital ecosystem designed for African users. Hypee integrates social, commerce, services, and AI into a unified platform experience.",
-        "fullDescription": "Hypee is conceived as the digital super-app for Africa. It combines social networking, e-commerce, service marketplace, and AI-powered assistance into one seamless experience. The platform is built from the ground up with African users in mind — addressing local payment, logistics, and communication patterns.",
-        "problem": "African users navigate fragmented digital experiences across multiple apps not designed for their context.",
-        "solution": "A unified ecosystem that handles social interaction, commerce, services, and AI assistance — all optimized for African users.",
-        "impact": "Reducing digital friction, enabling local commerce, and creating a trusted digital home for African users.",
-        "role": "Founder & Product Builder",
-        "vision": "The digital home for Africa.",
-        "metrics": [
-          {
-            "label": "Scope",
-            "value": "Full Ecosystem"
-          },
-          {
-            "label": "Platform",
-            "value": "Mobile + Web"
-          },
-          {
-            "label": "Stage",
-            "value": "Development"
-          }
-        ]
-      },
-      {
-        "id": "donumi",
-        "title": "Donumi",
-        "tagline": "Digital Identity & Trust for Africa",
-        "description": "A digital identity and trust protocol designed for the African context. Donumi enables verified digital identities, reputation systems, and trustless transactions.",
-        "fullDescription": "Donumi addresses the fundamental challenge of digital trust in Africa. By creating a decentralized identity layer, it enables individuals and businesses to establish verifiable digital reputations, conduct trustless transactions, and access services that require identity verification — all while maintaining privacy and control.",
-        "problem": "Lack of trusted digital identity infrastructure limits access to finance, services, and opportunities for millions of Africans.",
-        "solution": "A self-sovereign identity protocol with reputation scoring, verifiable credentials, and privacy-preserving verification.",
-        "impact": "Enabling financial inclusion, reducing fraud, and creating trust infrastructure for the digital African economy.",
-        "role": "Product Lead & Engineer",
-        "vision": "Every African with a digital identity they own.",
-        "metrics": [
-          {
-            "label": "Focus",
-            "value": "Digital Trust"
-          },
-          {
-            "label": "Technology",
-            "value": "Web3 + AI"
-          },
-          {
-            "label": "Stage",
-            "value": "Concept"
-          }
-        ]
-      },
-      {
-        "id": "storya",
-        "title": "Storya",
-        "tagline": "AI-Powered Storytelling",
-        "description": "An AI-powered platform that transforms African stories into interactive, multimedia narratives. Preserving and reimagining African storytelling traditions through technology.",
-        "fullDescription": "Storya is where technology meets Africa's rich oral traditions. The platform uses AI to help users create, share, and experience stories in immersive formats — from text and audio to interactive visual narratives. It's designed to preserve African folklore, document contemporary stories, and create new forms of digital expression.",
-        "problem": "African stories are at risk of being lost in the digital age. Traditional storytelling lacks modern tools for preservation and distribution.",
-        "solution": "An AI-powered storytelling platform that makes it easy to create, preserve, and share African narratives in engaging digital formats.",
-        "impact": "Preserving African cultural heritage, enabling new forms of creative expression, and connecting storytellers with global audiences.",
+        "id": "afridatahub",
+        "title": "AfriDataHub",
+        "tagline": "Open Data Intelligence for Africa",
+        "description": "An intelligent open data platform centralizing economic, climate, health, and agricultural data for 54 African countries from official international sources including World Bank, FAO, WHO, and UNESCO.",
+        "fullDescription": "AfriDataHub is a smart, interactive platform for African open data. It centralizes, analyzes, and visualizes economic, climatic, health, and agricultural data across all 54 African countries from 10+ official international sources. Features include an interactive SVG map dashboard, 160+ active datasets with 16,000+ data points, AI analysis via Google Gemini, predictive analytics with linear regression, anomaly detection with 4 severity levels, and an autonomous AI pipeline using Groq for web research and structured extraction.",
+        "problem": "African data is scattered across international sources, making it difficult for researchers, policymakers, and businesses to access and analyze comprehensive continental data.",
+        "solution": "A unified platform that aggregates data from 10+ international sources, provides AI-powered analysis, predictive modeling, and an interactive Studio for data transformation and cleaning.",
+        "impact": "Empowering data-driven decision-making across Africa with centralized, AI-enhanced intelligence from 54 countries and 160+ datasets.",
         "role": "Creator & Developer",
-        "vision": "Every African story told and preserved forever.",
+        "vision": "Data-driven intelligence for every African decision.",
         "metrics": [
-          {
-            "label": "Medium",
-            "value": "Multimedia"
-          },
-          {
-            "label": "Mission",
-            "value": "Cultural Preservation"
-          },
-          {
-            "label": "Stage",
-            "value": "Concept"
-          }
+          { "label": "Countries", "value": "54" },
+          { "label": "Datasets", "value": "160+" },
+          { "label": "Data Points", "value": "16K+" }
         ]
       },
       {
-        "id": "evivi",
-        "title": "Évivi",
-        "tagline": "Life Intelligence Platform",
-        "description": "An AI life assistant platform that helps Africans navigate daily challenges — from health and education to finance and career — through intelligent, personalized guidance.",
-        "fullDescription": "Évivi (meaning \"life\" in local language) is an AI-powered life intelligence platform. It provides personalized guidance across health, education, finance, and career domains. By understanding the unique context of African users, Évivi delivers actionable insights and recommendations that improve quality of life.",
-        "problem": "Access to personalized guidance and intelligence in critical life domains is limited for most Africans.",
-        "solution": "An AI assistant that understands African contexts and provides personalized guidance across health, education, finance, and career.",
-        "impact": "Improving decision-making and quality of life through accessible, AI-powered personal intelligence.",
-        "role": "Product Visionary & Builder",
-        "vision": "Intelligent life guidance for every African.",
+        "id": "greenmetrics",
+        "title": "GreenMetrics",
+        "tagline": "AI-Powered Precision Agriculture",
+        "description": "A precision agriculture SaaS platform that transforms traditional farming into a data-driven ecosystem, designed for African farmers with AI-powered crop management and market access.",
+        "fullDescription": "GreenMetrics is a SaaS platform for precision agriculture that revolutionizes traditional farming through data-driven intelligence. It features crop management, harvest tracking, categorized expense tracking, interactive dashboard with KPIs and evolution charts, AgriTalk AI chatbot powered by Groq API, AILab for analytical reports with PDF export, personalized agricultural advice, a marketplace for agricultural products, and a Free/Pro/Expert subscription system.",
+        "problem": "African farmers lack access to data-driven tools for crop management, financial tracking, and market access, leading to inefficiency and reduced profitability.",
+        "solution": "A comprehensive SaaS platform combining farm management, AI-powered agricultural intelligence, and a marketplace for direct producer-to-buyer transactions.",
+        "impact": "Enabling African farmers to increase productivity, reduce costs, and access wider markets through data-driven agriculture.",
+        "role": "Creator & Developer",
+        "vision": "Data-driven agriculture for every African farmer.",
         "metrics": [
-          {
-            "label": "Domains",
-            "value": "Health, Edu, Finance"
-          },
-          {
-            "label": "AI Type",
-            "value": "Personal Assistant"
-          },
-          {
-            "label": "Stage",
-            "value": "Concept"
-          }
+          { "label": "AI Features", "value": "AgriTalk + AILab" },
+          { "label": "Marketplace", "value": "Integrated" },
+          { "label": "Tiers", "value": "Free/Pro/Expert" }
         ]
       },
       {
-        "id": "satcap",
-        "title": "SATCAP",
-        "tagline": "Satellite-Powered Environmental Intelligence",
-        "description": "A suite of AI systems for satellite data processing — detecting CO2 emissions, classifying ocean waste, and providing environmental intelligence.",
-        "fullDescription": "SATCAP is an environmental intelligence platform that processes satellite imagery using AI. It includes modules for CO2 emission tracking (SATCAP CO2), ocean waste detection (SATCAP Ocean), and environmental monitoring. The platform provides real-time insights for climate action and environmental protection.",
-        "problem": "Environmental monitoring requires expensive infrastructure and manual analysis, limiting its accessibility.",
-        "solution": "AI-powered satellite image analysis that automates environmental monitoring at scale, making it accessible and affordable.",
-        "impact": "Enabling data-driven climate action, reducing environmental monitoring costs, and supporting ocean cleanup initiatives.",
-        "role": "AI Engineer & Developer",
-        "vision": "Environmental intelligence for everyone.",
+        "id": "edulab",
+        "title": "EduLab Africa",
+        "tagline": "Interactive AI-Powered Learning Platform",
+        "description": "A modern educational platform for Africa featuring an AI tutor, mentorship system, community forum, gamification, and interactive learning tools including 3D Atlas and collaborative coding.",
+        "fullDescription": "EduLab Africa is a comprehensive e-learning platform integrating an AI tutor powered by Gemini, GPT, Groq, and Ollama, a community Q&A forum with voting and tags, a mentorship system with session booking and reviews, real-time messaging via WebSockets with end-to-end encryption, gamification with 6 badge levels and leaderboards, scholarships and opportunities board, and interactive tools including a 3D Atlas with Cesium, collaborative coding lab with Sandpack and Monaco Editor, mind maps with Markmap, visual programming with Blockly, and a physics simulator with Matter.js.",
+        "problem": "African students lack access to interactive, AI-enhanced educational tools that combine community learning, mentorship, and modern technology.",
+        "solution": "An all-in-one educational platform with AI tutoring, community learning, mentorship, gamification, and interactive tools designed for the African context.",
+        "impact": "Democratizing quality education across Africa through AI-powered, community-driven, and interactive learning experiences.",
+        "role": "Creator & Developer",
+        "vision": "Quality education for every African learner.",
         "metrics": [
-          {
-            "label": "Modules",
-            "value": "CO2 + Ocean"
-          },
-          {
-            "label": "AI Type",
-            "value": "Computer Vision"
-          },
-          {
-            "label": "Stage",
-            "value": "Completed"
-          }
-        ]
-      },
-      {
-        "id": "akomptaai",
-        "title": "AkomptaAI",
-        "tagline": "AI-Powered Accounting SaaS",
-        "description": "A SaaS platform that brings AI to accounting and financial management. Automates financial processes through ML and voice recognition.",
-        "fullDescription": "AkomptaAI is a comprehensive accounting SaaS that leverages AI to automate financial management. Features include intelligent transaction categorization, voice-enabled data entry, automated report generation, and predictive financial analytics.",
-        "problem": "Small and medium businesses struggle with complex accounting processes and lack affordable AI-powered tools.",
-        "solution": "An AI-powered accounting platform that automates financial management, making it accessible and efficient for businesses of all sizes.",
-        "impact": "Democratizing access to AI-powered financial management tools for African businesses.",
-        "role": "Fullstack Developer & AI Engineer",
-        "vision": "Smart financial management for every business.",
-        "metrics": [
-          {
-            "label": "Type",
-            "value": "SaaS"
-          },
-          {
-            "label": "AI",
-            "value": "ML + Speech"
-          },
-          {
-            "label": "Stage",
-            "value": "Completed"
-          }
+          { "label": "AI Models", "value": "4 LLMs" },
+          { "label": "Tools", "value": "10+ Interactive" },
+          { "label": "Features", "value": "AI Tutor + Mentorship" }
         ]
       },
       {
         "id": "edushare",
         "title": "EduShare",
-        "tagline": "Open-Source Education Platform",
-        "description": "An open-source platform for sharing educational PDFs, with a public API for researchers and developers.",
-        "fullDescription": "EduShare is a participatory platform that enables free sharing of educational documents — courses, revisions, publications. It includes a public API for researchers and developers, making educational resources accessible to everyone.",
-        "problem": "Access to quality educational resources remains limited, especially in developing regions.",
-        "solution": "An open platform where users share educational content freely, with API access for integration with other tools.",
-        "impact": "Democratizing access to educational resources across Africa and beyond.",
+        "tagline": "Open-Source Education Platform with RAG AI",
+        "description": "A comprehensive PDF document sharing platform with a zero-dependency RAG AI assistant using BM25. Transform static educational PDFs into interactive knowledge sources.",
+        "fullDescription": "EduShare is a complete platform for sharing educational PDF documents with a built-in AI assistant powered by a custom RAG system using BM25 Okapi — no external dependencies like FAISS, LangChain, or vector databases. Features include intelligent text extraction per page, smart chunking, BM25 Okapi retrieval with source-cited answers, full-text search with domain/level/tag filters, AI-powered summary, quiz, and translation generation, personalized recommendations, developer API with key quotas and subscription plans, and social features including comments, favorites, badges, and notifications.",
+        "problem": "Access to quality educational resources remains limited, and static PDFs lack interactivity and intelligent search capabilities.",
+        "solution": "An open platform for sharing educational PDFs with a custom BM25 RAG system that makes documents interactive and searchable through AI.",
+        "impact": "Democratizing access to educational resources across Africa with intelligent, AI-powered document interaction.",
         "role": "Creator & Developer",
-        "vision": "Free education for all.",
+        "vision": "Free, intelligent education for all.",
         "metrics": [
-          {
-            "label": "Type",
-            "value": "Open Source"
-          },
-          {
-            "label": "API",
-            "value": "Public REST"
-          },
-          {
-            "label": "Stage",
-            "value": "Completed"
-          }
+          { "label": "RAG Engine", "value": "BM25 Zero-Dep" },
+          { "label": "API", "value": "Public REST" },
+          { "label": "Stage", "value": "Production" }
+        ]
+      },
+      {
+        "id": "legaleaseai",
+        "title": "LegalEase AI",
+        "tagline": "AI Legal Document Analyzer",
+        "description": "A full-stack web application that automatically analyzes and simplifies legal documents (ToS, privacy policies, legal notices) from any website using multi-model AI.",
+        "fullDescription": "LegalEase AI automatically crawls websites, detects legal URLs, extracts content, and analyzes legal documents using a multi-model AI system with automatic fallback (Ollama, OpenAI-compatible). It produces structured results including executive summaries, data collection analysis, usage policies, sharing practices, and critical points. Each analysis includes a readability score (1-10) and risk level (Low/Moderate/High) with color-coded badges, 24h cache, newsletter system, activity logging with geolocation, and an ad system with CTR-weighted rotation.",
+        "problem": "Legal documents are lengthy, complex, and difficult for non-lawyers to understand, leaving users unaware of their rights and risks.",
+        "solution": "An AI-powered platform that automatically crawls, extracts, and analyzes legal documents from any website, providing clear summaries and risk assessments.",
+        "impact": "Making legal transparency accessible to everyone by simplifying complex legal documents into understandable insights.",
+        "role": "Creator & Developer",
+        "vision": "Legal clarity for every internet user.",
+        "metrics": [
+          { "label": "AI Models", "value": "Multi-Model" },
+          { "label": "Analysis", "value": "Automated" },
+          { "label": "Risk Scoring", "value": "1-10 Scale" }
+        ]
+      },
+      {
+        "id": "finetune",
+        "title": "FineTune Platform",
+        "tagline": "Enterprise LLM Fine-Tuning SaaS",
+        "description": "An enterprise-grade SaaS platform for fine-tuning Large Language Models using LoRA/QLoRA, democratizing AI model adaptation for specialized business solutions.",
+        "fullDescription": "FineTune Platform is an enterprise SaaS that democratizes LLM fine-tuning. It supports LoRA/QLoRA for models including Llama 2 7B/13B, Mistral 7B, and CodeLlama 7B. Features include configurable hyperparameters, high-performance GPU or CPU infrastructure, dataset upload in CSV/JSON/JSONL with automatic validation, real-time training metrics tracking (loss, perplexity), integrated Stripe credit system with automatic refunds on failure, artifact management, and 100 free credits for new users.",
+        "problem": "Fine-tuning LLMs for specialized business use cases requires significant technical expertise and expensive infrastructure.",
+        "solution": "A user-friendly SaaS platform that makes enterprise-grade LLM fine-tuning accessible through LoRA/QLoRA with integrated payment and GPU infrastructure.",
+        "impact": "Democratizing LLM customization for businesses of all sizes with enterprise-grade fine-tuning capabilities.",
+        "role": "Creator & Developer",
+        "vision": "Custom AI models for every business.",
+        "metrics": [
+          { "label": "Models", "value": "4 LLMs" },
+          { "label": "Method", "value": "LoRA/QLoRA" },
+          { "label": "Payment", "value": "Stripe Credits" }
+        ]
+      },
+      {
+        "id": "saasbuilder",
+        "title": "SaaS Builder (Djangent)",
+        "tagline": "Agentic Software Engineering OS",
+        "description": "A full-stack platform orchestrating a multi-agent system (Architect, Developer, Tester, Planner) to transform business intent into secure, performant, maintainable software.",
+        "fullDescription": "SaaS Builder (Djangent) is an agentic software engineering platform that orchestrates a multi-agent AI system. It features a Planner agent for DAG-based task decomposition, an AI Architect for system design, technology selection, and database modeling, a Code Orchestrator for autonomous code generation, review, and Git integration, and a Sandbox Executor for isolated Docker execution with automated testing. It includes RAG memory per project, an auto-correction loop with cross-validation, documented API, and a Freemium/SaaS Pro/Enterprise model.",
+        "problem": "Building production-ready software from scratch is time-consuming, requires diverse expertise, and involves repetitive boilerplate.",
+        "solution": "An agentic OS that orchestrates multiple AI agents to autonomously design, build, test, and deploy software from business requirements.",
+        "impact": "Accelerating software development by 10x through autonomous AI agent collaboration and code generation.",
+        "role": "Creator & Developer",
+        "vision": "Software engineering augmented by autonomous AI agents.",
+        "metrics": [
+          { "label": "Agents", "value": "4 AI Agents" },
+          { "label": "Paradigm", "value": "Agentic SE" },
+          { "label": "Execution", "value": "Docker Sandbox" }
+        ]
+      },
+      {
+        "id": "blackbenai",
+        "title": "BlackBenAI",
+        "tagline": "African AI Corporate Site",
+        "description": "The corporate website for BlackBenAI, a Beninese AI startup. Showcases 6 SaaS platforms, team, services, and company news with a modern, performant design.",
+        "fullDescription": "BlackBenAI corporate website (V2) presents the startup's 6 SaaS platforms: LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder, and AfriDataHub. Features include interactive landing pages with carousels and technology grid, interactive demo pages for each product, legal pages (GDPR, OHADA, FAQ, charters), a recruitment page with 6 volunteer categories, PWA support with Service Worker and Workbox, optimized WebP images, and comprehensive SEO with JSON-LD, Open Graph, sitemap.xml, and hreflang.",
+        "problem": "BlackBenAI needed a modern, professional web presence that effectively showcases its multiple AI products and attracts talent and partners.",
+        "solution": "A performant, SEO-optimized corporate website with interactive product demos, PWA support, and comprehensive company information.",
+        "impact": "Establishing BlackBenAI's digital presence as a leading African AI startup with 6 showcased platforms.",
+        "role": "Creator & Developer",
+        "vision": "African AI excellence, showcased to the world.",
+        "metrics": [
+          { "label": "Products", "value": "6 SaaS" },
+          { "label": "Tech", "value": "React + Vite" },
+          { "label": "PWA", "value": "Service Worker" }
+        ]
+      },
+      {
+        "id": "blackbenos",
+        "title": "BlackBenOS",
+        "tagline": "Enterprise ERP & Internal Management",
+        "description": "A comprehensive ERP platform for BlackBenAI featuring employee management, project tracking, financial management, CRM, internal messaging, and AI assistant.",
+        "fullDescription": "BlackBenOS is a complete enterprise management platform for BlackBenAI. It features an analytical dashboard with 4 KPIs and financial charts, employee management across 7 groups (Intern to Partner) with skills and L0-L5 accreditations, project management with Kanban boards, tasks, risks, and time tracking, financial management with transactions, invoices, budget vs actual charts, and PDF export, document management with categories, access levels, approval workflows, and versioning, CRM with client status tracking, internal messaging with inbox, compose, reply, and forward, rich-text announcements with Quill editor, reactions, and comments, real-time notifications, and an AI assistant powered by Google Gemini.",
+        "problem": "Growing AI startups need comprehensive internal management tools tailored to their specific workflows and team structure.",
+        "solution": "A full-featured ERP with employee management, project tracking, finances, CRM, messaging, and AI assistance, all in one platform.",
+        "impact": "Streamlining BlackBenAI's internal operations with a unified, AI-enhanced management system.",
+        "role": "Creator & Developer",
+        "vision": "AI-powered enterprise management for startups.",
+        "metrics": [
+          { "label": "Modules", "value": "8+" },
+          { "label": "Roles", "value": "7 Hierarchies" },
+          { "label": "AI", "value": "Gemini Assistant" }
+        ]
+      },
+      {
+        "id": "virtualabo",
+        "title": "Virtual Labo Chimique",
+        "tagline": "3D Chemistry Virtual Laboratory",
+        "description": "An interactive 3D virtual chemistry laboratory simulating chemical reactions, managing classes, offering quizzes, and supporting 5 languages with PWA offline mode.",
+        "fullDescription": "Virtual Labo Chimique is an immersive educational chemistry laboratory featuring 3D environments built with Three.js and React Three Fiber, including 8 GLB models with HDRI environment, transmissive glass materials, and shadows. It includes a 2D laboratory with Fabric.js drag-and-drop, a catalog of 121+ substances and 60 equipment items, AI-generated mixture and reaction observations via Groq API with temperature control, a safety system with 10-point checklist and pre-lab quiz, class management with teacher dashboard, invite codes, assignments, and grading, AI-powered quiz creation with 5 difficulty levels, multilingual glossary with 26 terms in 5 languages, PWA with offline mode, 8 low-cost experiments, PDF reports, and RTL support for Arabic.",
+        "problem": "Access to chemistry laboratory equipment is limited in many African schools, hindering practical science education.",
+        "solution": "An immersive 3D virtual chemistry lab that simulates real experiments, supports multiple languages, and works offline.",
+        "impact": "Enabling practical chemistry education for students without access to physical laboratory equipment.",
+        "role": "Creator & Developer",
+        "vision": "Virtual labs for every science student.",
+        "metrics": [
+          { "label": "3D Models", "value": "8 GLB" },
+          { "label": "Languages", "value": "5" },
+          { "label": "Substances", "value": "121+" }
         ]
       }
     ],
@@ -460,6 +429,27 @@
           "System Design"
         ],
         "impact": "Built the AI brain of an international recruitment platform."
+      },
+      {
+        "company": "BlackBenAI",
+        "role": "Founder & CEO",
+        "period": "2025 — Present",
+        "location": "Cotonou, Benin",
+        "items": [
+          "Founded and built BlackBenAI, a Beninese AI startup developing sovereign AI solutions for Africa.",
+          "Led the development of 6+ production SaaS platforms including LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder, and AfriDataHub.",
+          "Architected and deployed the full infrastructure stack (Docker, Nginx, PostgreSQL, Redis) across multiple VPS servers managing 50+ containers.",
+          "Built production AI systems including LLM fine-tuning (LoRA/QLoRA), RAG (BM25), computer vision (YOLO), and AI chatbot solutions.",
+          "Managed technical roadmap, product strategy, and company growth from concept to 12+ deployed projects."
+        ],
+        "tags": [
+          "Founder",
+          "AI Product Strategy",
+          "Full-Stack Architecture",
+          "DevOps & Infrastructure",
+          "Team Leadership"
+        ],
+        "impact": "Building Africa's sovereign AI infrastructure with 12+ production projects."
       },
       {
         "company": "CosmoLAB Hub",
