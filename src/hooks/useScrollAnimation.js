@@ -8,6 +8,13 @@ export function useScrollAnimation(options = {}) {
     const element = ref.current
     if (!element) return
 
+    const rect = element.getBoundingClientRect()
+    const alreadyInView = rect.top < window.innerHeight - 50 && rect.bottom > 50
+    if (alreadyInView) {
+      setIsVisible(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -20,14 +27,14 @@ export function useScrollAnimation(options = {}) {
         }
       },
       {
-        threshold: options.threshold || 0.1,
+        threshold: 0,
         rootMargin: options.rootMargin || '0px',
       }
     )
 
     observer.observe(element)
     return () => observer.disconnect()
-  }, [options.threshold, options.rootMargin, options.repeat])
+  }, [options.rootMargin, options.repeat])
 
   return [ref, isVisible]
 }
