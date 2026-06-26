@@ -2,10 +2,13 @@
   "nav": {
     "home": "Accueil",
     "about": "À propos",
-    "expertise": "Expertises",
+    "tools": "Outils",
+    "skills": "Compétences",
+    "expertise": "Expertise",
     "projects": "Projets",
     "experience": "Expérience",
     "certifications": "Certifications",
+    "hobbies": "Loisirs",
     "vision": "Vision",
     "contact": "Contact",
     "menuAriaLabel": "Menu",
@@ -13,35 +16,26 @@
     "switchLanguage": "Changer de langue"
   },
   "hero": {
-    "status": "Ouvert aux collaborations & opportunités",
+    "status": "Disponible pour collaborations & opportunités",
     "typedStrings": [
       "Data Scientist",
-      "AI Engineer",
-      "Fullstack Developer",
-      "Product Builder",
-      "Tech Entrepreneur",
-      "Founder @ BlackBenAI"
+      "Ingénieur IA",
+      "Développeur Full Stack",
+      "Créateur de Produits",
+      "Entrepreneur Tech",
+      "Fondateur @ BlackBenAI"
     ],
     "name": "Marino",
     "lastName": "ATOHOUN",
-    "tagline": "Building African AI Infrastructure & Intelligent Digital Products",
-    "subtitle": "Construire l'infrastructure IA africaine et des produits numériques intelligents",
-    "exploreWork": "Explorer mes Réalisations",
+    "tagline": "Construire l'infrastructure IA africaine et des produits numériques intelligents",
+    "subtitle": "Data Scientist · Ingénieur IA · Développeur Full Stack · Fondateur @ BlackBenAI",
+    "exploreWork": "Explorer mon travail",
     "collaborate": "Collaborons",
     "resume": "CV / Resume",
     "stats": [
-      {
-        "value": "3+",
-        "label": "Years Building"
-      },
-      {
-        "value": "15+",
-        "label": "Projects Shipped"
-      },
-      {
-        "value": "4",
-        "label": "Products Founded"
-      }
+      { "value": "3+", "label": "Années d'expérience" },
+      { "value": "15+", "label": "Projets livrés" },
+      { "value": "4", "label": "Produits fondés" }
     ],
     "location": "Cotonou, Bénin",
     "terminalTitle": "system.sh",
@@ -54,142 +48,143 @@
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Téléphone"
+      "phone": "Téléphone",
+      "website": "Portfolio"
     }
   },
   "about": {
-    "sectionLabel": "About",
-    "title": "L'Histoire Derrière la Construction",
-    "subtitle": "D'une petite chambre au Bénin à la construction de l'infrastructure IA africaine — voici le parcours de quelqu'un qui a refusé d'attendre le futur.",
+    "sectionLabel": "À propos",
+    "title": "Plus sur mon parcours",
+    "subtitle": "D'une petite chambre au Bénin à la construction d'infrastructures IA africaines — voici le parcours de quelqu'un qui a refusé d'attendre le futur.",
     "paragraphs": [
-      "My journey didn't start in a Silicon Valley incubator. It started in a small room with an internet connection and an unstoppable curiosity.",
-      "At IFRI in Benin, I quickly realized formal education alone wouldn't let me build the future I envisioned. So I went further — teaching myself Python, diving into data science, and shipping production apps before most peers had written their first loop.",
-      "J'ai construit Hypee comme l'écosystème numérique africain, contribué à CosmoLAB Hub, et créé BlackBenAI parce que l'Afrique doit posséder sa propre infrastructure IA.",
-      "Today I'm an AI Engineer at Djeemm, founder of BlackBenAI, and builder of multiple products including Donumi, Storya, and Évivi. Between all this, I'm a fullstack developer who ships.",
-      "I don't just write code. I build products, create systems, and envision futures.",
-      "Je code aussi avec l'IA. J'utilise des outils comme opencode, Claude Code et Codex pour accélérer le développement. Cette approche me permet de réaliser de grands projets en un temps record, tout en gardant une maîtrise totale de l'architecture et des décisions techniques."
+      "Mon voyage n'a pas commencé dans une incubatrice de la Silicon Valley. Il a commencé dans une petite chambre avec une connexion internet et une curiosité inarrêtable.",
+      "À l'IFRI au Bénin, j'ai rapidement réalisé que l'éducation formelle seule ne me permettrait pas de construire le futur que j'envisageais. Alors je suis allé plus loin — apprenant Python par moi-même, plongeant dans la data science, et livrant des applications en production avant que la plupart de mes pairs n'aient écrit leur première boucle.",
+      "J'ai construit Hypee comme écosystème numérique africain, contribué à CosmoLAB Hub, et créé BlackBenAI parce que l'Afrique doit posséder sa propre infrastructure IA.",
+      "Aujourd'hui, je suis Ingénieur IA chez Djeemm, fondateur de BlackBenAI, et créateur de multiples produits dont Donumi, Storya, et Évivi. Entre tout ça, je suis un développeur full stack qui livre.",
+      "Je ne fais pas qu'écrire du code. Je construis des produits, crée des systèmes, et imagine des futurs.",
+      "Je code aussi avec l'IA. J'utilise des outils comme opencode, Claude Code et Codex pour accélérer le développement. Cette approche me permet de livrer de grands projets en un temps record tout en gardant un contrôle total sur l'architecture et les décisions techniques."
     ],
     "imageAlt": "Mahouli Marino ATOHOUN",
     "highlights": [
       {
         "label": "Autodidacte",
-        "description": "Built production AI systems through relentless learning, starting from scratch."
+        "description": "Des systèmes IA construits grâce à un apprentissage incessant, en partant de zéro."
       },
       {
         "label": "Ingénieur IA",
-        "description": "NLP, computer vision, LLM systems deployed for real-world applications."
+        "description": "Traitement du langage naturel, vision par ordinateur, systèmes LLM déployés pour des applications réelles."
       },
       {
         "label": "Créateur de Produits",
-        "description": "Founded BlackBenAI, conceptualized Hypee, Donumi, Storya, Évivi."
+        "description": "Fondateur de BlackBenAI, concepteur de Hypee, Donumi, Storya, Évivi."
       },
       {
         "label": "Bâtisseur de Communauté",
-        "description": "Initiation de 100+ jeunes Africains à la programmation. A contribué à CosmoLAB Hub."
+        "description": "Initiation de 100+ jeunes Africains à la programmation. Développement d'outils chez CosmoLAB Hub."
       }
     ],
-    "journeyTitle": "Journey",
+    "journeyTitle": "Parcours",
     "detailLabel": "Détails",
     "journey": [
       {
         "year": "2022",
         "event": "Début à l'IFRI — découverte de la programmation et de la data science.",
-        "detail": "Inscription à l'IFRI (Institut de Formation et de Recherche en Informatique) où j'ai découvert les algorithmes, les structures de données et les fondements de la data science. Cette année a marqué le début de mon parcours technologique, animé par une curiosité insatiable."
+        "detail": "Inscription à l'IFRI (Institut de Formation et de Recherche en Informatique) où j'ai découvert les algorithmes, les structures de données et les fondements de la data science. Cette année a marqué le début de mon voyage dans la technologie, déclenché par une curiosité insatiable."
       },
       {
         "year": "2023",
-        "event": "Autoformation en Python, premières apps, enseignement à 100+ étudiants.",
-        "detail": "Plongée approfondie dans Python en autodidacte, construction de mes premières applications réelles. Parallèlement, j'ai lancé un programme d'enseignement communautaire gratuit, initiant plus de 100 jeunes apprenants à la programmation."
+        "event": "Python autodidacte, premières apps, enseignement à 100+ étudiants.",
+        "detail": "Immersion profonde dans Python en autodidacte, construction de mes premières vraies applications. Parallèlement, lancement d'un programme d'enseignement gratuit, initiant plus de 100 jeunes à la programmation — découvrant qu'enseigner était le meilleur moyen de maîtriser un sujet."
       },
       {
         "year": "2024",
-        "event": "CosmoLAB Hub. Data Scientist. Premiers produits IA. Projets freelance.",
-        "detail": "Rejoint CosmoLAB Hub en tant que Data Scientist, développant des algorithmes d'IA et des applications fullstack. Travail sur des projets innovants dont Akompta, SatcapC02, SatcapOceans et SatcapHealth — construction de pipelines de données, modèles d'IA et systèmes de production dans les domaines du climat, de la santé et de la fintech."
+        "event": "CosmoLAB Hub. Data Scientist. Premiers produits IA. Missions freelance.",
+        "detail": "Intégration de CosmoLAB Hub comme Data Scientist, développement d'algorithmes IA et d'applications full stack. Travail sur des projets innovants comme Akompta, SatcapC02, SatcapOceans et SatcapHealth — construction de pipelines de données, modèles IA et systèmes prêts pour la production dans les domaines du climat, de la santé et de la fintech."
       },
       {
         "year": "2025",
-        "event": "Fondation de BlackBenAI. Conceptualisation de Hypee, Donumi, Storya, Évivi.",
-        "detail": "Fondation de BlackBenAI, une startup béninoise d'IA construisant une infrastructure d'IA souveraine pour l'Afrique. Conceptualisation d'une suite de produits : Hypee (écosystème numérique africain), Donumi, Storya et Évivi — chacun ciblant des lacunes spécifiques du paysage tech africain avec l'IA au cœur."
+        "event": "Fondation de BlackBenAI. Conception de Hypee, Donumi, Storya, Évivi.",
+        "detail": "Fondation de BlackBenAI, une startup IA béninoise construisant une infrastructure IA souveraine pour l'Afrique. Conception d'une suite de produits : Hypee (écosystème numérique africain), Donumi, Storya et Évivi — chacun ciblant des lacunes spécifiques dans le paysage tech africain avec l'IA au cœur."
       },
       {
         "year": "2026",
-        "event": "Ingénieur IA @ Djeemm. Construction à l'échelle. Vision en mouvement.",
-        "detail": "Rejoint Djeemm en tant qu'IA Engineer & AI Product Lead, construisant le moteur d'IA d'une plateforme de recrutement internationale — modèles NLP, recommandations en temps réel et infrastructure ML. Parallèlement, BlackBenAI compte désormais 6+ plateformes SaaS en production."
+        "event": "Ingénieur IA @ Djeemm. Construction à l'échelle. Vision en action.",
+        "detail": "Intégration de Djeemm en tant qu'Ingénieur IA & AI Product Lead, construction du moteur IA d'une plateforme de recrutement internationale — modèles NLP, recommandations en temps réel et infrastructure ML. Parallèlement, BlackBenAI a grandi pour compter 6+ plateformes SaaS en production dans plusieurs domaines."
       }
     ]
   },
   "expertise": {
     "sectionLabel": "Expertise",
-    "title": "Ce que je Construis",
-    "subtitle": "Un ensemble de compétences hybrides couvrant l'IA, l'ingénierie et le produit — forgé à travers des projets réels.",
+    "title": "Ce que je construis",
+    "subtitle": "Un ensemble de compétences hybrides couvrant l'IA, l'ingénierie et le produit — construites à travers des projets réels.",
     "skillCategories": [
       {
-        "title": "AI & Data",
+        "title": "IA & Données",
         "skills": [
           "Machine Learning",
           "Deep Learning",
           "NLP & LLMs",
-          "RAG Systems",
+          "Systèmes RAG",
           "Fine-Tuning",
-          "Computer Vision",
+          "Vision par Ordinateur",
           "MLOps",
           "Data Engineering",
-          "Predictive Analytics"
+          "Analytique Prédictive"
         ]
       },
       {
-        "title": "Software Engineering",
+        "title": "Génie Logiciel",
         "skills": [
           "React / Next.js",
           "Python (Django, FastAPI)",
           "Node.js",
           "TypeScript",
           "PostgreSQL",
-          "REST API Design",
+          "Conception d'API REST",
           "Docker",
           "Cloud (AWS/GCP)",
           "CI/CD"
         ]
       },
       {
-        "title": "Product & Infrastructure",
+        "title": "Produit & Infrastructure",
         "skills": [
-          "System Architecture",
-          "Product Strategy",
-          "Startup Building",
-          "AI Product Design",
-          "Tech Leadership",
+          "Architecture Système",
+          "Stratégie Produit",
+          "Création de Startup",
+          "Conception de Produits IA",
+          "Leadership Technique",
           "Agile / Scrum",
           "DevOps",
-          "Scalable Systems",
-          "Tech Strategy"
+          "Systèmes Scalables",
+          "Stratégie Tech"
         ]
       }
     ],
-    "areasTitle": "Areas of Depth",
-    "areasSubtitle": "Beyond individual skills — where my expertise lives.",
+    "areasTitle": "Domaines de profondeur",
+    "areasSubtitle": "Au-delà des compétences individuelles — là où mon expertise réside.",
     "areas": [
       {
         "area": "Intelligence Artificielle",
-        "description": "Production AI systems — NLP, computer vision, LLMs, RAG. Built for African contexts."
+        "description": "Systèmes IA en production — NLP, vision par ordinateur, LLMs, RAG. Construits pour les contextes africains."
       },
       {
-        "area": "Développement Fullstack",
-        "description": "End-to-end products from DB design to modern interfaces. Scalable, maintainable systems."
+        "area": "Développement Full Stack",
+        "description": "Produits de bout en bout, de la conception BD aux interfaces modernes. Systèmes scalables et maintenables."
       },
       {
         "area": "Création de Produits",
-        "description": "Concept to launch. Combining technical depth with product strategy."
+        "description": "Du concept au lancement. Alliant profondeur technique et stratégie produit."
       },
       {
         "area": "Leadership Technique",
-        "description": "Architecting systems, defining roadmaps, driving execution. Leading technical vision."
+        "description": "Architecture de systèmes, définition de feuilles de route, pilotage de l'exécution. Vision technique."
       }
     ]
   },
   "projects": {
-    "sectionLabel": "Projects",
-    "title": "Ce que j'ai Construit",
+    "sectionLabel": "Projets",
+    "title": "Ce que j'ai construit",
     "subtitle": "Produits, systèmes, expériences — chacun un problème que j'ai choisi de résoudre.",
     "filters": {
       "all": "Tous",
@@ -197,49 +192,49 @@
       "product": "Produit",
       "tech": "Tech"
     },
-    "featuredBadge": "Featured",
+    "featuredBadge": "À la une",
     "expandedLabels": {
-      "problem": "Problem",
+      "problem": "Problème",
       "solution": "Solution",
       "impact": "Impact",
-      "myRole": "My Role",
+      "myRole": "Mon Rôle",
       "vision": "Vision",
       "source": "Source",
       "visit": "Visiter"
     },
-    "moreTitle": "Plus de Projets",
-    "moreSubtitle": "Travaux expérimentaux et open-source.",
+    "moreTitle": "Plus de projets",
+    "moreSubtitle": "Projets expérimentaux et open-source.",
     "list": [
       {
         "id": "afridatahub",
         "title": "AfriDataHub",
         "tagline": "Intelligence Open Data pour l'Afrique",
-        "description": "Une plateforme intelligente de données ouvertes centralisant les données économiques, climatiques, sanitaires et agricoles de 54 pays africains à partir de sources internationales officielles.",
-        "fullDescription": "AfriDataHub est une plateforme interactive de données africaines ouvertes. Elle centralise, analyse et visualise des données économiques, climatiques, sanitaires et agricoles pour 54 pays africains à partir de 10+ sources internationales. Fonctionnalités : tableau de bord avec carte SVG interactive, 160+ jeux de données actifs avec 16 000+ points de données, analyse IA via Google Gemini, analyses prédictives, détection d'anomalies à 4 niveaux, pipeline IA autonome avec Groq, et studio de données interactif.",
-        "problem": "Les données africaines sont dispersées à travers des sources internationales, rendant difficile leur accès et analyse pour les chercheurs et décideurs.",
-        "solution": "Une plateforme unifiée qui agrège les données de 10+ sources internationales avec analyse IA, modélisation prédictive et studio de données interactif.",
-        "impact": "Autonomiser la prise de décision basée sur les données en Afrique avec une intelligence centralisée couvrant 54 pays et 160+ jeux de données.",
+        "description": "Une plateforme open data intelligente centralisant les données économiques, climatiques, sanitaires et agricoles de 54 pays africains à partir de sources internationales officielles.",
+        "fullDescription": "AfriDataHub est une plateforme interactive open data intelligente pour l'Afrique. Elle centralise, analyse et visualise les données économiques, climatiques, sanitaires et agricoles des 54 pays africains à partir de 10+ sources internationales officielles. Fonctionnalités : carte SVG interactive, 160+ jeux de données actifs avec 16 000+ points de données, analyse IA via Google Gemini, analytique prédictive, détection d'anomalies, pipeline IA autonome avec Groq.",
+        "problem": "Les données africaines sont dispersées à travers des sources internationales, rendant difficile l'accès et l'analyse pour les chercheurs et décideurs.",
+        "solution": "Une plateforme unifiée regroupant des données de 10+ sources internationales avec analyse IA, modélisation prédictive et studio interactif.",
+        "impact": "Des décisions éclairées par les données pour toute l'Afrique grâce à une intelligence centralisée de 54 pays et 160+ jeux de données.",
         "role": "Créateur & Développeur",
-        "vision": "L'intelligence décisionnelle pour chaque Africain.",
+        "vision": "L'intelligence des données pour chaque décision africaine.",
         "metrics": [
           { "label": "Pays", "value": "54" },
-          { "label": "Datasets", "value": "160+" },
-          { "label": "Points de données", "value": "16K+" }
+          { "label": "Jeux données", "value": "160+" },
+          { "label": "Points données", "value": "16K+" }
         ]
       },
       {
         "id": "greenmetrics",
         "title": "GreenMetrics",
         "tagline": "Agriculture de Précision par IA",
-        "description": "Une plateforme SaaS d'agriculture de précision qui transforme l'agriculture traditionnelle en un écosystème piloté par les données pour les agriculteurs africains.",
-        "fullDescription": "GreenMetrics est une plateforme SaaS d'agriculture de précision avec gestion des cultures, suivi des récoltes, gestion des dépenses catégorisées, tableau de bord interactif avec KPIs, AgriTalk chatbot IA via Groq API, AILab pour rapports analytiques avec export PDF, conseils agricoles personnalisés, marketplace agricole, et système d'abonnement Free/Pro/Expert.",
-        "problem": "Les agriculteurs africains manquent d'outils data-driven pour la gestion des cultures, le suivi financier et l'accès aux marchés.",
-        "solution": "Une plateforme SaaS complète combinant gestion agricole, intelligence artificielle et marketplace pour les transactions directes.",
-        "impact": "Permettre aux agriculteurs africains d'augmenter leur productivité et d'accéder à de nouveaux marchés grâce à l'agriculture data-driven.",
+        "description": "Une plateforme SaaS d'agriculture de précision qui transforme l'agriculture traditionnelle en un écosystème data-driven, conçu pour les agriculteurs africains.",
+        "fullDescription": "GreenMetrics est une plateforme SaaS d'agriculture de précision avec gestion des cultures, suivi des récoltes, dépenses catégorisées, tableau de bord KPI, chatbot AgriTalk IA via Groq, AILab pour rapports analytiques avec export PDF, conseils agricoles personnalisés, marketplace et système Freemium/Pro/Expert.",
+        "problem": "Les agriculteurs africains n'ont pas accès aux outils data-driven pour la gestion des cultures et l'accès au marché.",
+        "solution": "Une plateforme SaaS complète combinant gestion agricole, intelligence artificielle et marketplace.",
+        "impact": "Permettre aux agriculteurs africains d'augmenter leur productivité et de réduire leurs coûts.",
         "role": "Créateur & Développeur",
-        "vision": "L'agriculture data-driven pour chaque agriculteur africain.",
+        "vision": "Une agriculture data-driven pour chaque agriculteur africain.",
         "metrics": [
-          { "label": "IA", "value": "AgriTalk + AILab" },
+          { "label": "Fonctions IA", "value": "AgriTalk + AILab" },
           { "label": "Marketplace", "value": "Intégrée" },
           { "label": "Offres", "value": "Free/Pro/Expert" }
         ]
@@ -247,45 +242,45 @@
       {
         "id": "edulab",
         "title": "EduLab Africa",
-        "tagline": "Plateforme Éducative Interactive par IA",
-        "description": "Une plateforme éducative moderne pour l'Afrique avec tuteur IA, système de mentorat, forum communautaire, gamification et outils interactifs incluant un Atlas 3D.",
-        "fullDescription": "EduLab Africa est une plateforme e-learning complète intégrant un tuteur IA (Gemini, GPT, Groq, Ollama), un forum communautaire Q&A, un système de mentorat avec réservation de sessions, messagerie temps réel via WebSockets, gamification avec 6 niveaux de badges, bourses et opportunités, et des outils interactifs : Atlas 3D avec Cesium, labo de code avec Sandpack et Monaco Editor, cartes mentales, programmation visuelle avec Blockly, et simulateur de physique avec Matter.js.",
-        "problem": "Les étudiants africains manquent d'accès à des outils éducatifs interactifs et IA combinant apprentissage communautaire et mentorat.",
-        "solution": "Une plateforme éducative tout-en-un avec tutorat IA, apprentissage communautaire, mentorat et gamification adaptée au contexte africain.",
-        "impact": "Démocratiser l'éducation de qualité en Afrique à travers des expériences d'apprentissage IA et interactives.",
+        "tagline": "Plateforme d'Apprentissage Interactif par IA",
+        "description": "Une plateforme éducative moderne pour l'Afrique avec tuteur IA, mentorat, forum communautaire et outils interactifs.",
+        "fullDescription": "EduLab Africa est une plateforme e-learning complète intégrant un tuteur IA (Gemini, GPT, Groq, Ollama), forum Q&A, mentorat avec réservation et avis, messagerie temps réel, badges et classements, bourses et opportunités, atlas 3D avec Cesium, labo de code avec Sandpack et Monaco Editor, mind maps avec Markmap, programmation visuelle avec Blockly et simulateur physique avec Matter.js.",
+        "problem": "Les étudiants africains n'ont pas accès à des outils éducatifs interactifs et IA adaptés à leur contexte.",
+        "solution": "Une plateforme éducative tout-en-un avec tuteur IA, apprentissage communautaire, mentorat et outils interactifs.",
+        "impact": "Démocratiser l'éducation de qualité en Afrique à travers des expériences d'apprentissage IA et communautaires.",
         "role": "Créateur & Développeur",
         "vision": "Une éducation de qualité pour chaque apprenant africain.",
         "metrics": [
           { "label": "Modèles IA", "value": "4 LLMs" },
           { "label": "Outils", "value": "10+ Interactifs" },
-          { "label": "Fonctionnalités", "value": "Tuteur IA + Mentorat" }
+          { "label": "Fonctions", "value": "Tuteur IA + Mentorat" }
         ]
       },
       {
         "id": "edushare",
         "title": "EduShare",
         "tagline": "Plateforme Éducative Open-Source avec RAG IA",
-        "description": "Une plateforme complète de partage de documents PDF avec assistant IA RAG zéro-dépendance utilisant BM25. Transforme les PDF statiques en sources de connaissance interactives.",
-        "fullDescription": "EduShare est une plateforme de partage de documents éducatifs PDF avec un assistant IA basé sur un système RAG BM25 Okapi — sans dépendances externes. Fonctionnalités : extraction de texte par page, chunking intelligent, recherche BM25 avec réponses sourcées, recherche plein texte avec filtres, génération IA de résumés, quiz et traductions, API développeur avec quotas et abonnements, et fonctionnalités sociales.",
-        "problem": "L'accès aux ressources éducatives de qualité est limité et les PDF statiques manquent d'interactivité et de recherche intelligente.",
-        "solution": "Une plateforme ouverte de partage de PDF avec un système RAG BM25 qui rend les documents interactifs et rechercherables via IA.",
-        "impact": "Démocratiser l'accès aux ressources éducatives en Afrique avec une interaction documentaire intelligente par IA.",
+        "description": "Plateforme de partage de documents PDF avec assistant RAG zéro-dépendance utilisant BM25. Transformez des PDF éducatifs en sources de connaissances interactives.",
+        "fullDescription": "EduShare est une plateforme complète de partage de PDF éducatifs avec assistant IA propulsé par un système RAG personnalisé utilisant BM25 Okapi — sans dépendances externes. Fonctionnalités : extraction intelligente par page, découpage intelligent, recherche BM25 avec réponses sourcées, recherche plein texte avec filtres, résumé IA, quiz et traduction, recommandations personnalisées, API développeur avec quotas et forfaits, commentaires, favoris et notifications.",
+        "problem": "L'accès aux ressources éducatives de qualité reste limité, et les PDF statiques manquent d'interactivité.",
+        "solution": "Une plateforme ouverte de partage de PDF avec un système RAG BM25 personnalisé rendant les documents interactifs.",
+        "impact": "Démocratiser l'accès aux ressources éducatives en Afrique avec une interaction documentaire intelligente.",
         "role": "Créateur & Développeur",
-        "vision": "Une éducation libre et intelligente pour tous.",
+        "vision": "Une éducation intelligente et gratuite pour tous.",
         "metrics": [
           { "label": "Moteur RAG", "value": "BM25 Zero-Dep" },
           { "label": "API", "value": "REST Publique" },
-          { "label": "Statut", "value": "Production" }
+          { "label": "État", "value": "Production" }
         ]
       },
       {
         "id": "legaleaseai",
         "title": "LegalEase AI",
         "tagline": "Analyseur de Documents Juridiques IA",
-        "description": "Une application web full-stack qui analyse et simplifie automatiquement les documents juridiques (CGU, politiques de confidentialité) depuis n'importe quel site web via IA multi-modèle.",
-        "fullDescription": "LegalEase AI crawle automatiquement les sites web, détecte les URLs juridiques, extrait le contenu et analyse les documents via un système multi-modèle IA avec fallback automatique. Produit des résumés exécutifs, analyse des données collectées, score de lisibilité (1-10), niveau de risque (Faible/Modéré/Élevé), cache 24h, newsletter, logs d'activité et système publicitaire.",
+        "description": "Application web full stack qui analyse et simplifie automatiquement les documents juridiques de tout site web via l'IA multimodèle.",
+        "fullDescription": "LegalEase AI explore automatiquement les sites web, détecte les URLs juridiques, extrait le contenu et analyse les documents juridiques via un système IA multimodèle avec fallback automatique (Ollama, OpenAI). Produit des résumés exécutifs, analyse de collecte de données, politiques d'utilisation, score de lisibilité (1-10) et niveau de risque, cache 24h, newsletter, logs d'activité avec géolocalisation.",
         "problem": "Les documents juridiques sont longs, complexes et difficiles à comprendre pour les non-juristes.",
-        "solution": "Une plateforme IA qui crawle, extrait et analyse automatiquement les documents juridiques de tout site web avec des résumés clairs.",
+        "solution": "Une plateforme IA qui explore, extrait et analyse automatiquement les documents juridiques de tout site web.",
         "impact": "Rendre la transparence juridique accessible à tous en simplifiant les documents complexes.",
         "role": "Créateur & Développeur",
         "vision": "La clarté juridique pour chaque internaute.",
@@ -299,10 +294,10 @@
         "id": "finetune",
         "title": "FineTune Platform",
         "tagline": "SaaS de Fine-Tuning LLM d'Entreprise",
-        "description": "Une plateforme SaaS enterprise-grade pour le fine-tuning de LLMs via LoRA/QLoRA, démocratisant l'adaptation des modèles d'IA pour des solutions métier spécialisées.",
-        "fullDescription": "FineTune Platform est un SaaS enterprise qui démocratise le fine-tuning de LLMs. Supporte LoRA/QLoRA pour Llama 2, Mistral, CodeLlama. Paramètres configurables, infrastructure GPU ou CPU, upload de datasets avec validation, suivi temps réel des métriques, système de crédits Stripe avec remboursement automatique, gestion des artéfacts et 100 crédits gratuits.",
+        "description": "Plateforme SaaS de fine-tuning de LLMs avec LoRA/QLoRA, démocratisant l'adaptation de modèles IA pour des solutions métier spécialisées.",
+        "fullDescription": "FineTune Platform est un SaaS d'entreprise pour le fine-tuning de LLMs. Supporte LoRA/QLoRA pour Llama 2, Mistral 7B, CodeLlama 7B. Fonctionnalités : hyperparamètres configurables, infrastructure GPU/CPU performante, upload de datasets en CSV/JSON/JSONL avec validation automatique, métriques d'entraînement temps réel, Stripe crédits avec remboursement automatique, gestion d'artefacts.",
         "problem": "Le fine-tuning de LLMs pour des cas d'usage métier spécialisés nécessite une expertise technique et une infrastructure coûteuse.",
-        "solution": "Un SaaS user-friendly rendant le fine-tuning enterprise-grade accessible via LoRA/QLoRA avec paiement intégré et infrastructure GPU.",
+        "solution": "Une plateforme SaaS accessible rendant le fine-tuning LLM d'entreprise possible via LoRA/QLoRA.",
         "impact": "Démocratiser la personnalisation de LLMs pour les entreprises de toutes tailles.",
         "role": "Créateur & Développeur",
         "vision": "Des modèles IA sur mesure pour chaque entreprise.",
@@ -315,14 +310,14 @@
       {
         "id": "saasbuilder",
         "title": "SaaS Builder (Djangent)",
-        "tagline": "OS de Génie Logiciel Agentique",
-        "description": "Une plateforme full-stack orchestrant un système multi-agents (Architecte, Développeur, Testeur, Planificateur) pour transformer une intention métier en logiciel sécurisé et performant.",
-        "fullDescription": "SaaS Builder (Djangent) orchestre un système multi-agents IA avec Agent Planner pour décomposition DAG, Architecte IA pour conception système, Code Orchestrator pour génération de code autonome et intégration Git, Sandbox Executor pour exécution isolée Docker avec tests. Inclut mémoire RAG, boucle d'auto-correction, API documentée et modèle Freemium/Pro/Enterprise.",
-        "problem": "Construire un logiciel prêt pour la production prend du temps, nécessite des expertises variées et implique du code répétitif.",
-        "solution": "Un OS agentique qui orchestre plusieurs agents IA pour concevoir, construire, tester et déployer du logiciel de façon autonome.",
-        "impact": "Accélérer le développement logiciel par 10x grâce à la collaboration autonome d'agents IA.",
+        "tagline": "Système d'Ingénierie Logicielle Agentique",
+        "description": "Plateforme full stack orchestrant un système multi-agents pour transformer une intention métier en logiciel sécurisé et performant.",
+        "fullDescription": "SaaS Builder (Djangent) orchestre un système multi-agents IA : Agent Planificateur pour décomposition DAG, Architecte IA pour conception système, Orchestrateur de Code pour génération autonome, et Exécuteur Sandbox pour tests Docker isolés. Inclut mémoire RAG par projet, boucle d'auto-correction, API documentée et modèle Freemium/SaaS Pro/Enterprise.",
+        "problem": "Construire un logiciel prêt pour la production est chronophage et nécessite des expertises diverses.",
+        "solution": "Un OS agentique qui orchestre plusieurs agents IA pour concevoir, construire et déployer du logiciel de façon autonome.",
+        "impact": "Accélération du développement logiciel par 10x grâce à la collaboration d'agents IA autonomes.",
         "role": "Créateur & Développeur",
-        "vision": "Le génie logiciel augmenté par des agents IA autonomes.",
+        "vision": "L'ingénierie logicielle augmentée par des agents IA autonomes.",
         "metrics": [
           { "label": "Agents", "value": "4 Agents IA" },
           { "label": "Paradigme", "value": "SE Agentique" },
@@ -332,17 +327,17 @@
       {
         "id": "blackbenai",
         "title": "BlackBenAI",
-        "tagline": "Site Corporatif IA Africain",
-        "description": "Le site web corporatif de BlackBenAI, startup béninoise d'IA. Présente 6 plateformes SaaS, l'équipe, les services et les actualités avec un design moderne et performant.",
-        "fullDescription": "Site vitrine V2 de BlackBenAI présentant les 6 plateformes SaaS : LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder et AfriDataHub. Pages d'accueil interactives avec carrousels, pages démo pour chaque produit, pages légales, page recrutement avec 6 catégories, PWA avec Service Worker, images WebP optimisées et SEO complet.",
-        "problem": "BlackBenAI avait besoin d'une présence web professionnelle moderne pour présenter ses multiples produits IA et attirer talents et partenaires.",
-        "solution": "Un site corporatif performant et optimisé SEO avec démos interactives, support PWA et informations complètes.",
-        "impact": "Établir la présence numérique de BlackBenAI comme startup IA africaine de premier plan avec 6 plateformes présentées.",
+        "tagline": "Site Corporate IA Africain",
+        "description": "Site web corporate pour BlackBenAI, startup IA béninoise. Présente 6 plateformes SaaS, l'équipe et les services.",
+        "fullDescription": "Site corporate BlackBenAI (V2) présentant les 6 plateformes SaaS : LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder et AfriDataHub. Pages interactives avec carrousels, démos interactives, pages légales (RGPD, OHADA, FAQ), recrutement, PWA avec Service Worker, images WebP optimisées et SEO complet.",
+        "problem": "BlackBenAI avait besoin d'une présence web professionnelle pour présenter ses multiples produits IA.",
+        "solution": "Un site corporate performant et optimisé SEO avec démos produits interactives et PWA.",
+        "impact": "Établir la présence numérique de BlackBenAI comme startup IA africaine leader avec 6 plateformes.",
         "role": "Créateur & Développeur",
         "vision": "L'excellence IA africaine, présentée au monde.",
         "metrics": [
           { "label": "Produits", "value": "6 SaaS" },
-          { "label": "Technologie", "value": "React + Vite" },
+          { "label": "Tech", "value": "React + Vite" },
           { "label": "PWA", "value": "Service Worker" }
         ]
       },
@@ -350,13 +345,13 @@
         "id": "blackbenos",
         "title": "BlackBenOS",
         "tagline": "ERP d'Entreprise & Gestion Interne",
-        "description": "Une plateforme ERP complète pour BlackBenAI avec gestion des employés, suivi de projets, finances, CRM, messagerie interne et assistant IA.",
-        "fullDescription": "BlackBenOS est une plateforme de gestion d'entreprise complète avec tableau de bord analytique, gestion des employés sur 7 groupes avec compétences et accréditations L0-L5, gestion de projets avec Kanban, finances avec transactions et factures, gestion documentaire avec workflows d'approbation, CRM, messagerie interne, annonces avec éditeur Quill, notifications temps réel et assistant IA Google Gemini.",
-        "problem": "Les startups IA en croissance ont besoin d'outils de gestion interne complets adaptés à leurs workflows spécifiques.",
-        "solution": "Un ERP complet avec gestion des employés, projets, finances, CRM, messagerie et assistance IA en une seule plateforme.",
-        "impact": "Optimiser les opérations internes de BlackBenAI avec un système de gestion unifié et augmenté par l'IA.",
+        "description": "Plateforme ERP complète pour BlackBenAI avec gestion des employés, projets, finances, CRM et assistant IA.",
+        "fullDescription": "BlackBenOS est une plateforme de gestion d'entreprise complète avec tableau de bord analytique, gestion des employés (7 groupes, compétences L0-L5), gestion de projets (Kanban, tâches, risques), finances (transactions, factures, budget), documents (catégories, workflows d'approbation), CRM, messagerie interne, annonces riche-texte, notifications temps réel et assistant IA Google Gemini.",
+        "problem": "Les startups IA en croissance ont besoin d'outils de gestion interne adaptés à leurs flux de travail spécifiques.",
+        "solution": "Un ERP complet avec gestion des employés, projets, finances, CRM, messagerie et assistance IA.",
+        "impact": "Rationalisation des opérations internes de BlackBenAI avec un système de gestion unifié et augmenté par IA.",
         "role": "Créateur & Développeur",
-        "vision": "La gestion d'entreprise augmentée par l'IA pour les startups.",
+        "vision": "Une gestion d'entreprise augmentée par IA pour les startups.",
         "metrics": [
           { "label": "Modules", "value": "8+" },
           { "label": "Rôles", "value": "7 Hiérarchies" },
@@ -367,13 +362,13 @@
         "id": "virtualabo",
         "title": "Virtual Labo Chimique",
         "tagline": "Laboratoire de Chimie Virtuel 3D",
-        "description": "Un laboratoire de chimie virtuel 3D interactif simulant des réactions chimiques, gérant des classes, proposant des quiz et supportant 5 langues avec mode PWA hors-ligne.",
-        "fullDescription": "Virtual Labo Chimique est un laboratoire de chimie éducatif immersif avec environnements 3D (Three.js, React Three Fiber), 8 modèles GLB avec matériaux verre transmisifs, laboratoire 2D (Fabric.js), catalogue de 121+ substances et 60 équipements, observations IA via Groq API avec contrôle de température, système de sécurité, gestion de classe avec tableau de bord enseignant, quiz IA avec 5 niveaux, glossaire multilingue en 5 langues, PWA hors-ligne, 8 expériences low-cost et support RTL arabe.",
-        "problem": "L'accès à l'équipement de laboratoire de chimie est limité dans de nombreuses écoles africaines.",
-        "solution": "Un laboratoire de chimie virtuel 3D immersif qui simule des expériences réelles, multilingue et fonctionnant hors-ligne.",
-        "impact": "Permettre l'éducation pratique à la chimie pour les étudiants sans accès à un laboratoire physique.",
+        "description": "Laboratoire de chimie virtuel 3D interactif simulant des réactions chimiques, avec gestion de classes et support de 5 langues.",
+        "fullDescription": "Virtual Labo Chimique est un laboratoire éducatif immersif avec environnements 3D Three.js, 8 modèles GLB, matériaux verre et ombres. Inclut laboratoire 2D Fabric.js, catalogue de 121+ substances et 60 équipements, observations IA via Groq, sécurité avec checklist 10 points, gestion de classe, quiz IA, glossaire multilingue (5 langues), PWA offline, 8 expériences et rapports PDF.",
+        "problem": "L'accès aux équipements de laboratoire de chimie est limité dans de nombreuses écoles africaines.",
+        "solution": "Un laboratoire de chimie virtuel 3D immersif simulant des expériences réelles, multilingue et hors ligne.",
+        "impact": "Permettre l'enseignement pratique de la chimie aux étudiants sans accès à un laboratoire physique.",
         "role": "Créateur & Développeur",
-        "vision": "Des laboratoires virtuels pour chaque étudiant scientifique.",
+        "vision": "Des laboratoires virtuels pour chaque étudiant en sciences.",
         "metrics": [
           { "label": "Modèles 3D", "value": "8 GLB" },
           { "label": "Langues", "value": "5" },
@@ -383,47 +378,47 @@
     ],
     "techProjects": [
       {
-        "title": "Détection d'Incendie IA",
-        "description": "Détection d'incendie en temps réel à partir d'images et de vidéos avec YOLO. Un système de sécurité IA pour la protection des infrastructures."
+        "title": "Fire Detection AI",
+        "description": "Détection d'incendie en temps réel par images et vidéo avec YOLO. Système de sécurité IA."
       },
       {
-        "title": "Reconnaissance de Langue des Signes",
-        "description": "Traduction en temps réel de la langue des signes via caméra grâce au deep learning. Solution d'accessibilité pour les sourds et malentendants."
+        "title": "Sign Language Recognition",
+        "description": "Traduction de langue des signes en temps réel via caméra par deep learning."
       },
       {
-        "title": "Système de Détection d'Intrusion",
-        "description": "Système de surveillance vidéo alimenté par l'IA qui détecte les intrusions en temps réel."
+        "title": "Intrusion Detection System",
+        "description": "Système de vidéosurveillance IA détectant les intrusions en temps réel."
       },
       {
         "title": "GuardClause",
-        "description": "Système NLP qui analyse automatiquement les conditions générales, identifiant les clauses critiques pour les utilisateurs."
+        "description": "Système NLP qui analyse automatiquement les conditions générales d'utilisation."
       },
       {
-        "title": "TrafficInsight IA",
-        "description": "Analyse prédictive de la densité du trafic en environnements urbains à l'aide de techniques ML avancées."
+        "title": "TrafficInsight AI",
+        "description": "Analyse prédictive de densité de trafic en environnements urbains par ML."
       },
       {
-        "title": "Prédicteur DiabèteX",
-        "description": "Modèle IA pour la prédiction précoce du diabète à l'aide de données de santé, visant à améliorer les diagnostics préventifs."
+        "title": "DiabeteX Predictor",
+        "description": "Modèle IA de prédiction précoce du diabète à partir de données de santé."
       }
     ]
   },
   "experience": {
-    "sectionLabel": "Experience",
-    "title": "Où j'ai Livré",
-    "subtitle": "Chaque rôle a été une mission. Voici l'impact que j'ai eu.",
-    "impactLabel": "Impact :",
+    "sectionLabel": "Expérience",
+    "title": "Là où j'ai livré",
+    "subtitle": "Chaque rôle a été une mission. Voici l'impact que j'ai créé.",
+    "impactLabel": "Impact : ",
     "entries": [
       {
         "company": "Djeemm",
-        "role": "Ingénieur IA & Responsable Produit IA",
+        "role": "Ingénieur IA & AI Product Lead",
         "period": "2026 — Présent",
         "location": "Distant",
         "items": [
-          "Construit le moteur IA pour le scoring et le matching de talents — l'intelligence centrale de la plateforme.",
-          "Dirigé la stratégie produit IA : feuille de route ML, décisions techniques alignées sur les objectifs métier.",
-          "Développé des modèles NLP pour le matching intelligent candidat-poste et l'extraction de compétences.",
-          "Architecturé l'infrastructure de données en temps réel alimentant les recommandations IA."
+          "Construction du moteur IA de scoring et matching de talents — l'intelligence centrale de la plateforme.",
+          "Direction de la stratégie produit IA : roadmap ML, décisions techniques alignées aux objectifs métier.",
+          "Développement de modèles NLP pour le matching candidat-poste et l'extraction de compétences.",
+          "Architecture d'une infrastructure de données temps réel propulsant les recommandations IA."
         ],
         "tags": [
           "Leadership Produit IA",
@@ -431,19 +426,19 @@
           "Architecture ML",
           "Conception Système"
         ],
-        "impact": "Construit le cerveau IA d'une plateforme de recrutement internationale."
+        "impact": "Construction du cerveau IA d'une plateforme de recrutement internationale."
       },
       {
         "company": "BlackBenAI",
-        "role": "Co-fondateur & CEO",
+        "role": "Fondateur & CEO",
         "period": "2025 — Présent",
         "location": "Cotonou, Bénin",
         "items": [
-          "Fondé et construit BlackBenAI, une startup béninoise d'IA développant des solutions souveraines pour l'Afrique.",
-          "Dirigé le développement de 6+ plateformes SaaS de production : LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder et AfriDataHub.",
-          "Architecturé et déployé la stack d'infrastructure complète (Docker, Nginx, PostgreSQL, Redis) sur plusieurs serveurs VPS gérant 50+ conteneurs.",
-          "Construit des systèmes d'IA de production incluant le fine-tuning de LLMs (LoRA/QLoRA), RAG (BM25), vision par ordinateur (YOLO) et chatbots IA.",
-          "Géré la feuille de route technique, la stratégie produit et la croissance de l'entreprise du concept à 12+ projets déployés."
+          "Fondation et construction de BlackBenAI, startup IA béninoise développant des solutions IA souveraines pour l'Afrique.",
+          "Direction du développement de 6+ plateformes SaaS en production.",
+          "Architecture et déploiement de l'infrastructure complète (Docker, Nginx, PostgreSQL, Redis) sur plusieurs VPS gérant 50+ conteneurs.",
+          "Construction de systèmes IA en production : fine-tuning LLM (LoRA/QLoRA), RAG (BM25), vision (YOLO), chatbots.",
+          "Gestion de la roadmap technique, stratégie produit et croissance de l'entreprise."
         ],
         "tags": [
           "Fondateur",
@@ -452,42 +447,42 @@
           "DevOps & Infrastructure",
           "Leadership d'Équipe"
         ],
-        "impact": "Construire l'infrastructure d'IA souveraine de l'Afrique avec 12+ projets de production."
+        "impact": "Construction de l'infrastructure IA souveraine africaine avec 12+ projets en production."
       },
       {
         "company": "CosmoLAB Hub",
-        "role": "Data Scientist & Développeur Fullstack",
+        "role": "Data Scientist & Développeur Full Stack",
         "period": "Avr 2024 — 2026",
         "location": "Bénin",
         "items": [
-          "Développé des algorithmes IA et des pipelines de données pour des projets d'innovation multi-domaines.",
-          "Construit des applications fullstack intégrant la data science avec des interfaces web modernes.",
-          "Optimisé les systèmes de base de données pour le traitement et l'analytique de données à grande échelle."
+          "Développement d'algorithmes IA et de pipelines de données pour des projets d'innovation multi-domaines.",
+          "Construction d'applications full stack intégrant la data science aux interfaces web modernes.",
+          "Optimisation de systèmes de bases de données pour le traitement et l'analyse de données à grande échelle."
         ],
         "tags": [
           "Data Science",
-          "Fullstack",
+          "Full Stack",
           "IA",
           "Architecture Base de Données"
         ],
-        "impact": "Conduit l'innovation basée sur les données à travers les gammes de produits."
+        "impact": "Conduite de l'innovation data-driven à travers les gammes de produits."
       },
       {
         "company": "Freelance",
-        "role": "Développeur Fullstack",
+        "role": "Développeur Full Stack",
         "period": "2023 — 2024",
         "location": "Togo",
         "items": [
-          "Livré des sites web de production pour Tasly Togo (santé) et Julie Soap (industrie manufacturière).",
+          "Livraison de sites web pour Tasly Togo (santé) et Julie Soap (manufacture).",
           "Livraison de bout en bout : consultation client, architecture, développement, déploiement.",
-          "Géré les relations clients, les exigences et les délais de manière indépendante."
+          "Gestion indépendante des relations clients, exigences et délais."
         ],
         "tags": [
           "Développement Web",
           "Livraison Client",
-          "Fullstack"
+          "Full Stack"
         ],
-        "impact": "Livré des systèmes de production pour de vraies entreprises."
+        "impact": "Systèmes en production livrés pour de vraies entreprises."
       },
       {
         "company": "Enseignement Bénévole",
@@ -495,9 +490,9 @@
         "period": "2022 — 2023",
         "location": "Bénin",
         "items": [
-          "Initiation de 100+ jeunes apprenants à la programmation via un programme communautaire gratuit.",
-          "Développé le programme et le matériel pédagogique pour les fondamentaux de Python.",
-          "Fourni un mentorat personnalisé aux développeurs en herbe."
+          "Initiation de 100+ jeunes à la programmation via un programme communautaire gratuit.",
+          "Développement du curriculum et du matériel pédagogique pour les fondamentaux Python.",
+          "Mentorat personnalisé pour les développeurs en herbe."
         ],
         "tags": [
           "Enseignement",
@@ -505,7 +500,7 @@
           "Communauté",
           "Mentorat"
         ],
-        "impact": "Initiation de 100+ jeunes Africains à la programmation."
+        "impact": "Introduction de 100+ jeunes Africains à la programmation."
       }
     ]
   },
@@ -527,7 +522,7 @@
         "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
       },
       {
-        "title": "Se préparer au métier d’analyste de données par Microsoft et LinkedIn",
+        "title": "Se préparer au métier d'analyste de données par Microsoft et LinkedIn",
         "issuer": "Microsoft et LinkedIn",
         "date": "Mai 2024",
         "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
@@ -613,63 +608,64 @@
     ]
   },
   "vision": {
-    "sectionLabel": "Manifesto",
-    "title": "Le Futur que je Construis",
+    "sectionLabel": "Manifeste",
+    "title": "Le futur que je construis",
     "subtitle": "Plus qu'une carrière. Une mission pour façonner le destin technologique de l'Afrique.",
-    "quote": "« L'Afrique n'a pas besoin de rattraper le futur.",
+    "quote": "\"L'Afrique n'a pas besoin de rattraper le futur. L'Afrique doit le construire.\"",
     "pillars": [
       {
         "title": "Souveraineté IA Africaine",
-        "description": "Africa must build its own AI — LLMs in our languages, systems in our context. Not just consuming foreign models trained on foreign data."
+        "description": "L'Afrique doit construire sa propre IA — des LLMs dans nos langues, des systèmes dans notre contexte. Pas seulement consommer des modèles étrangers."
       },
       {
         "title": "Indépendance Numérique",
-        "description": "21st century freedom means digital sovereignty. African nations must own their data, infrastructure, and technological destiny."
+        "description": "La liberté du 21ème siècle passe par la souveraineté numérique. Les nations africaines doivent posséder leurs données, infrastructures et destin technologique."
       },
       {
         "title": "Innovation depuis l'Afrique",
-        "description": "The next wave of global innovation will come from solving African challenges. Our constraints become our competitive advantage."
+        "description": "La prochaine vague d'innovation mondiale viendra de la résolution des défis africains. Nos contraintes deviennent notre avantage concurrentiel."
       },
       {
         "title": "Tech pour l'Impact",
-        "description": "Every product is measured by its real impact — on education, health, economic opportunity, and human potential. Not just revenue."
+        "description": "Chaque produit est mesuré par son impact réel — sur l'éducation, la santé, les opportunités économiques et le potentiel humain."
       }
     ],
-    "ctaText": "Je recherche des partenaires, investisseurs et bâtisseurs qui partagent cette vision. Si vous façonnez l'avenir tech de l'Afrique, connectons-nous.",
+    "ctaText": "Je recherche des partenaires, investisseurs et bâtisseurs qui partagent cette vision. Vous façonnez le futur tech africain ? Connectons-nous.",
     "ctaButton": "Rejoindre la Mission"
   },
   "contact": {
     "sectionLabel": "Contact",
     "title": "Construisons Ensemble",
     "subtitle": "Vous avez un projet, une idée ou une vision partagée ? Je serais ravi d'avoir de vos nouvelles.",
-    "heading": "Get in Touch",
-    "description": "Open to new projects, collaborations, or opportunities to be part of your vision. Currently available for consulting and partnerships.",
+    "heading": "Envoyez-moi un message",
+    "description": "Ouvert aux nouveaux projets, collaborations ou opportunités. Disponible pour du conseil et des partenariats.",
     "info": [
       {
         "label": "Email",
         "value": "marinoatohoun@gmail.com"
       },
       {
-        "label": "Location",
-        "value": "Cotonou, Benin"
+        "label": "Localisation",
+        "value": "Cotonou, Bénin"
       }
     ],
-    "socialHeading": "Social / Professional",
+    "socialHeading": "Réseaux",
     "socialLinks": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Téléphone"
+      "phone": "Téléphone",
+      "website": "Portfolio"
     },
     "form": {
-      "nameLabel": "Your Name",
+      "nameLabel": "Votre nom",
       "namePlaceholder": "John Doe",
-      "emailLabel": "Your Email",
+      "emailLabel": "Votre email",
       "emailPlaceholder": "john@example.com",
       "messageLabel": "Message",
-      "messagePlaceholder": "Tell me about your project or idea...",
-      "submitButton": "Send Message",
-      "directEmail": "Or email directly:"
+      "messagePlaceholder": "Parlez-moi de votre projet ou idée...",
+      "submitButton": "Envoyer le message",
+      "directEmail": "Ou envoyez directement à :"
     }
   },
   "footer": {
@@ -682,15 +678,69 @@
       "whatsapp": "WhatsApp",
       "phone": "Téléphone"
     },
-    "copyright": "Tous droits réservés."
+    "copyright": "Mahouli Marino ATOHOUN. Tous droits réservés."
   },
   "chat": {
-    "initialMessage": "Salut ! Je suis l'assistant IA de Marino. Demande-moi tout sur son travail, ses projets, ses compétences ou son expérience !",
+    "initialMessage": "Salut ! Je suis l'assistant IA de Marino. Posez-moi des questions sur son travail, ses projets, ses compétences ou son expérience !",
     "headerTitle": "IA de Marino",
-    "headerSubtitle": "Pose-moi des questions sur lui",
-    "inputPlaceholder": "Demande sur Marino...",
+    "headerSubtitle": "Demandez-moi tout sur lui",
+    "inputPlaceholder": "Interrogez Marino...",
     "buttonAriaLabel": "Discuter avec l'IA de Marino",
-    "errorMessage": "⚠️ {{error}}. Assure-toi que le serveur est en cours d'exécution (npm run dev:server)."
+    "errorMessage": "⚠️ {{error}}. Assurez-vous que le serveur tourne (npm run dev:server)."
+  },
+  "tools": {
+    "sectionLabel": "Outils",
+    "title": "Ma Boîte à Outils",
+    "subtitle": "Les outils que j'utilise au quotidien pour construire et déployer des solutions IA.",
+    "list": [
+      { "name": "VS Code", "icon": "vscode", "description": "Éditeur principal pour Python, TypeScript, JavaScript. Configuration complète pour le développement IA." },
+      { "name": "Docker", "icon": "docker", "description": "Conteneurisation pour toutes mes apps. Orchestration de 50+ conteneurs en production sur VPS." },
+      { "name": "Git & GitHub", "icon": "git", "description": "Versionnement et collaboration. CI/CD automatisé pour tous mes projets SaaS." },
+      { "name": "Linux", "icon": "linux", "description": "Environnement de dev et production. Administration de serveurs VPS sur Ubuntu." },
+      { "name": "Jupyter Notebook", "icon": "notebook", "description": "Exploration et prototypage en data science. Notebooks interactifs pour l'analyse et le modélisation." },
+      { "name": "Ollama", "icon": "llama", "description": "Inférence LLM locale. Modèles open-source pour RAG, fine-tuning et chatbots." },
+      { "name": "Hugging Face", "icon": "huggingface", "description": "Modèles pré-entraînés, datasets et pipelines NLP. Hub pour tous mes modèles." },
+      { "name": "LangChain", "icon": "workflow", "description": "Framework d'orchestration LLM. Chaînes, agents, outils pour applications IA complexes." },
+      { "name": "Streamlit", "icon": "presentation", "description": "Prototypage rapide d'applications data science. Dashboards Python interactifs." },
+      { "name": "Pandas & NumPy", "icon": "table", "description": "Manipulation et analyse de données. DataFrames, calcul numérique, ETL." },
+      { "name": "Scikit-learn", "icon": "gauge", "description": "Machine learning classique. Classification, régression, clustering, feature engineering." },
+      { "name": "Matplotlib & Seaborn", "icon": "chart", "description": "Visualisation de données. Graphiques statistiques, heatmaps, dashboards." },
+      { "name": "TensorFlow/Keras", "icon": "tf", "description": "Deep learning. Réseaux de neurones, CNN, RNN, modèles séquentiels." },
+      { "name": "CUDA", "icon": "cpu", "description": "Calcul GPU pour l'entraînement de modèles. Optimisation des performances ML." },
+      { "name": "MLflow", "icon": "tracking", "description": "MLOps. Suivi d'expériences, gestion de modèles, déploiement en production." },
+      { "name": "Airflow", "icon": "pipeline", "description": "Orchestration de pipelines de données. Workflows ETL automatisés et planifiés." },
+      { "name": "Groq", "icon": "zap", "description": "Inférence LLM ultra-rapide. APIs pour apps temps réel, chatbots et RAG." },
+      { "name": "Gemini", "icon": "sparkles", "description": "Google Generative AI. Analyse de données, vision, NLP, intégration API." },
+      { "name": "OpenAI API", "icon": "openai", "description": "GPT-4, embeddings, fine-tuning. Intégré dans mes produits SaaS." },
+      { "name": "Postman", "icon": "globe", "description": "Test et documentation d'API REST. Collections de test pour toutes mes API Django." },
+      { "name": "Nginx", "icon": "server", "description": "Proxy inverse, équilibrage de charge et serveur HTTP pour les apps en production." }
+    ]
+  },
+  "skillsDetail": {
+    "sectionLabel": "Technologies",
+    "title": "Stack Technique",
+    "subtitle": "Technologies que j'utilise pour construire des produits complets, du backend à l'IA.",
+    "list": [
+      { "name": "Python", "icon": "python", "description": "Langage principal. Data science, ML, backend Django/FastAPI, scripts d'automatisation." },
+      { "name": "Django", "icon": "django", "description": "Framework backend pour 6+ plateformes SaaS. DRF, Celery, Channels, ORM avancé." },
+      { "name": "React", "icon": "react", "description": "Frontend moderne pour toutes les apps. React 19, hooks, context, TanStack Query." },
+      { "name": "PyTorch", "icon": "pytorch", "description": "Deep learning. Fine-tuning LLM (LoRA/QLoRA), vision par ordinateur (YOLO), NLP." },
+      { "name": "FastAPI", "icon": "fastapi", "description": "APIs haute performance. Async, validation Pydantic, documentation automatique." },
+      { "name": "PostgreSQL", "icon": "postgres", "description": "Base de données principale. Modélisation complexe, requêtes optimisées, migrations." },
+      { "name": "Docker", "icon": "docker", "description": "Déploiement et isolation. Multi-conteneurs, Docker Compose, images optimisées." },
+      { "name": "LLMs & RAG", "icon": "brain", "description": "Intégration LLM (GPT, Llama, Gemini, Groq). Systèmes RAG avec BM25, pipelines IA." }
+    ]
+  },
+  "hobbies": {
+    "sectionLabel": "Loisirs",
+    "title": "Au-delà du Code",
+    "subtitle": "Ce qui m'inspire et me ressourcer en dehors du développement.",
+    "list": [
+      { "name": "Musique", "icon": "music" },
+      { "name": "Cinéma", "icon": "film" },
+      { "name": "Sport", "icon": "sport" },
+      { "name": "Voyage", "icon": "travel" }
+    ]
   },
   "languages": {
     "en": "Anglais",

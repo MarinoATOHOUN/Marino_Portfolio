@@ -2,10 +2,13 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
+    "tools": "Herramientas",
+    "skills": "Habilidades",
     "expertise": "Especialidades",
     "projects": "Proyectos",
     "experience": "Experiencia",
     "certifications": "Certificaciones",
+    "hobbies": "Pasatiempos",
     "vision": "Visión",
     "contact": "Contacto",
     "menuAriaLabel": "Menu",
@@ -54,7 +57,8 @@
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Teléfono"
+      "phone": "Teléfono",
+      "website": "Portafolio"
     }
   },
   "about": {
@@ -640,8 +644,8 @@
   "contact": {
     "sectionLabel": "Contact",
     "title": "Construyamos",
-    "subtitle": "Have a project, idea, or shared vision? I'd love to hear from you.",
-    "heading": "Get in Touch",
+    "subtitle": "¿Tienes un proyecto, una idea o una visión compartida? Me encantaría saber de ti.",
+    "heading": "Envíame un mensaje",
     "description": "¿Tienes un proyecto, idea o visión compartida? Me encantaría saber de ti.",
     "info": [
       {
@@ -653,12 +657,13 @@
         "value": "Cotonou, Benin"
       }
     ],
-    "socialHeading": "Social / Professional",
+    "socialHeading": "Redes Sociales",
     "socialLinks": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Teléfono"
+      "phone": "Teléfono",
+      "website": "Portafolio"
     },
     "form": {
       "nameLabel": "Tu Nombre",
@@ -667,8 +672,8 @@
       "emailPlaceholder": "juan@ejemplo.com",
       "messageLabel": "Tu Mensaje",
       "messagePlaceholder": "Cuéntame sobre tu proyecto o idea...",
-      "submitButton": "Send Message",
-      "directEmail": "Or email directly:"
+      "submitButton": "Enviar mensaje",
+      "directEmail": "O escribe directamente a:"
     }
   },
   "footer": {

@@ -3,10 +3,13 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import Hero from '@/components/sections/Hero'
 import About from '@/components/sections/About'
+import Tools from '@/components/sections/Tools'
+import SkillsDetail from '@/components/sections/SkillsDetail'
 import Expertise from '@/components/sections/Expertise'
 import Projects from '@/components/sections/Projects'
 import Experience from '@/components/sections/Experience'
 import Certifications from '@/components/sections/Certifications'
+import Hobbies from '@/components/sections/Hobbies'
 import Vision from '@/components/sections/Vision'
 import Contact from '@/components/sections/Contact'
 import ChatBot from '@/components/chat/ChatBot'
@@ -16,7 +19,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'expertise', 'projects', 'experience', 'certifications', 'vision', 'contact']
+      const sections = ['hero', 'about', 'tools', 'skills', 'expertise', 'projects', 'experience', 'certifications', 'hobbies', 'vision', 'contact']
       const scrollPosition = window.scrollY + 120
 
       for (const section of sections) {
@@ -48,10 +51,13 @@ function App() {
       <main>
         <Hero onNavClick={scrollToSection} />
         <About />
+        <Tools />
+        <SkillsDetail />
         <Expertise />
         <Projects />
         <Experience />
         <Certifications />
+        <Hobbies />
         <Vision />
         <Contact />
       </main>

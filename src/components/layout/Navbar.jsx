@@ -12,10 +12,13 @@ export default function Navbar({ activeSection, onNavClick }) {
   const navItems = [
     { id: 'hero', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
+    { id: 'tools', label: t('nav.tools') },
+    { id: 'skills', label: t('nav.skills') },
     { id: 'expertise', label: t('nav.expertise') },
     { id: 'projects', label: t('nav.projects') },
     { id: 'experience', label: t('nav.experience') },
     { id: 'certifications', label: t('nav.certifications') },
+    { id: 'hobbies', label: t('nav.hobbies') },
     { id: 'vision', label: t('nav.vision') },
     { id: 'contact', label: t('nav.contact') },
   ]

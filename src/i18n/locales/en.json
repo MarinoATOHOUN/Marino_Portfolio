@@ -2,15 +2,18 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "tools": "Tools",
+    "skills": "Skills",
     "expertise": "Expertise",
     "projects": "Projects",
     "experience": "Experience",
     "certifications": "Certifications",
+    "hobbies": "Hobbies",
     "vision": "Vision",
     "contact": "Contact",
     "menuAriaLabel": "Menu",
     "logo": "MA.",
-    "switchLanguage": "Switch language"
+    "switchLanguage": "Switch Language"
   },
   "hero": {
     "status": "Open for collaborations & opportunities",
@@ -54,7 +57,8 @@
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Phone"
+      "phone": "Phone",
+      "website": "Portfolio"
     }
   },
   "about": {
@@ -642,7 +646,7 @@
     "sectionLabel": "Contact",
     "title": "Let's Build Together",
     "subtitle": "Have a project, idea, or shared vision? I'd love to hear from you.",
-    "heading": "Get in Touch",
+    "heading": "Send me a message",
     "description": "Open to new projects, collaborations, or opportunities to be part of your vision. Currently available for consulting and partnerships.",
     "info": [
       {
@@ -659,7 +663,8 @@
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "whatsapp": "WhatsApp",
-      "phone": "Phone"
+      "phone": "Phone",
+      "website": "Portfolio"
     },
     "form": {
       "nameLabel": "Your Name",
@@ -691,6 +696,60 @@
     "inputPlaceholder": "Ask about Marino...",
     "buttonAriaLabel": "Chat with Marino's AI",
     "errorMessage": "⚠️ {{error}}. Make sure the server is running (npm run dev:server)."
+  },
+  "tools": {
+    "sectionLabel": "Tools",
+    "title": "My Toolbox",
+    "subtitle": "The tools I use daily to build and deploy AI solutions.",
+    "list": [
+      { "name": "VS Code", "icon": "vscode", "description": "Primary editor for Python, TypeScript, JavaScript. Fully configured for AI development." },
+      { "name": "Docker", "icon": "docker", "description": "Containerization for all my apps. Orchestrating 50+ containers in production on VPS." },
+      { "name": "Git & GitHub", "icon": "git", "description": "Version control and collaboration. CI/CD automated for all my SaaS projects." },
+      { "name": "Linux", "icon": "linux", "description": "Dev and production environment. VPS server administration on Ubuntu." },
+      { "name": "Jupyter Notebook", "icon": "notebook", "description": "Data science exploration and prototyping. Interactive notebooks for analysis and modeling." },
+      { "name": "Ollama", "icon": "llama", "description": "Local LLM inference. Open-source models for RAG, fine-tuning, and chatbots." },
+      { "name": "Hugging Face", "icon": "huggingface", "description": "Pretrained models, datasets, and NLP pipelines. Hub for all my models." },
+      { "name": "LangChain", "icon": "workflow", "description": "LLM orchestration framework. Chains, agents, tools for complex AI applications." },
+      { "name": "Streamlit", "icon": "presentation", "description": "Rapid prototyping of data science apps. Interactive Python dashboards." },
+      { "name": "Pandas & NumPy", "icon": "table", "description": "Data manipulation and analysis. DataFrames, numerical computing, ETL." },
+      { "name": "Scikit-learn", "icon": "gauge", "description": "Classic machine learning. Classification, regression, clustering, feature engineering." },
+      { "name": "Matplotlib & Seaborn", "icon": "chart", "description": "Data visualization. Statistical charts, heatmaps, dashboards." },
+      { "name": "TensorFlow/Keras", "icon": "tf", "description": "Deep learning. Neural networks, CNN, RNN, sequence models." },
+      { "name": "CUDA", "icon": "cpu", "description": "GPU computing for model training. ML performance optimization." },
+      { "name": "MLflow", "icon": "tracking", "description": "MLOps. Experiment tracking, model management, production deployment." },
+      { "name": "Airflow", "icon": "pipeline", "description": "Data pipeline orchestration. Automated and scheduled ETL workflows." },
+      { "name": "Groq", "icon": "zap", "description": "Ultra-fast LLM inference. APIs for real-time apps, chatbots, and RAG." },
+      { "name": "Gemini", "icon": "sparkles", "description": "Google Generative AI. Data analysis, vision, NLP, API integration." },
+      { "name": "OpenAI API", "icon": "openai", "description": "GPT-4, embeddings, fine-tuning. Integrated into my SaaS products." },
+      { "name": "Postman", "icon": "globe", "description": "REST API testing and documentation. Test collections for all Django APIs." },
+      { "name": "Nginx", "icon": "server", "description": "Reverse proxy, load balancing, and HTTP server for production apps." }
+    ]
+  },
+  "skillsDetail": {
+    "sectionLabel": "Technologies",
+    "title": "Tech Stack",
+    "subtitle": "Technologies I use to build complete products, from backend to AI.",
+    "list": [
+      { "name": "Python", "icon": "python", "description": "Primary language. Data science, ML, Django/FastAPI backend, automation scripting." },
+      { "name": "Django", "icon": "django", "description": "Backend framework for 6+ SaaS platforms. DRF, Celery, Channels, advanced ORM." },
+      { "name": "React", "icon": "react", "description": "Modern frontend for all apps. React 19, hooks, context, TanStack Query." },
+      { "name": "PyTorch", "icon": "pytorch", "description": "Deep learning. LLM fine-tuning (LoRA/QLoRA), computer vision (YOLO), NLP models." },
+      { "name": "FastAPI", "icon": "fastapi", "description": "High-performance APIs. Async, Pydantic validation, automatic documentation." },
+      { "name": "PostgreSQL", "icon": "postgres", "description": "Primary database. Complex modeling, optimized queries, migrations." },
+      { "name": "Docker", "icon": "docker", "description": "Deployment and isolation. Multi-container, Docker Compose, optimized images." },
+      { "name": "LLMs & RAG", "icon": "brain", "description": "LLM integration (GPT, Llama, Gemini, Groq). RAG systems with BM25, AI pipelines." }
+    ]
+  },
+  "hobbies": {
+    "sectionLabel": "Hobbies",
+    "title": "Beyond Code",
+    "subtitle": "What inspires and recharges me outside of development.",
+    "list": [
+      { "name": "Music", "icon": "music" },
+      { "name": "Cinema", "icon": "film" },
+      { "name": "Sports", "icon": "sport" },
+      { "name": "Travel", "icon": "travel" }
+    ]
   },
   "languages": {
     "en": "English",

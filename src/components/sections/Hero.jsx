@@ -424,7 +424,7 @@ export default function Hero({ onNavClick }) {
 
         <motion.div
           variants={fadeUp}
-          className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-12 sm:mb-14"
+          className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 mb-12 sm:mb-14"
         >
           <button
             onClick={() => onNavClick('projects')}
@@ -474,7 +474,7 @@ export default function Hero({ onNavClick }) {
 
         <motion.div
           variants={fadeUp}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-muted-foreground/90"
+          className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 text-sm text-muted-foreground/90"
         >
           <div className="flex items-center gap-2">
             <MapPin size={13} className="text-blue-500/60" />
