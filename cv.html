@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Marino ATOHOUN - CV</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  color: #1a1a2e;
+  background: #f0f2f5;
+  line-height: 1.5;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  max-width: 210mm;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* === HEADER === */
+.header {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  color: white;
+  padding: 36px 40px 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(16,185,129,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header-content { position: relative; z-index: 1; }
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 2px;
+}
+
+.header h1 span { color: #60a5fa; }
+
+.header .title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  letter-spacing: 0.01em;
+}
+
+.header .contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  font-size: 11px;
+  color: #cbd5e1;
+}
+
+.header .contact a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.header .contact a:hover { text-decoration: underline; }
+
+/* === SUMMARY === */
+.summary {
+  padding: 20px 40px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 12.5px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* === MAIN GRID === */
+.main { display: flex; }
+
+.main-left { width: 65%; padding: 24px 20px 24px 40px; }
+
+.main-right { width: 35%; padding: 24px 40px 24px 20px; background: #fafbfc; }
+
+/* === SECTION === */
+.section { margin-bottom: 20px; }
+
+.section-header {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0f172a;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-header::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 14px;
+  background: #3b82f6;
+  border-radius: 2px;
+}
+
+/* === EXPERIENCE === */
+.experience-item { margin-bottom: 16px; }
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+
+.experience-role {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.experience-company {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3b82f6;
+}
+
+.experience-period {
+  font-size: 10.5px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.experience-location {
+  font-size: 10.5px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-list li {
+  font-size: 11.5px;
+  color: #334155;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 3px;
+  line-height: 1.5;
+}
+
+.experience-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 1px;
+  color: #3b82f6;
+  font-size: 10px;
+}
+
+.experience-impact {
+  margin-top: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #059669;
+  padding: 3px 8px;
+  background: #ecfdf5;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 5px;
+}
+
+.experience-tags span {
+  font-size: 9px;
+  padding: 1px 7px;
+  background: #eef2ff;
+  color: #4338ca;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* === PROJECTS === */
+.project-item { margin-bottom: 12px; }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.project-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.project-role {
+  font-size: 10px;
+  color: #64748b;
+}
+
+.project-desc {
+  font-size: 11px;
+  color: #475569;
+  margin: 2px 0 3px;
+  line-height: 1.5;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.project-stack span {
+  font-size: 8.5px;
+  padding: 1px 6px;
+  background: #f1f5f9;
+  color: #475569;
+  border-radius: 3px;
+  border: 1px solid #e2e8f0;
+}
+
+/* === SKILLS === */
+.skills-category { margin-bottom: 12px; }
+
+.skills-category-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.skills-tags span {
+  font-size: 10px;
+  padding: 2px 8px;
+  background: white;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* === CERTIFICATIONS === */
+.cert-item {
+  font-size: 11px;
+  color: #334155;
+  padding: 3px 0;
+  border-bottom: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cert-item:last-child { border-bottom: none; }
+
+.cert-title { flex: 1; }
+
+.cert-issuer {
+  font-size: 9px;
+  color: #64748b;
+  white-space: nowrap;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+/* === EDUCATION === */
+.education-item {
+  font-size: 11.5px;
+  color: #334155;
+  margin-bottom: 4px;
+}
+
+.education-school {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.education-detail {
+  font-size: 10.5px;
+  color: #64748b;
+}
+
+/* === LINKS === */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.links a {
+  font-size: 11px;
+  color: #3b82f6;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.links a:hover { text-decoration: underline; }
+
+/* === PRINT === */
+@page { size: A4; margin: 0; }
+
+@media print {
+  body { background: white; }
+  .page { box-shadow: none; margin: 0; max-width: 100%; }
+  .main-right { background: #fafbfc; }
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-content">
+      <h1>Marino <span>ATOHOUN</span></h1>
+      <div class="title">AI Engineer &bull; Data Scientist &bull; Full Stack Python Developer</div>
+      <div class="contact">
+        <span>&#9742; +229 01 59 03 71 70</span>
+        <span>&#9993; marinoatohoun@gmail.com</span>
+        <span>&#9906; Cotonou, B&eacute;nin</span>
+        <a href="https://github.com/MarinoATOHOUN">github.com/MarinoATOHOUN</a>
+        <a href="https://www.linkedin.com/in/marino-atohoun">linkedin.com/in/marino-atohoun</a>
+        <a href="https://www.marinoatohoun.tech/">marinoatohoun.tech</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="summary">
+    <strong>AI Engineer</strong> et <strong>Data Scientist</strong> sp&eacute;cialis&eacute; dans le d&eacute;veloppement de solutions bas&eacute;es sur l&rsquo;intelligence artificielle, les plateformes web &agrave; forte composante data et les architectures backend Python. Exp&eacute;rience dans la conception de produits de bout en bout, du prototype au d&eacute;ploiement, avec une forte orientation produit et entrepreneuriat. Fondateur de <strong>BlackBenAI</strong>, startup b&eacute;ninoise construisant l&rsquo;infrastructure IA souveraine pour l&rsquo;Afrique avec <strong>12+ projets en production</strong>.
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- LEFT COLUMN -->
+    <div class="main-left">
+
+      <!-- EXPERIENCE -->
+      <div class="section">
+        <div class="section-header">Exp&eacute;rience</div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <span class="experience-role">IA Engineer &amp; AI Product Lead</span>
+              <span class="experience-company"> &mdash; <a href="https://djeemm.com/" target="_blank" style="color:#3b82f6;text-decoration:none;">Djeemm</a></span>
+            </div>
+            <span class="experience-period">2026 &mdash; Pr&eacute;sent</span>
+          </div>
+          <div class="experience-location">Remote</div>
+          <ul class="experience-list">
+            <li>Con&ccedil;u et construit le moteur IA de scoring et matching de talents &mdash; l&rsquo;intelligence centrale de la plateforme de recrutement internationale.</li>
+            <li>Dirig&eacute; la strat&eacute;gie produit IA : d&eacute;finition de la roadmap ML et alignement des d&eacute;cisions techniques avec les objectifs m&eacute;tier.</li>
+            <li>D&eacute;velopp&eacute; des mod&egrave;les NLP pour le matching intelligent candidat-poste, le parsing de CV et l&rsquo;extraction de comp&eacute;tences.</li>
+            <li>Architectur&eacute; l&rsquo;infrastructure de donn&eacute;es temps r&eacute;el alimentant les recommandations IA.</li>
+          </ul>
+          <div class="experience-impact">Construit le cerveau IA d&rsquo;une plateforme de recrutement internationale.</div>
+          <div class="experience-tags">
+            <span>AI Product Leadership</span><span>NLP</span><span>ML Architecture</span><span>System Design</span>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <span class="experience-role">Founder &amp; CEO</span>
+              <span class="experience-company"> &mdash; <a href="https://blackbenai.com" target="_blank" style="color:#3b82f6;text-decoration:none;">BlackBenAI</a></span>
+            </div>
+            <span class="experience-period">2025 &mdash; Pr&eacute;sent</span>
+          </div>
+          <div class="experience-location">Cotonou, B&eacute;nin</div>
+          <ul class="experience-list">
+            <li>Fond&eacute; et construit BlackBenAI, startup b&eacute;ninoise d&eacute;veloppant des solutions IA souveraines pour l&rsquo;Afrique &mdash; 12+ projets en production.</li>
+            <li>Dirig&eacute; le d&eacute;veloppement de <strong>6 plateformes SaaS</strong> : LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder, AfriDataHub.</li>
+            <li>Architectur&eacute; et d&eacute;ploy&eacute; l&rsquo;infrastructure compl&egrave;te (Docker, Nginx, PostgreSQL, Redis) sur 3 VPS g&eacute;rant <strong>50+ conteneurs</strong>.</li>
+            <li>Construit des syst&egrave;mes IA de production : fine-tuning LLM (LoRA/QLoRA), RAG (BM25), computer vision (YOLO), chatbots IA.</li>
+          </ul>
+          <div class="experience-impact">Construction de l&rsquo;infrastructure IA souveraine africaine avec 12+ projets en production.</div>
+          <div class="experience-tags">
+            <span>Founder</span><span>AI Product Strategy</span><span>Full-Stack Architecture</span><span>DevOps</span><span>Team Leadership</span>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <span class="experience-role">Data Scientist &amp; Fullstack Developer</span>
+              <span class="experience-company"> &mdash; <a href="https://cosmolabhub.space/" target="_blank" style="color:#3b82f6;text-decoration:none;">CosmoLAB Hub</a></span>
+            </div>
+            <span class="experience-period">Avr 2024 &mdash; 2026</span>
+          </div>
+          <div class="experience-location">B&eacute;nin (Sur site)</div>
+          <ul class="experience-list">
+            <li>D&eacute;velopp&eacute; des algorithmes IA et pipelines de donn&eacute;es pour des projets multi-domaines (climat, sant&eacute;, fintech).</li>
+            <li>Construit des applications fullstack int&eacute;grant data science et interfaces web modernes.</li>
+            <li>Optimis&eacute; les syst&egrave;mes de base de donn&eacute;es pour le traitement et l&rsquo;analytique &agrave; grande &eacute;chelle.</li>
+          </ul>
+          <div class="experience-impact">Conduit l&rsquo;innovation data-driven &agrave; travers les gammes de produits.</div>
+          <div class="experience-tags">
+            <span>Data Science</span><span>Fullstack</span><span>AI Algorithms</span><span>Database Administration</span>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <span class="experience-role">D&eacute;veloppeur Fullstack</span>
+              <span class="experience-company"> &mdash; Freelance</span>
+            </div>
+            <span class="experience-period">2023 &mdash; 2024</span>
+          </div>
+          <div class="experience-location">Togo (Sur site)</div>
+          <ul class="experience-list">
+            <li>Livr&eacute; des sites web de production pour Tasly Togo (sant&eacute;) et Julie Soap (manufacturing).</li>
+            <li>Livraison de bout en bout : consultation client &rarr; architecture &rarr; d&eacute;veloppement &rarr; d&eacute;ploiement.</li>
+            <li>G&eacute;r&eacute; les relations clients et les d&eacute;lais de mani&egrave;re ind&eacute;pendante.</li>
+          </ul>
+          <div class="experience-impact">Livr&eacute; des syst&egrave;mes de production pour de vraies entreprises.</div>
+          <div class="experience-tags">
+            <span>Web Development</span><span>Client Management</span><span>Fullstack</span>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <div>
+              <span class="experience-role">Instructeur Python</span>
+              <span class="experience-company"> &mdash; Programme B&eacute;n&eacute;vole</span>
+            </div>
+            <span class="experience-period">2022 &mdash; 2023</span>
+          </div>
+          <div class="experience-location">B&eacute;nin (En ligne)</div>
+          <ul class="experience-list">
+            <li>Initi&eacute; <strong>100+ jeunes apprenants</strong> &agrave; la programmation via un programme communautaire gratuit.</li>
+            <li>D&eacute;velopp&eacute; le programme et le mat&eacute;riel p&eacute;dagogique pour les fondamentaux de Python.</li>
+            <li>Fourni un mentorat personnalis&eacute; aux d&eacute;veloppeurs en herbe.</li>
+          </ul>
+          <div class="experience-impact">Initiation de 100+ jeunes Africains &agrave; la programmation.</div>
+          <div class="experience-tags">
+            <span>Teaching</span><span>Python</span><span>Community Building</span><span>Mentorship</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="section">
+        <div class="section-header">Projets Cl&eacute;s</div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">AfriDataHub</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Plateforme open data intelligente centralisant les donn&eacute;es de <strong>54 pays africains</strong> depuis 10+ sources internationales. <strong>160+ datasets</strong> actifs avec <strong>16 000+ points de donn&eacute;es</strong>, analyse IA via Gemini, analyses pr&eacute;dictives et pipeline IA autonome avec Groq.</div>
+          <div class="project-stack">
+            <span>Django</span><span>DRF</span><span>React 19</span><span>PostgreSQL</span><span>Redis</span><span>Gemini</span><span>Groq</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">GreenMetrics</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Plateforme SaaS d&rsquo;agriculture de pr&eacute;cision avec gestion des cultures, suivi financier, chatbot IA AgriTalk (Groq), AILab pour rapports analytiques et marketplace agricole. Syst&egrave;me d&rsquo;abonnement Free/Pro/Expert.</div>
+          <div class="project-stack">
+            <span>Django</span><span>DRF</span><span>React 19</span><span>PostgreSQL</span><span>Groq</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">FineTune Platform</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">SaaS enterprise-grade pour le fine-tuning de LLMs (Llama 2, Mistral, CodeLlama) via <strong>LoRA/QLoRA</strong>. Infrastructure GPU, suivi temps r&eacute;el des m&eacute;triques, syst&egrave;me de cr&eacute;dits Stripe.</div>
+          <div class="project-stack">
+            <span>Django</span><span>DRF</span><span>React 19</span><span>PostgreSQL</span><span>PyTorch</span><span>LoRA/QLoRA</span><span>Stripe</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">SaaS Builder (Djangent)</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">OS de g&eacute;nie logiciel agentique orchestrant <strong>4 agents IA</strong> (Architecte, D&eacute;veloppeur, Testeur, Planificateur) pour transformer une intention m&eacute;tier en logiciel pr&ecirc;t pour la production. Ex&eacute;cution isol&eacute;e en sandbox Docker.</div>
+          <div class="project-stack">
+            <span>Django</span><span>DRF</span><span>React 19</span><span>TypeScript</span><span>PostgreSQL</span><span>Ollama</span><span>Gemini</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">EduLab Africa</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Plateforme &eacute;ducative compl&egrave;te avec tuteur IA (4 mod&egrave;les LLM), mentorat, gamification, Atlas 3D, laboratoire de code collaboratif et simulateur de physique.</div>
+          <div class="project-stack">
+            <span>Django</span><span>React 19</span><span>TypeScript</span><span>PostgreSQL</span><span>Redis</span><span>Three.js</span><span>Gemini</span><span>Groq</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">Virtual Labo Chimique</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Laboratoire de chimie virtuel <strong>3D</strong> avec 8 mod&egrave;les GLB, <strong>121+ substances</strong>, observations IA, support de <strong>5 langues</strong>, mode PWA hors-ligne et gestion de classes.</div>
+          <div class="project-stack">
+            <span>Django</span><span>React 18</span><span>Three.js</span><span>R3F</span><span>PostgreSQL</span><span>Groq</span><span>i18next</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">EduShare</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Plateforme de partage de PDF avec assistant IA RAG <strong>BM25 z&eacute;ro-d&eacute;pendance</strong>. Extraction, chunking et recherche intelligente sans FAISS ni vector DB.</div>
+          <div class="project-stack">
+            <span>Django</span><span>React 19</span><span>PostgreSQL</span><span>Redis</span><span>RAG BM25</span><span>Groq</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <span class="project-title">LegalEase AI</span>
+            <span class="project-role">Cr&eacute;ateur &amp; D&eacute;veloppeur</span>
+          </div>
+          <div class="project-desc">Analyseur automatique de documents juridiques (CGU, politiques de confidentialit&eacute;) via IA multi-mod&egrave;le avec fallback. Score de lisibilit&eacute; et niveau de risque.</div>
+          <div class="project-stack">
+            <span>Django</span><span>React 19</span><span>PostgreSQL</span><span>Ollama</span><span>BeautifulSoup</span><span>Docker</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="main-right">
+
+      <!-- SKILLS -->
+      <div class="section">
+        <div class="section-header">Comp&eacute;tences</div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">Langages</div>
+          <div class="skills-tags">
+            <span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">IA &amp; Data</div>
+          <div class="skills-tags">
+            <span>Machine Learning</span><span>Deep Learning</span><span>NLP &amp; LLMs</span><span>RAG Systems</span><span>Fine-Tuning (LoRA/QLoRA)</span><span>Computer Vision (YOLO)</span><span>Data Engineering</span><span>Predictive Analytics</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">Backend</div>
+          <div class="skills-tags">
+            <span>Django</span><span>FastAPI</span><span>REST API Design</span><span>Node.js</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">Frontend</div>
+          <div class="skills-tags">
+            <span>React 19</span><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>Three.js</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">Cloud &amp; DevOps</div>
+          <div class="skills-tags">
+            <span>Docker</span><span>PostgreSQL</span><span>Redis</span><span>Nginx</span><span>Git</span><span>Linux</span><span>CI/CD</span><span>VPS Infrastructure</span>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-category-title">Product &amp; Leadership</div>
+          <div class="skills-tags">
+            <span>System Architecture</span><span>Product Strategy</span><span>Tech Leadership</span><span>AI Product Design</span><span>Startup Building</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="section-header">Formation</div>
+
+        <div class="education-item">
+          <div class="education-school">IFRI &mdash; Institut de Formation et de Recherche en Informatique</div>
+          <div class="education-detail">Abomey-Calavi, B&eacute;nin &bull; 2022 &mdash; 2023</div>
+          <div class="education-detail" style="margin-top:2px;font-size:10px;color:#475569;line-height:1.5;">
+            Premi&egrave;re ann&eacute;e en G&eacute;nie Logiciel avec une sp&eacute;cialisation en Data Science.<br>
+            Acquisition de comp&eacute;tences en programmation, d&eacute;veloppement web, machine learning et math&eacute;matiques appliqu&eacute;es.
+          </div>
+        </div>
+
+        <div class="education-item" style="margin-top:8px;">
+          <div class="education-school">Baccalaur&eacute;at Scientifique &mdash; S&eacute;rie D</div>
+          <div class="education-detail">CEG Davi&eacute; &bull; Porto-Novo, B&eacute;nin &bull; 2023</div>
+          <div class="education-detail" style="margin-top:2px;font-size:10px;color:#475569;">
+            Sp&eacute;cialisation en Math&eacute;matiques, Physique-Chimie, Sciences de la Vie et de la Terre.
+          </div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="section">
+        <div class="section-header">Certifications</div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7" target="_blank" style="color:#2563eb;text-decoration:none;">Scientific Computing with Python</a></span>
+          <span class="cert-issuer">FreeCodeCamp</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7" target="_blank" style="color:#2563eb;text-decoration:none;">Data Analysis With Python</a></span>
+          <span class="cert-issuer">FreeCodeCamp</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8" target="_blank" style="color:#2563eb;text-decoration:none;">College Algebra with Python</a></span>
+          <span class="cert-issuer">FreeCodeCamp</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca" target="_blank" style="color:#2563eb;text-decoration:none;">Scikit-learn pour le ML</a></span>
+          <span class="cert-issuer">LinkedIn</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png" target="_blank" style="color:#2563eb;text-decoration:none;">Python Developer</a></span>
+          <span class="cert-issuer">Sololearn</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png" target="_blank" style="color:#2563eb;text-decoration:none;">Data Programming</a></span>
+          <span class="cert-issuer">Sololearn</span>
+        </div>
+        <div class="cert-item">
+          <span class="cert-title"><a href="https://openclassrooms.com/fr/course-certificates/2015564943" target="_blank" style="color:#2563eb;text-decoration:none;">Initiation &agrave; l&rsquo;IA</a></span>
+          <span class="cert-issuer">OpenClassrooms</span>
+        </div>
+      </div>
+
+      <!-- RÉFÉRENCES -->
+      <div class="section">
+        <div class="section-header">R&eacute;f&eacute;rences</div>
+
+        <div class="education-item" style="margin-bottom:8px;">
+          <div class="education-school">Thierry Martial TCHANGOLE</div>
+          <div style="font-size:10px;color:#475569;line-height:1.6;margin-top:4px;">
+            <a href="https://www.linkedin.com/in/thierry-tchangole/" target="_blank" style="color:#2563eb;text-decoration:none;">LinkedIn</a><br>
+            +229 66 73 11 43<br>
+            thierry.tchangole@spacegeneration.org
+          </div>
+        </div>
+
+        <div class="education-item">
+          <div class="education-school">Pascal OHOUNLOME</div>
+          <div style="font-size:10px;color:#475569;line-height:1.6;margin-top:4px;">
+            CEO &mdash; Djeemm<br>
+            <a href="https://www.linkedin.com/in/pascal-ohounlome-7a8892112/" target="_blank" style="color:#2563eb;text-decoration:none;">LinkedIn</a><br>
+            +33 6 34 66 85 28<br>
+            pascalohounlome@gmail.com
+          </div>
+        </div>
+      </div>
+
+      <!-- LOISIRS -->
+      <div class="section">
+        <div class="section-header">Loisirs</div>
+        <div class="skills-tags">
+          <span>Musique</span><span>Cin&eacute;ma</span><span>Sport</span><span>Voyage</span>
+        </div>
+      </div>
+
+      <!-- LANGUES -->
+      <div class="section">
+        <div class="section-header">Langues</div>
+        <div class="skills-tags">
+          <span>Fran&ccedil;ais (Natif)</span>
+          <span>Anglais (Professionnel)</span>
+        </div>
+      </div>
+
+      <!-- LINKS -->
+      <div class="section">
+        <div class="section-header">Liens</div>
+        <div class="links">
+          <a href="https://github.com/MarinoATOHOUN">&#128279; GitHub &mdash; github.com/MarinoATOHOUN</a>
+          <a href="https://www.linkedin.com/in/marino-atohoun">&#128279; LinkedIn &mdash; linkedin.com/in/marino-atohoun</a>
+          <a href="https://www.marinoatohoun.tech/">&#128279; Portfolio &mdash; marinoatohoun.tech</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

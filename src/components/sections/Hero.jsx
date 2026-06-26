@@ -447,7 +447,7 @@ export default function Hero({ onNavClick }) {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1pBYwFen9hsZHiS94CHSvmQso2cDLeLKf/view"
+            href="/cv-marino-atohoun.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 border text-gray-500 hover:text-muted-foreground/80 font-medium rounded-xl transition-all duration-300 hover:border-foreground/15" style={{ borderColor: 'var(--theme-border-01)' }}
