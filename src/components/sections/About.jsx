@@ -4,7 +4,7 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation'
 import { Cpu, Code, Rocket, Users, Quote, ArrowRight, Sparkles, ChevronRight, Terminal, Binary, MapPin, Calendar, Award, Eye, Zap } from 'lucide-react'
 import DataCurve from '@/components/effects/DataCurve'
 import ProcessDiagram from '@/components/ui/ProcessDiagram'
-import profilePicture from '@/assets/profile_picture.jpg'
+import profilePicture from '@/assets/marino.png'
 import { useTranslation } from 'react-i18next'
 
 const highlightIcons = [Cpu, Code, Rocket, Users]
@@ -200,7 +200,7 @@ function PhotoReveal({ isVisible }) {
               loading="lazy"
               decoding="async"
               alt="Mahouli Marino ATOHOUN"
-              className="w-full h-full object-cover object-center scale-100 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+              className="w-full h-full object-cover object-top scale-100 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
             />
           </div>
 

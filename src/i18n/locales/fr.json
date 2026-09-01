@@ -33,9 +33,18 @@
     "collaborate": "Collaborons",
     "resume": "CV / Resume",
     "stats": [
-      { "value": "3+", "label": "Années d'expérience" },
-      { "value": "15+", "label": "Projets livrés" },
-      { "value": "4", "label": "Produits fondés" }
+      {
+        "value": "3+",
+        "label": "Années d'expérience"
+      },
+      {
+        "value": "15+",
+        "label": "Projets livrés"
+      },
+      {
+        "value": "4",
+        "label": "Produits fondés"
+      }
     ],
     "location": "Cotonou, Bénin",
     "terminalTitle": "system.sh",
@@ -217,9 +226,18 @@
         "role": "Créateur & Développeur",
         "vision": "L'intelligence des données pour chaque décision africaine.",
         "metrics": [
-          { "label": "Pays", "value": "54" },
-          { "label": "Jeux données", "value": "160+" },
-          { "label": "Points données", "value": "16K+" }
+          {
+            "label": "Pays",
+            "value": "54"
+          },
+          {
+            "label": "Jeux données",
+            "value": "160+"
+          },
+          {
+            "label": "Points données",
+            "value": "16K+"
+          }
         ]
       },
       {
@@ -234,9 +252,18 @@
         "role": "Créateur & Développeur",
         "vision": "Une agriculture data-driven pour chaque agriculteur africain.",
         "metrics": [
-          { "label": "Fonctions IA", "value": "AgriTalk + AILab" },
-          { "label": "Marketplace", "value": "Intégrée" },
-          { "label": "Offres", "value": "Free/Pro/Expert" }
+          {
+            "label": "Fonctions IA",
+            "value": "AgriTalk + AILab"
+          },
+          {
+            "label": "Marketplace",
+            "value": "Intégrée"
+          },
+          {
+            "label": "Offres",
+            "value": "Free/Pro/Expert"
+          }
         ]
       },
       {
@@ -251,9 +278,18 @@
         "role": "Créateur & Développeur",
         "vision": "Une éducation de qualité pour chaque apprenant africain.",
         "metrics": [
-          { "label": "Modèles IA", "value": "4 LLMs" },
-          { "label": "Outils", "value": "10+ Interactifs" },
-          { "label": "Fonctions", "value": "Tuteur IA + Mentorat" }
+          {
+            "label": "Modèles IA",
+            "value": "4 LLMs"
+          },
+          {
+            "label": "Outils",
+            "value": "10+ Interactifs"
+          },
+          {
+            "label": "Fonctions",
+            "value": "Tuteur IA + Mentorat"
+          }
         ]
       },
       {
@@ -268,9 +304,18 @@
         "role": "Créateur & Développeur",
         "vision": "Une éducation intelligente et gratuite pour tous.",
         "metrics": [
-          { "label": "Moteur RAG", "value": "BM25 Zero-Dep" },
-          { "label": "API", "value": "REST Publique" },
-          { "label": "État", "value": "Production" }
+          {
+            "label": "Moteur RAG",
+            "value": "BM25 Zero-Dep"
+          },
+          {
+            "label": "API",
+            "value": "REST Publique"
+          },
+          {
+            "label": "État",
+            "value": "Production"
+          }
         ]
       },
       {
@@ -285,9 +330,18 @@
         "role": "Créateur & Développeur",
         "vision": "La clarté juridique pour chaque internaute.",
         "metrics": [
-          { "label": "Modèles IA", "value": "Multi-Modèle" },
-          { "label": "Analyse", "value": "Automatisée" },
-          { "label": "Score Risque", "value": "Échelle 1-10" }
+          {
+            "label": "Modèles IA",
+            "value": "Multi-Modèle"
+          },
+          {
+            "label": "Analyse",
+            "value": "Automatisée"
+          },
+          {
+            "label": "Score Risque",
+            "value": "Échelle 1-10"
+          }
         ]
       },
       {
@@ -302,9 +356,18 @@
         "role": "Créateur & Développeur",
         "vision": "Des modèles IA sur mesure pour chaque entreprise.",
         "metrics": [
-          { "label": "Modèles", "value": "4 LLMs" },
-          { "label": "Méthode", "value": "LoRA/QLoRA" },
-          { "label": "Paiement", "value": "Crédits Stripe" }
+          {
+            "label": "Modèles",
+            "value": "4 LLMs"
+          },
+          {
+            "label": "Méthode",
+            "value": "LoRA/QLoRA"
+          },
+          {
+            "label": "Paiement",
+            "value": "Crédits Stripe"
+          }
         ]
       },
       {
@@ -319,9 +382,18 @@
         "role": "Créateur & Développeur",
         "vision": "L'ingénierie logicielle augmentée par des agents IA autonomes.",
         "metrics": [
-          { "label": "Agents", "value": "4 Agents IA" },
-          { "label": "Paradigme", "value": "SE Agentique" },
-          { "label": "Exécution", "value": "Sandbox Docker" }
+          {
+            "label": "Agents",
+            "value": "4 Agents IA"
+          },
+          {
+            "label": "Paradigme",
+            "value": "SE Agentique"
+          },
+          {
+            "label": "Exécution",
+            "value": "Sandbox Docker"
+          }
         ]
       },
       {
@@ -336,9 +408,18 @@
         "role": "Créateur & Développeur",
         "vision": "L'excellence IA africaine, présentée au monde.",
         "metrics": [
-          { "label": "Produits", "value": "6 SaaS" },
-          { "label": "Tech", "value": "React + Vite" },
-          { "label": "PWA", "value": "Service Worker" }
+          {
+            "label": "Produits",
+            "value": "6 SaaS"
+          },
+          {
+            "label": "Tech",
+            "value": "React + Vite"
+          },
+          {
+            "label": "PWA",
+            "value": "Service Worker"
+          }
         ]
       },
       {
@@ -353,9 +434,18 @@
         "role": "Créateur & Développeur",
         "vision": "Une gestion d'entreprise augmentée par IA pour les startups.",
         "metrics": [
-          { "label": "Modules", "value": "8+" },
-          { "label": "Rôles", "value": "7 Hiérarchies" },
-          { "label": "IA", "value": "Assistant Gemini" }
+          {
+            "label": "Modules",
+            "value": "8+"
+          },
+          {
+            "label": "Rôles",
+            "value": "7 Hiérarchies"
+          },
+          {
+            "label": "IA",
+            "value": "Assistant Gemini"
+          }
         ]
       },
       {
@@ -370,9 +460,18 @@
         "role": "Créateur & Développeur",
         "vision": "Des laboratoires virtuels pour chaque étudiant en sciences.",
         "metrics": [
-          { "label": "Modèles 3D", "value": "8 GLB" },
-          { "label": "Langues", "value": "5" },
-          { "label": "Substances", "value": "121+" }
+          {
+            "label": "Modèles 3D",
+            "value": "8 GLB"
+          },
+          {
+            "label": "Langues",
+            "value": "5"
+          },
+          {
+            "label": "Substances",
+            "value": "121+"
+          }
         ]
       }
     ],
@@ -508,66 +607,77 @@
     "sectionLabel": "Certifications",
     "title": "Certifications",
     "subtitle": "Certifications obtenues auprès de plateformes reconnues.",
+    "viewCta": "Voir le certificat",
     "list": [
       {
         "title": "Scikit-learn pour le machine learning",
         "issuer": "LinkedIn",
         "date": "Juin 2024",
-        "link": "https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+        "link": "https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D",
+        "image": "/certifications/linkedin-scikit-learn.jpg"
       },
       {
         "title": "Se préparer au métier d'analyste de données par Microsoft et LinkedIn",
         "issuer": "LinkedIn",
         "date": "Mai 2024",
-        "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+        "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D",
+        "image": "/certifications/linkedin-analyst.jpg"
       },
       {
         "title": "Se préparer au métier d'analyste de données par Microsoft et LinkedIn",
         "issuer": "Microsoft et LinkedIn",
         "date": "Mai 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7",
+        "image": "/certifications/fcc-data-analysis.png"
       },
       {
         "title": "Python Developer",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png",
+        "image": "/certifications/solo-python-developer.png"
       },
       {
         "title": "Python Intermediate",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png",
+        "image": "/certifications/solo-python-intermediate.png"
       },
       {
         "title": "SQL Intermediate",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png",
+        "image": "/certifications/solo-sql-intermediate.png"
       },
       {
         "title": "Tech for Everyone",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png",
+        "image": "/certifications/solo-tech-for-everyone.png"
       },
       {
         "title": "Introduction to JavaScript",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png",
+        "image": "/certifications/solo-intro-javascript.png"
       },
       {
         "title": "Introduction to HTML",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png",
+        "image": "/certifications/solo-intro-html.png"
       },
       {
         "title": "Data Programming",
         "issuer": "Sololearn",
         "date": "Novembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png",
+        "image": "/certifications/solo-data-programming.png"
       },
       {
         "title": "Introduction to R",
@@ -579,31 +689,36 @@
         "title": "Initiez-vous à Linux",
         "issuer": "OpenClassrooms",
         "date": "Mai 2023",
-        "link": "https://openclassrooms.com/fr/course-certificates/1746307242"
+        "link": "https://openclassrooms.com/fr/course-certificates/1746307242",
+        "image": "/certifications/oc-linux.png"
       },
       {
         "title": "Initiez vous à l'Intelligence Artificielle",
         "issuer": "OpenClassrooms",
         "date": "Mai 2023",
-        "link": "https://openclassrooms.com/fr/course-certificates/2015564943"
+        "link": "https://openclassrooms.com/fr/course-certificates/2015564943",
+        "image": "/certifications/oc-ia.png"
       },
       {
         "title": "Scientific Computing with Python",
         "issuer": "FreeCodeCamp",
         "date": "Février 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7",
+        "image": "/certifications/fcc-scientific-computing.png"
       },
       {
         "title": "Data Analysis With Python",
         "issuer": "FreeCodeCamp",
         "date": "Février 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7",
+        "image": "/certifications/fcc-data-analysis.png"
       },
       {
         "title": "College Algebra with Python",
         "issuer": "FreeCodeCamp",
         "date": "Mars 2024",
-        "link": "https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8"
+        "link": "https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8",
+        "image": "/certifications/fcc-college-algebra.png"
       }
     ]
   },
@@ -693,27 +808,111 @@
     "title": "Ma Boîte à Outils",
     "subtitle": "Les outils que j'utilise au quotidien pour construire et déployer des solutions IA.",
     "list": [
-      { "name": "VS Code", "icon": "vscode", "description": "Éditeur principal pour Python, TypeScript, JavaScript. Configuration complète pour le développement IA." },
-      { "name": "Docker", "icon": "docker", "description": "Conteneurisation pour toutes mes apps. Orchestration de 50+ conteneurs en production sur VPS." },
-      { "name": "Git & GitHub", "icon": "git", "description": "Versionnement et collaboration. CI/CD automatisé pour tous mes projets SaaS." },
-      { "name": "Linux", "icon": "linux", "description": "Environnement de dev et production. Administration de serveurs VPS sur Ubuntu." },
-      { "name": "Jupyter Notebook", "icon": "notebook", "description": "Exploration et prototypage en data science. Notebooks interactifs pour l'analyse et le modélisation." },
-      { "name": "Ollama", "icon": "llama", "description": "Inférence LLM locale. Modèles open-source pour RAG, fine-tuning et chatbots." },
-      { "name": "Hugging Face", "icon": "huggingface", "description": "Modèles pré-entraînés, datasets et pipelines NLP. Hub pour tous mes modèles." },
-      { "name": "LangChain", "icon": "workflow", "description": "Framework d'orchestration LLM. Chaînes, agents, outils pour applications IA complexes." },
-      { "name": "Streamlit", "icon": "presentation", "description": "Prototypage rapide d'applications data science. Dashboards Python interactifs." },
-      { "name": "Pandas & NumPy", "icon": "table", "description": "Manipulation et analyse de données. DataFrames, calcul numérique, ETL." },
-      { "name": "Scikit-learn", "icon": "gauge", "description": "Machine learning classique. Classification, régression, clustering, feature engineering." },
-      { "name": "Matplotlib & Seaborn", "icon": "chart", "description": "Visualisation de données. Graphiques statistiques, heatmaps, dashboards." },
-      { "name": "TensorFlow/Keras", "icon": "tf", "description": "Deep learning. Réseaux de neurones, CNN, RNN, modèles séquentiels." },
-      { "name": "CUDA", "icon": "cpu", "description": "Calcul GPU pour l'entraînement de modèles. Optimisation des performances ML." },
-      { "name": "MLflow", "icon": "tracking", "description": "MLOps. Suivi d'expériences, gestion de modèles, déploiement en production." },
-      { "name": "Airflow", "icon": "pipeline", "description": "Orchestration de pipelines de données. Workflows ETL automatisés et planifiés." },
-      { "name": "Groq", "icon": "zap", "description": "Inférence LLM ultra-rapide. APIs pour apps temps réel, chatbots et RAG." },
-      { "name": "Gemini", "icon": "sparkles", "description": "Google Generative AI. Analyse de données, vision, NLP, intégration API." },
-      { "name": "OpenAI API", "icon": "openai", "description": "GPT-4, embeddings, fine-tuning. Intégré dans mes produits SaaS." },
-      { "name": "Postman", "icon": "globe", "description": "Test et documentation d'API REST. Collections de test pour toutes mes API Django." },
-      { "name": "Nginx", "icon": "server", "description": "Proxy inverse, équilibrage de charge et serveur HTTP pour les apps en production." }
+      {
+        "name": "VS Code",
+        "icon": "vscode",
+        "description": "Éditeur principal pour Python, TypeScript, JavaScript. Configuration complète pour le développement IA."
+      },
+      {
+        "name": "Docker",
+        "icon": "docker",
+        "description": "Conteneurisation pour toutes mes apps. Orchestration de 50+ conteneurs en production sur VPS."
+      },
+      {
+        "name": "Git & GitHub",
+        "icon": "git",
+        "description": "Versionnement et collaboration. CI/CD automatisé pour tous mes projets SaaS."
+      },
+      {
+        "name": "Linux",
+        "icon": "linux",
+        "description": "Environnement de dev et production. Administration de serveurs VPS sur Ubuntu."
+      },
+      {
+        "name": "Jupyter Notebook",
+        "icon": "notebook",
+        "description": "Exploration et prototypage en data science. Notebooks interactifs pour l'analyse et le modélisation."
+      },
+      {
+        "name": "Ollama",
+        "icon": "llama",
+        "description": "Inférence LLM locale. Modèles open-source pour RAG, fine-tuning et chatbots."
+      },
+      {
+        "name": "Hugging Face",
+        "icon": "huggingface",
+        "description": "Modèles pré-entraînés, datasets et pipelines NLP. Hub pour tous mes modèles."
+      },
+      {
+        "name": "LangChain",
+        "icon": "workflow",
+        "description": "Framework d'orchestration LLM. Chaînes, agents, outils pour applications IA complexes."
+      },
+      {
+        "name": "Streamlit",
+        "icon": "presentation",
+        "description": "Prototypage rapide d'applications data science. Dashboards Python interactifs."
+      },
+      {
+        "name": "Pandas & NumPy",
+        "icon": "table",
+        "description": "Manipulation et analyse de données. DataFrames, calcul numérique, ETL."
+      },
+      {
+        "name": "Scikit-learn",
+        "icon": "gauge",
+        "description": "Machine learning classique. Classification, régression, clustering, feature engineering."
+      },
+      {
+        "name": "Matplotlib & Seaborn",
+        "icon": "chart",
+        "description": "Visualisation de données. Graphiques statistiques, heatmaps, dashboards."
+      },
+      {
+        "name": "TensorFlow/Keras",
+        "icon": "tf",
+        "description": "Deep learning. Réseaux de neurones, CNN, RNN, modèles séquentiels."
+      },
+      {
+        "name": "CUDA",
+        "icon": "cpu",
+        "description": "Calcul GPU pour l'entraînement de modèles. Optimisation des performances ML."
+      },
+      {
+        "name": "MLflow",
+        "icon": "tracking",
+        "description": "MLOps. Suivi d'expériences, gestion de modèles, déploiement en production."
+      },
+      {
+        "name": "Airflow",
+        "icon": "pipeline",
+        "description": "Orchestration de pipelines de données. Workflows ETL automatisés et planifiés."
+      },
+      {
+        "name": "Groq",
+        "icon": "zap",
+        "description": "Inférence LLM ultra-rapide. APIs pour apps temps réel, chatbots et RAG."
+      },
+      {
+        "name": "Gemini",
+        "icon": "sparkles",
+        "description": "Google Generative AI. Analyse de données, vision, NLP, intégration API."
+      },
+      {
+        "name": "OpenAI API",
+        "icon": "openai",
+        "description": "GPT-4, embeddings, fine-tuning. Intégré dans mes produits SaaS."
+      },
+      {
+        "name": "Postman",
+        "icon": "globe",
+        "description": "Test et documentation d'API REST. Collections de test pour toutes mes API Django."
+      },
+      {
+        "name": "Nginx",
+        "icon": "server",
+        "description": "Proxy inverse, équilibrage de charge et serveur HTTP pour les apps en production."
+      }
     ]
   },
   "skillsDetail": {
@@ -721,14 +920,108 @@
     "title": "Stack Technique",
     "subtitle": "Technologies que j'utilise pour construire des produits complets, du backend à l'IA.",
     "list": [
-      { "name": "Python", "icon": "python", "description": "Langage principal. Data science, ML, backend Django/FastAPI, scripts d'automatisation." },
-      { "name": "Django", "icon": "django", "description": "Framework backend pour 6+ plateformes SaaS. DRF, Celery, Channels, ORM avancé." },
-      { "name": "React", "icon": "react", "description": "Frontend moderne pour toutes les apps. React 19, hooks, context, TanStack Query." },
-      { "name": "PyTorch", "icon": "pytorch", "description": "Deep learning. Fine-tuning LLM (LoRA/QLoRA), vision par ordinateur (YOLO), NLP." },
-      { "name": "FastAPI", "icon": "fastapi", "description": "APIs haute performance. Async, validation Pydantic, documentation automatique." },
-      { "name": "PostgreSQL", "icon": "postgres", "description": "Base de données principale. Modélisation complexe, requêtes optimisées, migrations." },
-      { "name": "Docker", "icon": "docker", "description": "Déploiement et isolation. Multi-conteneurs, Docker Compose, images optimisées." },
-      { "name": "LLMs & RAG", "icon": "brain", "description": "Intégration LLM (GPT, Llama, Gemini, Groq). Systèmes RAG avec BM25, pipelines IA." }
+      {
+        "name": "Python",
+        "icon": "python",
+        "layer": 0,
+        "description": "Langage principal. Data science, ML, backend Django/FastAPI, scripts d'automatisation."
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript",
+        "layer": 0,
+        "description": "Fondations web. ES6+, patterns async, DOM, outils, scripts Node.js."
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript",
+        "layer": 0,
+        "description": "JavaScript typé pour apps scalables. Typage strict, generics, DX."
+      },
+      {
+        "name": "Django",
+        "icon": "django",
+        "layer": 1,
+        "description": "Framework backend pour 6+ plateformes SaaS. DRF, Celery, Channels, ORM avancé."
+      },
+      {
+        "name": "FastAPI",
+        "icon": "fastapi",
+        "layer": 1,
+        "description": "APIs haute performance. Async, validation Pydantic, documentation automatique."
+      },
+      {
+        "name": "React",
+        "icon": "react",
+        "layer": 1,
+        "description": "Frontend moderne pour toutes les apps. React 19, hooks, context, TanStack Query."
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwind",
+        "layer": 1,
+        "description": "Styling utility-first. Design responsive, systèmes UI dark, thèmes personnalisés."
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "postgres",
+        "layer": 1,
+        "description": "Base de données principale. Modélisation complexe, requêtes optimisées, migrations."
+      },
+      {
+        "name": "Redis",
+        "icon": "redis",
+        "layer": 1,
+        "description": "Cache, files d'attente (broker Celery), sessions, pub/sub, données temps réel."
+      },
+      {
+        "name": "PyTorch",
+        "icon": "pytorch",
+        "layer": 2,
+        "description": "Deep learning. Fine-tuning LLM (LoRA/QLoRA), vision par ordinateur (YOLO), NLP."
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "tensorflow",
+        "layer": 2,
+        "description": "Frameworks ML. Réseaux de neurones, modèles de classification, pipelines ML."
+      },
+      {
+        "name": "LLMs & RAG",
+        "icon": "brain",
+        "layer": 2,
+        "description": "Intégration LLM (GPT, Llama, Gemini, Groq). Systèmes RAG avec BM25, pipelines IA."
+      },
+      {
+        "name": "Ollama",
+        "icon": "ollama",
+        "layer": 2,
+        "description": "Serving LLM local. Modèles self-hosted, fallback multi-modèles, IA hors-ligne."
+      },
+      {
+        "name": "Hugging Face",
+        "icon": "huggingface",
+        "layer": 2,
+        "description": "Hub de modèles. Transformers, fine-tuning, versionnage et déploiement."
+      },
+      {
+        "name": "Docker",
+        "icon": "docker",
+        "layer": 3,
+        "description": "Déploiement et isolation. Multi-conteneurs, Docker Compose, images optimisées."
+      },
+      {
+        "name": "Git",
+        "icon": "git",
+        "layer": 3,
+        "description": "Contrôle de version. Stratégies de branches, revues de code, intégration CI/CD."
+      },
+      {
+        "name": "Linux",
+        "icon": "linux",
+        "layer": 3,
+        "description": "Environnement serveur. Scripts shell, Nginx, systemd, durcissement serveur."
+      }
     ]
   },
   "hobbies": {
@@ -736,10 +1029,22 @@
     "title": "Au-delà du Code",
     "subtitle": "Ce qui m'inspire et me ressourcer en dehors du développement.",
     "list": [
-      { "name": "Musique", "icon": "music" },
-      { "name": "Cinéma", "icon": "film" },
-      { "name": "Sport", "icon": "sport" },
-      { "name": "Voyage", "icon": "travel" }
+      {
+        "name": "Musique",
+        "icon": "music"
+      },
+      {
+        "name": "Cinéma",
+        "icon": "film"
+      },
+      {
+        "name": "Sport",
+        "icon": "sport"
+      },
+      {
+        "name": "Voyage",
+        "icon": "travel"
+      }
     ]
   },
   "languages": {

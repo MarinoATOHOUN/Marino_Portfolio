@@ -1,0 +1,367 @@
+========================================
+UPWORK PROJECT PORTFOLIO — Mahouli Marino ATOHOUN
+========================================
+
+
+----------------------------------------------
+PROJECT 1: AfriDataHub
+----------------------------------------------
+
+Project title: AfriDataHub — Open Data Intelligence Platform for Africa
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Built an open data intelligence platform centralizing economic, climate, health, and agricultural data for all 54 African countries from 10+ international sources (World Bank, FAO, WHO, UNESCO). Features an interactive SVG map dashboard, AI analysis via Google Gemini, predictive analytics with linear regression, anomaly detection (4 severity levels), an autonomous AI pipeline using Groq for web research, and an interactive data Studio for real-time transformation. Tech: Django, DRF, React 19, PostgreSQL, Redis, Celery, Docker.
+
+Skills and deliverables:
+- Full-stack web application (Django + React)
+- Interactive SVG map dashboard
+- AI-powered data analysis (Google Gemini)
+- Predictive analytics (linear regression)
+- Anomaly detection system (4 severity levels)
+- Autonomous AI data pipeline (Groq)
+- Interactive data transformation Studio
+- REST API design (DRF)
+- Database modeling (PostgreSQL)
+- Asynchronous task processing (Celery + Redis)
+- Docker deployment
+
+Metrics: 54 countries, 160+ datasets, 16,000+ data points
+
+
+----------------------------------------------
+PROJECT 2: GreenMetrics
+----------------------------------------------
+
+Project title: GreenMetrics — AI-Powered Precision Agriculture SaaS
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Developed a precision agriculture SaaS platform transforming traditional farming into a data-driven ecosystem for African farmers. Features complete crop lifecycle management (planting, surface, costs, zones), harvest tracking with quality and pricing, categorized expense tracking across 10 categories, and an interactive KPI dashboard. Includes AgriTalk AI chatbot (Groq API), AILab for analytical reports with PDF export, a marketplace for agricultural products, and a Free/Pro/Expert subscription system. Tech: Django, DRF, React 19, PostgreSQL, Groq, Docker.
+
+Skills and deliverables:
+- Full-stack SaaS application (Django + React)
+- Crop lifecycle management system
+- Harvest tracking and financial analytics
+- AI chatbot integration (Groq API)
+- AI-powered report generation (AILab)
+- PDF report export
+- Marketplace module
+- Subscription system (Free/Pro/Expert)
+- Interactive dashboard with KPIs
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 3: EduLab Africa
+----------------------------------------------
+
+Project title: EduLab Africa — Interactive AI-Powered E-Learning Platform
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Built a comprehensive e-learning platform for Africa combining AI tutoring with 4 LLMs (Gemini, GPT, Groq, Ollama), community Q&A forum with voting, mentorship with session booking, real-time messaging via WebSockets (E2E encryption), and gamification (6 badge levels, leaderboards). Includes 10+ interactive tools: 3D Atlas (Cesium), coding lab (Sandpack + Monaco), mind maps (Markmap), visual programming (Blockly), physics simulator (Matter.js). Tech: Django, DRF, React 19, TypeScript, PostgreSQL, Redis, Django Channels, Docker.
+
+Skills and deliverables:
+- Full-stack e-learning platform (Django + React + TypeScript)
+- Multi-LLM AI tutor (Gemini, GPT, Groq, Ollama)
+- Real-time messaging (WebSockets + E2E encryption)
+- Community forum with voting system
+- Mentorship system with booking and reviews
+- Gamification engine (badges, leaderboards)
+- 3D interactive atlas (Cesium)
+- Collaborative coding lab (Sandpack + Monaco)
+- Mind map, visual programming, physics simulator
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 4: EduShare
+----------------------------------------------
+
+Project title: EduShare — Open-Source Education Platform with RAG AI
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Created a PDF document sharing platform with a zero-dependency RAG AI assistant using BM25 Okapi (no FAISS, LangChain, or vector DBs). Performs intelligent text extraction per page, smart chunking (~180 words, 40-word overlap), and retrieves top 5 relevant chunks for source-cited answers with conversation history. Includes full-text search with filters, AI-generated summaries/quizzes/translations, personalized recommendations, and a public REST API with key quotas and subscription plans. Tech: Django, DRF, React 19, PostgreSQL, Redis, Groq, Docker.
+
+Skills and deliverables:
+- Full-stack web application (Django + React)
+- Custom RAG engine (BM25 Okapi, zero dependencies)
+- Intelligent text extraction and smart chunking
+- Full-text search with multi-filter system
+- AI content generation (summary, quiz, translation)
+- Public REST API with key management
+- Subscription and billing plans
+- Social features (comments, favorites, badges)
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 5: LegalEase AI
+----------------------------------------------
+
+Project title: LegalEase AI — AI Legal Document Analyzer
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Developed a full-stack app that automatically analyzes legal documents (ToS, privacy policies, legal notices) from any URL using multi-model AI with fallback (Ollama, qwen2.5, OpenAI-compatible). Crawls websites, detects legal URLs, and produces structured analysis: executive summaries, data collection analysis, usage policies, and critical points. Each result includes a readability score (1-10) and risk level (Low/Moderate/High). Features 24h cache, newsletter, and geolocation logging. Tech: Django, DRF, React 19, PostgreSQL, Ollama, BeautifulSoup, Docker.
+
+Skills and deliverables:
+- Full-stack web application (Django + React)
+- Multi-model AI analysis with automatic fallback
+- Website crawling and legal URL detection
+- Structured document analysis (summary, risk assessment)
+- Readability scoring (1-10) and risk classification
+- Intelligent caching system (24h)
+- Activity logging with geolocation
+- Ad rotation system (CTR-weighted)
+- Newsletter integration
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 6: FineTune Platform
+----------------------------------------------
+
+Project title: FineTune Platform — Enterprise LLM Fine-Tuning SaaS
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Built an enterprise-grade SaaS platform for fine-tuning LLMs using LoRA/QLoRA, supporting Llama 2 7B/13B, Mistral 7B, and CodeLlama 7B. Features configurable hyperparameters, dataset upload (CSV/JSON/JSONL) with validation, real-time training metrics (loss, perplexity), and artifact management. Supports GPU and CPU infrastructure. Integrated Stripe credit system, automatic refunds on failure, and 100 free credits for new users. Tech: Django, DRF, React 19, PostgreSQL, Redis, PyTorch, Stripe, Docker.
+
+Skills and deliverables:
+- Full-stack SaaS application (Django + React)
+- LLM fine-tuning engine (LoRA/QLoRA via PyTorch)
+- Multi-model support (Llama 2, Mistral, CodeLlama)
+- Hyperparameter configuration interface
+- Dataset upload and validation pipeline
+- Real-time training metrics dashboard
+- Stripe payment integration (credits system)
+- Artifact management (weights, configs, metrics)
+- GPU/CPU infrastructure management
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 7: SaaS Builder (Djangent)
+----------------------------------------------
+
+Project title: SaaS Builder (Djangent) — Agentic Software Engineering OS
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Designed a full-stack platform orchestrating a multi-agent AI system (Architect, Developer, Tester, Planner) that transforms business intent into production-ready software. The Planner performs DAG-based task decomposition; the Architect handles system design and database modeling; the Developer generates code autonomously with Git integration; the Tester runs isolated Docker tests. Features RAG memory per project and cross-agent validation with auto-correction. Freemium/SaaS/Enterprise model. Tech: Django, DRF, React 19, TypeScript, PostgreSQL, Ollama, Gemini, Groq, Docker.
+
+Skills and deliverables:
+- Full-stack platform (Django + React + TypeScript)
+- Multi-agent AI system (4 specialized agents)
+- DAG-based task decomposition
+- AI system design and database modeling
+- Autonomous code generation and review
+- Isolated Docker sandbox execution
+- Automated testing pipeline
+- RAG memory system per project
+- API documentation (Swagger, ReDoc, OpenAPI)
+- Subscription model (Freemium/SaaS/Enterprise)
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 8: BlackBenAI Corporate Website
+----------------------------------------------
+
+Project title: BlackBenAI — African AI Startup Corporate Website
+
+Your role: Creator, Full-Stack Developer & Frontend Engineer
+
+Project description:
+Designed and developed the corporate website (V2) for BlackBenAI, showcasing 6 SaaS platforms with interactive landing pages, carousels, and technology grids. Includes dedicated demo pages for each product, comprehensive legal pages (GDPR, OHADA, FAQ), and a recruitment page with 6 volunteer categories. Built as a PWA with Service Worker and Workbox for offline support. SEO-optimized with JSON-LD, Open Graph, sitemap.xml, and hreflang. Tech: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, TanStack Query, Docker.
+
+Skills and deliverables:
+- Corporate website (React + TypeScript + Vite)
+- PWA implementation (Service Worker + Workbox)
+- Interactive product showcase pages
+- Responsive design (Tailwind CSS)
+- Animations (Framer Motion)
+- SEO (JSON-LD, Open Graph, sitemap.xml, hreflang)
+- Legal compliance pages (GDPR, OHADA)
+- Recruitment module
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 9: BlackBenOS
+----------------------------------------------
+
+Project title: BlackBenOS — Enterprise ERP & Internal Management Platform
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Built a complete ERP platform for BlackBenAI with 8+ modules: analytical dashboard (KPIs, financial charts), employee management across 7 role groups with L0-L5 accreditations, project management (Kanban, tasks, risks, time tracking), financial management (invoices, budget charts, PDF export), document management (versioning, approvals, access control), CRM, internal messaging, rich-text announcements, real-time notifications, and a Gemini AI assistant. Tech: Django, DRF, React 19, TypeScript, SQLite, Gemini, Docker.
+
+Skills and deliverables:
+- Full-stack ERP platform (Django + React + TypeScript)
+- Analytical dashboard with KPIs and financial charts
+- Employee management (7 groups, L0-L5 accreditations)
+- Project management (Kanban, tasks, risks, time tracking)
+- Financial management (invoices, budget, PDF export)
+- Document management (versioning, approvals, access control)
+- CRM and internal messaging
+- Rich-text editor (Quill) with reactions
+- AI assistant (Google Gemini)
+- Real-time notifications
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 10: Virtual Labo Chimique
+----------------------------------------------
+
+Project title: Virtual Labo Chimique — 3D Virtual Chemistry Laboratory
+
+Your role: Creator, Full-Stack Developer & AI Engineer
+
+Project description:
+Developed an immersive 3D virtual chemistry laboratory with realistic simulations. Features 8 custom GLB models with HDRI lighting and glass materials using Three.js + React Three Fiber, plus a 2D drag-and-drop lab (Fabric.js), 121+ substances, and 60 equipment items. AI generates realistic reaction observations via Groq API with temperature control. Safety system with 10-point checklist and pre-lab quiz. Teacher dashboard for class management and grading. Multilingual glossary (5 languages, RTL). PWA with offline mode. Tech: Django, DRF, React 18, Three.js, PostgreSQL, Groq, Docker.
+
+Skills and deliverables:
+- Full-stack web application (Django + React)
+- 3D environment (Three.js + React Three Fiber)
+- Custom 3D models and materials (8 GLB, HDRI, glass)
+- 2D drag-and-drop interface (Fabric.js)
+- AI reaction simulation (Groq API)
+- Substance and equipment catalog (121+ substances)
+- Safety system and pre-lab quiz
+- Class management and grading
+- AI quiz generation (5 difficulty levels)
+- Multilingual support (5 languages + RTL)
+- PWA with offline mode
+- Docker deployment
+
+
+----------------------------------------------
+PROJECT 11: Fire Detection AI
+----------------------------------------------
+
+Project title: Fire Detection AI — Real-Time Fire Detection System
+
+Your role: AI Engineer & Computer Vision Developer
+
+Project description:
+Developed a real-time fire detection system using YOLO object detection, analyzing images and video streams to identify fire hazards for infrastructure protection. The system processes live video feeds and provides instant alerts when fire is detected, enabling proactive safety monitoring. Tech: YOLO, Deep Learning, Computer Vision, Python.
+
+Skills and deliverables:
+- Real-time object detection model (YOLO)
+- Image and video stream processing
+- Fire hazard detection and alerting
+- Deep learning model training
+- Computer vision pipeline
+
+
+----------------------------------------------
+PROJECT 12: Sign Language Recognition
+----------------------------------------------
+
+Project title: Sign Language Recognition — Real-Time Sign Language Translation
+
+Your role: AI Engineer & Computer Vision Developer
+
+Project description:
+Built a real-time sign language translation system using camera input and deep learning, enabling communication for deaf and hard-of-hearing individuals. Recognizes hand gestures through live camera feed and translates them into text instantly using YOLO and deep learning classification. Tech: YOLO, Deep Learning, Computer Vision, Python.
+
+Skills and deliverables:
+- Real-time gesture recognition model (YOLO)
+- Live camera feed processing
+- Deep learning sign language classification
+- Real-time translation pipeline
+- Accessibility-focused development
+
+
+----------------------------------------------
+PROJECT 13: Intrusion Detection System
+----------------------------------------------
+
+Project title: Intrusion Detection System — AI-Powered Video Surveillance
+
+Your role: AI Engineer & Computer Vision Developer
+
+Project description:
+Created an AI-powered video surveillance system detecting intrusions in real-time from video feeds. Uses deep learning to identify unauthorized access or suspicious activity, providing automated security monitoring with instant alerts. Tech: YOLO, Computer Vision, Deep Learning, Python.
+
+Skills and deliverables:
+- Real-time intrusion detection model (YOLO)
+- Video feed analysis pipeline
+- Deep learning anomaly detection
+- Automated alerting system
+- Security-focused computer vision application
+
+
+----------------------------------------------
+PROJECT 14: GuardClause
+----------------------------------------------
+
+Project title: GuardClause — NLP Terms & Conditions Analyzer
+
+Your role: AI Engineer & NLP Developer
+
+Project description:
+Built an NLP system that automatically analyzes terms and conditions documents, extracting and classifying critical clauses for users. Uses natural language processing to highlight important legal provisions, helping non-legal users understand complex texts quickly. Tech: NLP, Python, Web Scraping.
+
+Skills and deliverables:
+- NLP pipeline for legal text analysis
+- Automated clause extraction and classification
+- Web scraping for document retrieval
+- Critical clause identification
+- Natural language processing model
+
+
+----------------------------------------------
+PROJECT 15: TrafficInsight AI
+----------------------------------------------
+
+Project title: TrafficInsight AI — Predictive Traffic Density Analysis
+
+Your role: Data Scientist & ML Engineer
+
+Project description:
+Developed a predictive traffic density analysis system for urban environments using advanced machine learning. Analyzes historical and real-time traffic data to forecast congestion patterns, enabling smarter urban planning and traffic management. Tech: Machine Learning, Predictive Analytics, Python.
+
+Skills and deliverables:
+- Predictive ML model for traffic density
+- Data preprocessing and feature engineering
+- Urban traffic pattern analysis
+- Forecasting pipeline
+- Data visualization and reporting
+
+
+----------------------------------------------
+PROJECT 16: DiabeteX Predictor
+----------------------------------------------
+
+Project title: DiabeteX Predictor — AI Diabetes Prediction System
+
+Your role: Data Scientist & ML Engineer
+
+Project description:
+Built an AI model for early diabetes prediction using health data to improve preventive diagnostics. Analyzes patient health indicators and generates risk assessments supporting early intervention and better healthcare outcomes. Tech: Data Science, Machine Learning, Python.
+
+Skills and deliverables:
+- ML classification model for diabetes prediction
+- Health data preprocessing and feature engineering
+- Risk assessment pipeline
+- Model evaluation and validation
+- Healthcare data science application
+
+
+========================================
+END OF FILE
+========================================

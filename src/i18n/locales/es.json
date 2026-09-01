@@ -226,9 +226,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Inteligencia basada en datos para cada decisión africana.",
         "metrics": [
-          { "label": "Países", "value": "54" },
-          { "label": "Datasets", "value": "160+" },
-          { "label": "Puntos de datos", "value": "16K+" }
+          {
+            "label": "Países",
+            "value": "54"
+          },
+          {
+            "label": "Datasets",
+            "value": "160+"
+          },
+          {
+            "label": "Puntos de datos",
+            "value": "16K+"
+          }
         ]
       },
       {
@@ -243,9 +252,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Agricultura basada en datos para cada agricultor africano.",
         "metrics": [
-          { "label": "IA", "value": "AgriTalk + AILab" },
-          { "label": "Mercado", "value": "Integrado" },
-          { "label": "Planes", "value": "Free/Pro/Expert" }
+          {
+            "label": "IA",
+            "value": "AgriTalk + AILab"
+          },
+          {
+            "label": "Mercado",
+            "value": "Integrado"
+          },
+          {
+            "label": "Planes",
+            "value": "Free/Pro/Expert"
+          }
         ]
       },
       {
@@ -260,9 +278,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Educación de calidad para cada estudiante africano.",
         "metrics": [
-          { "label": "Modelos IA", "value": "4 LLMs" },
-          { "label": "Herramientas", "value": "10+ Interactivas" },
-          { "label": "Funcionalidades", "value": "Tutor IA + Mentoría" }
+          {
+            "label": "Modelos IA",
+            "value": "4 LLMs"
+          },
+          {
+            "label": "Herramientas",
+            "value": "10+ Interactivas"
+          },
+          {
+            "label": "Funcionalidades",
+            "value": "Tutor IA + Mentoría"
+          }
         ]
       },
       {
@@ -277,9 +304,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Educación libre e inteligente para todos.",
         "metrics": [
-          { "label": "Motor RAG", "value": "BM25 Zero-Dep" },
-          { "label": "API", "value": "REST Pública" },
-          { "label": "Estado", "value": "Producción" }
+          {
+            "label": "Motor RAG",
+            "value": "BM25 Zero-Dep"
+          },
+          {
+            "label": "API",
+            "value": "REST Pública"
+          },
+          {
+            "label": "Estado",
+            "value": "Producción"
+          }
         ]
       },
       {
@@ -294,9 +330,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Claridad legal para cada usuario de internet.",
         "metrics": [
-          { "label": "Modelos IA", "value": "Multi-Modelo" },
-          { "label": "Análisis", "value": "Automatizado" },
-          { "label": "Puntuación Riesgo", "value": "Escala 1-10" }
+          {
+            "label": "Modelos IA",
+            "value": "Multi-Modelo"
+          },
+          {
+            "label": "Análisis",
+            "value": "Automatizado"
+          },
+          {
+            "label": "Puntuación Riesgo",
+            "value": "Escala 1-10"
+          }
         ]
       },
       {
@@ -311,9 +356,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Modelos IA personalizados para cada negocio.",
         "metrics": [
-          { "label": "Modelos", "value": "4 LLMs" },
-          { "label": "Método", "value": "LoRA/QLoRA" },
-          { "label": "Pago", "value": "Créditos Stripe" }
+          {
+            "label": "Modelos",
+            "value": "4 LLMs"
+          },
+          {
+            "label": "Método",
+            "value": "LoRA/QLoRA"
+          },
+          {
+            "label": "Pago",
+            "value": "Créditos Stripe"
+          }
         ]
       },
       {
@@ -328,9 +382,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Ingeniería de software aumentada por agentes IA autónomos.",
         "metrics": [
-          { "label": "Agentes", "value": "4 Agentes IA" },
-          { "label": "Paradigma", "value": "SE Agéntica" },
-          { "label": "Ejecución", "value": "Sandbox Docker" }
+          {
+            "label": "Agentes",
+            "value": "4 Agentes IA"
+          },
+          {
+            "label": "Paradigma",
+            "value": "SE Agéntica"
+          },
+          {
+            "label": "Ejecución",
+            "value": "Sandbox Docker"
+          }
         ]
       },
       {
@@ -345,9 +408,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Excelencia IA africana, mostrada al mundo.",
         "metrics": [
-          { "label": "Productos", "value": "6 SaaS" },
-          { "label": "Tecnología", "value": "React + Vite" },
-          { "label": "PWA", "value": "Service Worker" }
+          {
+            "label": "Productos",
+            "value": "6 SaaS"
+          },
+          {
+            "label": "Tecnología",
+            "value": "React + Vite"
+          },
+          {
+            "label": "PWA",
+            "value": "Service Worker"
+          }
         ]
       },
       {
@@ -362,9 +434,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Gestión empresarial aumentada por IA para startups.",
         "metrics": [
-          { "label": "Módulos", "value": "8+" },
-          { "label": "Roles", "value": "7 Jerarquías" },
-          { "label": "IA", "value": "Asistente Gemini" }
+          {
+            "label": "Módulos",
+            "value": "8+"
+          },
+          {
+            "label": "Roles",
+            "value": "7 Jerarquías"
+          },
+          {
+            "label": "IA",
+            "value": "Asistente Gemini"
+          }
         ]
       },
       {
@@ -379,9 +460,18 @@
         "role": "Creador & Desarrollador",
         "vision": "Laboratorios virtuales para cada estudiante de ciencias.",
         "metrics": [
-          { "label": "Modelos 3D", "value": "8 GLB" },
-          { "label": "Idiomas", "value": "5" },
-          { "label": "Sustancias", "value": "121+" }
+          {
+            "label": "Modelos 3D",
+            "value": "8 GLB"
+          },
+          {
+            "label": "Idiomas",
+            "value": "5"
+          },
+          {
+            "label": "Sustancias",
+            "value": "121+"
+          }
         ]
       }
     ],
@@ -517,66 +607,77 @@
     "sectionLabel": "Certificaciones",
     "title": "Certificaciones",
     "subtitle": "Certificaciones obtenidas de plataformas reconocidas.",
+    "viewCta": "Ver certificado",
     "list": [
       {
         "title": "Scikit-learn pour le machine learning",
         "issuer": "LinkedIn",
         "date": "Junio 2024",
-        "link": "https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+        "link": "https://www.linkedin.com/learning/certificates/233488829575153682e6aa8a6ee10741c11115aa2f034936f54af8e3d7c75aca?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D",
+        "image": "/certifications/linkedin-scikit-learn.jpg"
       },
       {
         "title": "Se préparer au métier d'analyste de données par Microsoft et LinkedIn",
         "issuer": "LinkedIn",
         "date": "Mayo 2024",
-        "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D"
+        "link": "https://www.linkedin.com/learning/certificates/96c3944c45421870d70d17fdbf2f38cf18f519bb778a609ea681bba43bc7593f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BAAqnx1HtR263jc0vJWGLFg%3D%3D",
+        "image": "/certifications/linkedin-analyst.jpg"
       },
       {
         "title": "Se préparer au métier d’analyste de données par Microsoft et LinkedIn",
         "issuer": "Microsoft et LinkedIn",
         "date": "Mayo 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7",
+        "image": "/certifications/fcc-data-analysis.png"
       },
       {
         "title": "Python Developer",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XXBHCZM2/image/png",
+        "image": "/certifications/solo-python-developer.png"
       },
       {
         "title": "Python Intermediate",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-FAOVUGMP/image/png",
+        "image": "/certifications/solo-python-intermediate.png"
       },
       {
         "title": "SQL Intermediate",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-XMGBGWXF/image/png",
+        "image": "/certifications/solo-sql-intermediate.png"
       },
       {
         "title": "Tech for Everyone",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-T9DBI78K/image/png",
+        "image": "/certifications/solo-tech-for-everyone.png"
       },
       {
         "title": "Introduction to JavaScript",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-TMD0N6TO/image/png",
+        "image": "/certifications/solo-intro-javascript.png"
       },
       {
         "title": "Introduction to HTML",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-NXDJIYNH/image/png",
+        "image": "/certifications/solo-intro-html.png"
       },
       {
         "title": "Data Programming",
         "issuer": "Sololearn",
         "date": "Noviembre 2023",
-        "link": "https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png"
+        "link": "https://api2.sololearn.com/v2/certificates/CC-2QZEPXTG/image/png",
+        "image": "/certifications/solo-data-programming.png"
       },
       {
         "title": "Introduction to R",
@@ -588,31 +689,36 @@
         "title": "Initiez-vous à Linux",
         "issuer": "OpenClassrooms",
         "date": "Mayo 2023",
-        "link": "https://openclassrooms.com/fr/course-certificates/1746307242"
+        "link": "https://openclassrooms.com/fr/course-certificates/1746307242",
+        "image": "/certifications/oc-linux.png"
       },
       {
         "title": "Initiez vous à l'Intelligence Artificielle",
         "issuer": "OpenClassrooms",
         "date": "Mayo 2023",
-        "link": "https://openclassrooms.com/fr/course-certificates/2015564943"
+        "link": "https://openclassrooms.com/fr/course-certificates/2015564943",
+        "image": "/certifications/oc-ia.png"
       },
       {
         "title": "Scientific Computing with Python",
         "issuer": "FreeCodeCamp",
         "date": "Febrero 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/scientific-computing-with-python-v7",
+        "image": "/certifications/fcc-scientific-computing.png"
       },
       {
         "title": "Data Analysis With Python",
         "issuer": "FreeCodeCamp",
         "date": "Febrero 2024",
-        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7"
+        "link": "https://freecodecamp.org/certification/marino_atohoun/data-analysis-with-python-v7",
+        "image": "/certifications/fcc-data-analysis.png"
       },
       {
         "title": "College Algebra with Python",
         "issuer": "FreeCodeCamp",
         "date": "Marzo 2024",
-        "link": "https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8"
+        "link": "https://www.freecodecamp.org/certification/marino_atohoun/college-algebra-with-python-v8",
+        "image": "/certifications/fcc-college-algebra.png"
       }
     ]
   },

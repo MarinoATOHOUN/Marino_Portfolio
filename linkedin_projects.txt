@@ -1,0 +1,217 @@
+========================================
+PROJETS LINKEDIN — Mahouli Marino ATOHOUN
+(Nom du projet / Description / Compétences)
+========================================
+
+
+----------------------------------------------
+PROJET 1 : AfriDataHub
+----------------------------------------------
+
+Nom du projet : AfriDataHub — Plateforme Open Data Intelligence pour l'Afrique
+
+Description :
+Conception et développement de bout en bout d'une plateforme d'intelligence de données ouvertes qui centralise les données économiques, climatiques, sanitaires et agricoles des 54 pays africains à partir de plus de 10 sources officielles internationales (Banque mondiale, FAO, OMS, UNESCO). La plateforme propose un tableau de bord interactif avec cartes SVG, un moteur d'analyse alimenté par Google Gemini, des analyses prédictives par régression linéaire et un système de détection d'anomalies à 4 niveaux de gravité. Un pipeline IA autonome basé sur Groq automatise la recherche web et l'extraction structurée de données, tandis qu'un Studio interactif permet aux utilisateurs de transformer et nettoyer leurs jeux de données en temps réel. L'architecture complète (Django, DRF, React, PostgreSQL, Redis, Celery) a été déployée en production avec Docker sur des serveurs dédiés. Résultat : 54 pays couverts, plus de 160 jeux de données actifs et plus de 16 000 points de données disponibles pour les chercheurs, décideurs politiques et entreprises africaines.
+
+Compétences :
+Data Science, Data Analysis, Python, Django, React.js, JavaScript, TypeScript, PostgreSQL, Redis, REST APIs, API Development, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Data Visualization, Predictive Analytics, Docker, Software Architecture, System Design, Database Design, Data Modeling, Model Fine-Tuning, Prompt Engineering, Data Engineering, Web Development, Full-Stack Development, Git, GitHub, Agile Methodologies
+
+
+----------------------------------------------
+PROJET 2 : GreenMetrics
+----------------------------------------------
+
+Nom du projet : GreenMetrics — SaaS d'agriculture de précision propulsé par l'IA
+
+Description :
+Création et développement complet d'une plateforme SaaS d'agriculture de précision qui transforme l'agriculture traditionnelle africaine en un écosystème piloté par les données. Le produit couvre le cycle de vie complet des cultures : gestion des dates de plantation, des surfaces, des coûts et des zones, suivi des récoltes avec quantités, qualité et prix de vente, ainsi qu'un suivi des dépenses sur 10 catégories. Le tableau de bord interactif présente des KPI et graphiques d'évolution pour une prise de décision éclairée. Deux fonctionnalités IA majeures : AgriTalk, un chatbot agricole intelligent (API Groq) fournissant des conseils personnalisés, et AILab, un laboratoire d'analyse générant des rapports détaillés exportables en PDF. La plateforme intègre également un marketplace pour les produits agricoles et un système d'abonnement à 3 niveaux (Free, Pro, Expert). Déployée en production avec Docker, la solution contribue directement à améliorer la productivité et la rentabilité des agriculteurs africains.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, JavaScript, PostgreSQL, REST APIs, API Development, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Chatbot Development, SaaS, Cloud Computing, Docker, Data Analysis, Data Visualization, Dashboard Design, Product Development, Product Management, Web Development, Database Design, Tailwind CSS, Git, GitHub, Agile Methodologies, Business Intelligence
+
+
+----------------------------------------------
+PROJET 3 : EduLab Africa
+----------------------------------------------
+
+Nom du projet : EduLab Africa — Plateforme e-learning interactive propulsée par l'IA
+
+Description :
+Développement complet d'une plateforme e-learning ambitieuse pour l'Afrique combinant tutorat par IA, apprentissage communautaire, mentorat, gamification et plus de 10 outils interactifs. Le tuteur IA supporte 4 LLM (Gemini, GPT, Groq, Ollama) pour une assistance pédagogique polyvalente et adaptée à chaque apprenant. La plateforme intègre un forum communautaire de questions-réponses avec vote, un système de mentorat avec réservation de sessions et avis, une messagerie temps réel via WebSockets avec chiffrement de bout en bout, et un système de gamification avec 6 niveaux de badges et classements. Les outils interactifs incluent un atlas 3D (Cesium), un laboratoire de codage collaboratif (Sandpack + Monaco Editor), des cartes mentales (Markmap), un éditeur de programmation visuelle (Blockly) et un simulateur de physique (Matter.js). Cette architecture complexe (Django Channels, Redis, TypeScript, Three.js) a été déployée en production, offrant aux étudiants africains un accès à des outils pédagogiques de niveau mondial.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, TypeScript, JavaScript, PostgreSQL, Redis, WebSockets, REST APIs, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Web Development, UI/UX, Gamification, 3D, Three.js, Docker, Cloud Computing, Database Design, Software Architecture, Project Management, Product Development, Git, GitHub, Agile Methodologies
+
+
+----------------------------------------------
+PROJET 4 : EduShare
+----------------------------------------------
+
+Nom du projet : EduShare — Plateforme éducation open-source avec IA RAG
+
+Description :
+Conception et développement d'une plateforme open-source de partage de documents PDF intégrant un assistant IA RAG (Retrieval-Augmented Generation) zéro-dépendance, basé sur l'algorithme BM25 Okapi — sans aucune dépendance externe (pas de FAISS, LangChain ni base vectorielle). Le système réalise une extraction intelligente du texte page par page, un découpage intelligent (environ 180 mots avec chevauchement de 40 mots), et récupère les 5 passages les plus pertinents pour générer des réponses sourcées avec historique de conversation. La plateforme offre une recherche plein texte avec filtres (domaine, niveau, tags), une génération automatique de résumés, quiz et traductions par IA, des recommandations personnalisées, ainsi qu'une API REST publique avec quotas et plans d'abonnement. Des fonctionnalités sociales complètent le produit : commentaires, favoris, badges et notifications. Déployée en production avec Docker, la solution rend les ressources éducatives africaines plus accessibles et interactives.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, JavaScript, PostgreSQL, Redis, REST APIs, API Development, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Generative AI, Web Development, Search Engine Optimization (SEO), Database Design, Cloud Computing, Docker, Open Source, Product Development, Git, GitHub, Agile Methodologies
+
+
+----------------------------------------------
+PROJET 5 : LegalEase AI
+----------------------------------------------
+
+Nom du projet : LegalEase AI — Analyseur de documents juridiques propulsé par l'IA
+
+Description :
+Développement complet d'une application web full-stack qui analyse et simplifie automatiquement les documents juridiques (conditions générales, politiques de confidentialité, mentions légales) à partir de n'importe quelle URL, grâce à une IA multi-modèles avec bascule automatique (Ollama llama3.2, qwen2.5, compatible OpenAI). Le système explore les sites web, détecte les URLs juridiques, extrait le contenu et produit une analyse structurée : résumés exécutifs, analyse de la collecte de données, politiques d'utilisation, pratiques de partage et points critiques. Chaque analyse inclut un score de lisibilité (1-10) et un niveau de risque (Faible/Modéré/Élevé) avec badges colorés. L'application intègre un cache intelligent de 24h, un système de newsletter, un journal d'activité avec géolocalisation et un système publicitaire à rotation pondérée par CTR. Cette solution rend les documents juridiques compréhensibles pour les non-juristes et renforce la transparence numérique pour les utilisateurs africains et mondiaux.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, JavaScript, PostgreSQL, Web Scraping, Natural Language Processing (NLP), Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, REST APIs, Web Development, Tailwind CSS, Database Design, Cloud Computing, Docker, Data Analysis, Text Mining, Product Development, Git, GitHub
+
+
+----------------------------------------------
+PROJET 6 : FineTune Platform
+----------------------------------------------
+
+Nom du projet : FineTune Platform — SaaS de fine-tuning de LLM pour entreprises
+
+Description :
+Conception et développement d'une plateforme SaaS de niveau entreprise pour le fine-tuning de grands modèles de langage (LLM) utilisant les méthodes LoRA/QLoRA, démocratisant l'adaptation des modèles IA pour des besoins métiers spécialisés. La plateforme supporte 4 modèles de base (Llama 2 7B/13B, Mistral 7B, CodeLlama 7B) avec des hyperparamètres entièrement configurables (taux d'apprentissage, époques, taille de lot, rang/alpha/dropout LoRA). Les utilisateurs peuvent téléverser leurs jeux de données en CSV/JSON/JSONL avec validation automatique, suivre les métriques d'entraînement en temps réel (loss, perplexité) et gérer les artefacts générés (poids LoRA, configurations, métriques). L'infrastructure supporte le GPU haute performance ou le CPU standard. Le système intègre Stripe avec un système de crédits (Starter 100 / Pro 500), des remboursements automatiques en cas d'échec et 100 crédits gratuits pour les nouveaux utilisateurs. Déployée en production avec Docker, la plateforme supprime les barrières techniques et financières au fine-tuning.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, JavaScript, PostgreSQL, Redis, PyTorch, TensorFlow, Machine Learning, Deep Learning, Artificial Intelligence (AI), Large Language Models (LLM), Model Fine-Tuning, Generative AI, Hugging Face, Transformers, REST APIs, Stripe, Payment Gateways, GPU Computing, Cloud Computing, Docker, Software Architecture, Product Development, Git, GitHub
+
+
+----------------------------------------------
+PROJET 7 : SaaS Builder (Djangent)
+----------------------------------------------
+
+Nom du projet : SaaS Builder (Djangent) — Système d'ingénierie logicielle agentique
+
+Description :
+Développement d'une plateforme full-stack orchestrant un système multi-agents IA (Architecte, Développeur, Testeur, Planificateur) qui transforme l'intention métier en logiciel sécurisé, performant et maintenable. L'agent Planificateur effectue la décomposition des tâches en DAG ; l'Architecte IA gère la conception du système, la sélection des technologies et la modélisation des bases de données ; l'Orchestrateur de code génère le code de façon autonome, effectue des revues et s'intègre à Git ; l'Exécuteur Sandbox lance l'exécution isolée en conteneurs Docker avec tests automatisés. La plateforme intègre une mémoire RAG par projet pour la conservation du contexte et une boucle d'auto-correction avec validation croisée entre agents. Une documentation API complète (Swagger, ReDoc, OpenAPI) est fournie. Le modèle économique Freemium/SaaS Pro/Entreprise complète le produit. Cette approche révolutionne la production logicielle en réduisant drastiquement le temps et les coûts de développement.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, TypeScript, JavaScript, PostgreSQL, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Model Fine-Tuning, Agentic AI, REST APIs, API Development, Docker, Kubernetes, Cloud Computing, System Design, Software Architecture, Automated Testing, Continuous Integration (CI), Continuous Delivery (CD), Git, GitHub, Product Development, Project Management, Agile Methodologies
+
+
+----------------------------------------------
+PROJET 8 : Site corporate BlackBenAI
+----------------------------------------------
+
+Nom du projet : BlackBenAI — Site corporate de startup IA africaine (V2)
+
+Description :
+Conception et développement du site corporate V2 de BlackBenAI, startup d'IA béninoise, présentant sa suite de 6 plateformes SaaS (LegalEase AI, GreenMetrics, FineTune AI, EduShare, SaaS Builder et AfriDataHub). Le site propose des landing pages interactives avec carrousels et grilles de technologies, des pages de démo interactives pour chaque produit, des pages juridiques complètes (RGPD, OHADA, FAQ, chartes) et une page recrutement avec 6 catégories de volontaires. Construit comme une Progressive Web App (PWA) avec Service Worker et Workbox pour un support hors-ligne. Référencement optimisé avec données structurées JSON-LD, Open Graph, sitemap.xml et balises hreflang pour le multilinguisme. Les images WebP optimisées et la performance Vite garantissent des chargements rapides. Le site incarne l'identité visuelle de la marque et la mission de construction de l'infrastructure IA africaine.
+
+Compétences :
+Frontend Development, React.js, TypeScript, JavaScript, Vite, Tailwind CSS, Web Development, Responsive Web Design, Progressive Web Apps (PWA), Search Engine Optimization (SEO), JSON-LD, Structured Data, Open Graph, Framer Motion, UI/UX, User Interface Design, Figma, Web Performance, Docker, Digital Marketing, Branding, Git, GitHub
+
+
+----------------------------------------------
+PROJET 9 : BlackBenOS
+----------------------------------------------
+
+Nom du projet : BlackBenOS — Plateforme ERP et gestion interne d'entreprise
+
+Description :
+Conception et développement complet d'une plateforme ERP de gestion d'entreprise pour BlackBenAI, avec plus de 8 modules intégrés. Le tableau de bord analytique présente 4 KPI et des graphiques financiers ; la gestion des employés couvre 7 groupes hiérarchiques (de Stagiaire à Partenaire) avec suivi des compétences et accréditations L0-L5. La gestion de projet propose des tableaux Kanban, des tâches, une gestion des risques et un suivi du temps. Le module financier gère les transactions, factures, graphiques budget vs réel et l'export PDF. La gestion documentaire intègre catégories, niveaux d'accès, workflows d'approbation et versionnage. S'ajoutent un CRM avec suivi des clients, une messagerie interne, des annonces en texte enrichi (éditeur Quill, réactions, commentaires), des notifications temps réel et un assistant IA alimenté par Google Gemini. Cette plateforme unifiée rationalise toutes les opérations internes de la startup et sert de modèle ERP pour les PME technologiques africaines.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, TypeScript, JavaScript, SQL, SQLite, Database Design, REST APIs, ERP, Enterprise Resource Planning (ERP), CRM, Software Development, Web Development, Project Management, Task Management, Kanban, Financial Analysis, Data Analysis, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Docker, Cloud Computing, Agile Methodologies, Git, GitHub, Product Development
+
+
+----------------------------------------------
+PROJET 10 : Virtual Labo Chimique
+----------------------------------------------
+
+Nom du projet : Virtual Labo Chimique — Laboratoire virtuel de chimie 3D
+
+Description :
+Développement d'un laboratoire virtuel de chimie en 3D immersive simulant les réactions chimiques avec réalisme, incluant gestion de classes, quiz et support PWA hors-ligne multilingue (5 langues). L'environnement 3D est construit avec Three.js et React Three Fiber, avec 8 modèles GLB personnalisés (bécher, erlenmeyer, tube à essai) avec éclairage HDRI, matériaux verre transmisifs et ombres dynamiques. Un laboratoire 2D drag-and-drop (Fabric.js) est inclus, ainsi qu'un catalogue de plus de 121 substances avec propriétés physico-chimiques et 60 équipements. L'IA génère des observations de mélanges et réactions via l'API Groq avec contrôle de température (0-100°C). Le système de sécurité comprend une checklist en 10 points et un quiz pré-laboratoire (score ≥ 60%). Le tableau de bord enseignant gère classes, codes d'invitation, devoirs et notation. La génération de quiz par IA couvre 5 niveaux de difficulté. Glossaire multilingue avec 26 termes en 5 langues (FR, EN, AR, PT, SW) avec support RTL. PWA installable avec mode hors-ligne et 8 expériences à faible coût avec matériaux recyclés.
+
+Compétences :
+Full-Stack Development, Python, Django, React.js, JavaScript, Three.js, 3D, PostgreSQL, WebSockets, REST APIs, Machine Learning, Artificial Intelligence (AI), Large Language Models (LLM), Generative AI, Web Development, Progressive Web Apps (PWA), UI/UX, Gamification, i18n, Internationalization, Localization, Docker, Cloud Computing, Education, Educational Technology, MySQL, Database Design, Git, GitHub
+
+
+----------------------------------------------
+PROJET 11 : Fire Detection AI
+----------------------------------------------
+
+Nom du projet : Fire Detection AI — Système de détection d'incendie en temps réel
+
+Description :
+Développement d'un système de détection d'incendie en temps réel utilisant la détection d'objets YOLO. Le système analyse des images et flux vidéo pour identifier les risques d'incendie destinés à la protection des infrastructures. Il traite les flux vidéo en direct et fournit des alertes instantanées dès qu'un incendie est détecté, permettant une surveillance de sécurité proactive. Ce projet de vision par ordinateur démontre l'application de l'apprentissage profond à la sécurité publique et industrielle.
+
+Compétences :
+Machine Learning, Deep Learning, Computer Vision, Python, Object Detection, YOLO, Image Processing, TensorFlow, PyTorch, OpenCV, Neural Networks, Artificial Intelligence (AI), Data Science, Real-Time Processing, Video Analytics, Model Fine-Tuning, Convolutional Neural Networks (CNN), Predictive Modeling
+
+
+----------------------------------------------
+PROJET 12 : Sign Language Recognition
+----------------------------------------------
+
+Nom du projet : Sign Language Recognition — Traduction de la langue des signes en temps réel
+
+Description :
+Développement d'un système de traduction de la langue des signes en temps réel utilisant l'entrée caméra et l'apprentissage profond, facilitant la communication pour les personnes sourdes et malentendantes. Le système reconnaît les gestes et le langage corporel via un flux caméra en direct et les traduit en texte instantanément, grâce à YOLO et à la classification par apprentissage profond. Cette solution d'accessibilité démontre une application socialement impactante de la vision par ordinateur.
+
+Compétences :
+Machine Learning, Deep Learning, Computer Vision, Python, Object Detection, YOLO, Image Processing, TensorFlow, PyTorch, OpenCV, Neural Networks, Artificial Intelligence (AI), Real-Time Processing, Video Analytics, Accessibility, Inclusive Design, Deep Neural Networks (DNN), Data Science
+
+
+----------------------------------------------
+PROJET 13 : Intrusion Detection System
+----------------------------------------------
+
+Nom du projet : Intrusion Detection System — Surveillance vidéo propulsée par l'IA
+
+Description :
+Développement d'un système de vidéosurveillance propulsé par l'IA qui détecte les intrusions en temps réel à partir de flux vidéo. Le système utilise l'apprentissage profond pour identifier les accès non autorisés ou les activités suspectes, fournissant une surveillance de sécurité automatisée avec alertes instantanées. Ce projet de vision par ordinateur vise à renforcer la sécurité des infrastructures critiques grâce à l'intelligence artificielle.
+
+Compétences :
+Machine Learning, Deep Learning, Computer Vision, Python, Object Detection, YOLO, Image Processing, TensorFlow, PyTorch, OpenCV, Neural Networks, Artificial Intelligence (AI), Real-Time Processing, Video Analytics, Security, Surveillance, Anomaly Detection, Data Science, Model Fine-Tuning
+
+
+----------------------------------------------
+PROJET 14 : GuardClause
+----------------------------------------------
+
+Nom du projet : GuardClause — Analyseur NLP de conditions générales
+
+Description :
+Conception d'un système de traitement du langage naturel (NLP) qui analyse automatiquement les conditions générales de vente et d'utilisation, identifie et classe les clauses critiques pour les utilisateurs. Le système extrait, classifie et met en évidence les dispositions juridiques importantes, aidant les non-juristes à comprendre des textes complexes rapidement et sans expertise juridique. Ce projet combine le scraping web pour la collecte des documents et le NLP pour l'analyse sémantique des clauses.
+
+Compétences :
+Natural Language Processing (NLP), Python, Web Scraping, Text Mining, Information Extraction, Machine Learning, Deep Learning, Artificial Intelligence (AI), Data Analysis, Legal Tech, Text Analysis, Named Entity Recognition (NER), Data Science, Python Libraries, Data Extraction, Language Modeling, Sentiment Analysis
+
+
+----------------------------------------------
+PROJET 15 : TrafficInsight AI
+----------------------------------------------
+
+Nom du projet : TrafficInsight AI — Analyse prédictive de la densité du trafic
+
+Description :
+Développement d'un système d'analyse prédictive de la densité du trafic pour les environnements urbains, utilisant des techniques avancées de machine learning. Le système analyse les données de trafic historiques et en temps réel pour prévoir les schémas de congestion, permettant une meilleure planification urbaine et une gestion intelligente du trafic. Ce projet de science des données démontre l'application du ML à des problèmes urbains réels.
+
+Compétences :
+Machine Learning, Predictive Analytics, Python, Data Science, Time Series Analysis, Data Analysis, Statistics, Data Visualization, Data Modeling, Feature Engineering, Regression Analysis, Forecasting, Artificial Intelligence (AI), Smart Cities, Urban Planning, Mathematical Modeling, Model Evaluation, Data Mining
+
+
+----------------------------------------------
+PROJET 16 : DiabeteX Predictor
+----------------------------------------------
+
+Nom du projet : DiabeteX Predictor — Prédiction du diabète par IA
+
+Description :
+Développement d'un modèle d'IA pour la prédiction précoce du diabète à partir de données de santé, visant à améliorer le diagnostic préventif. Le système analyse les indicateurs de santé des patients et génère des évaluations de risque, favorisant une intervention précoce et de meilleurs résultats en matière de santé. Ce projet de science des données applique le machine learning à des enjeux de santé publique urgents, en particulier en Afrique où la prévalence du diabète augmente rapidement.
+
+Compétences :
+Machine Learning, Data Science, Python, Predictive Analytics, Healthcare, Health Data, Classification, Statistics, Data Analysis, Feature Engineering, Model Evaluation, Regression Analysis, Medical Devices, Public Health, Data Mining, AI Applications, Artificial Intelligence (AI), Risk Assessment, Data Modeling
+
+
+========================================
+FIN DU FICHIER
+========================================
